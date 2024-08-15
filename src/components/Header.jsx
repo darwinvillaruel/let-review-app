@@ -18,12 +18,16 @@ const Header = () => {
           <Link to="/">
             <h1 className="mb-4">LET Focus App</h1>
           </Link>
-          <h3>A modern approach to reviewing the Licensure Examination for Teachers (LET).</h3>
+          <h4>
+            A modern approach to reviewing the Licensure Examination for
+            Teachers (LET).
+          </h4>
         </div>
         <div className="flex flex-col justify-start place-items-end">
           <p>
             <span className="font-semibold">{convToday[0]} </span>
-            <br /> <span className="font-bold">{countdown}</span> days left before September 29, 2024
+            <br /> <span className="font-bold">{countdown}</span> days left
+            before September 29, 2024
           </p>
         </div>
       </header>

@@ -1,7 +1,22 @@
-import Header from "./Header";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
+
 import gened from "../logic/__genedData";
 import { useState } from "react";
-import { handleSelectedAnswer, handleCheckAnswer, handleNextQuestion, randomizeArray } from "../logic/cardHelpers";
+import {
+  handleSelectedAnswer,
+  handleCheckAnswer,
+  handleNextQuestion,
+  randomizeArray,
+} from "../logic/cardHelpers";
 
 const GenEd = () => {
   const [randomizedGenEd] = useState(() => randomizeArray([...gened]));
@@ -24,63 +39,80 @@ const GenEd = () => {
   };
 
   return (
-    <div className="card-m">
-      <Header />
-      <div className="border-solid border-t-2">
-        <h4>{question.question}</h4>
-        <ul className="list-outside mt-5 lg:mt-10">
-          {question.answers.map((answer, index) => (
-            <li
-              key={`answer-${index}`}
-              className="flex items-center space-x-2">
-              <input
-                type="radio"
-                id={`answer-${index}`}
-                name="q-answer"
-                checked={selectedAnswer === index}
-                onChange={() => handleSelectedAnswer(index, answer.correct, setSelectedAnswer, setIsCorrect)}
-                value={answer.text}
-              />
-              <label htmlFor={`answer-${index}`}>{answer.text}</label>
-            </li>
-          ))}
-        </ul>
-        <div className="flex flex-row justify-between mt-10">
-          {selectedAnswer !== null ? (
-            <button
+    <div className="container">
+      <main>
+        <Progress value={currentIndex} className="my-4" />
+        <Card className="flex flex-col justify-between">
+          <CardHeader>
+            <CardTitle className="leading-normal">
+              {question.question}
+            </CardTitle>
+            <CardDescription></CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ul className="list-outside">
+              {question.answers.map((answer, index) => (
+                <li
+                  key={`answer-${index}`}
+                  className="flex items-center space-x-2 my-2">
+                  <input
+                    type="radio"
+                    id={`answer-${index}`}
+                    name="q-answer"
+                    checked={selectedAnswer === index}
+                    onChange={() =>
+                      handleSelectedAnswer(
+                        index,
+                        answer.correct,
+                        setSelectedAnswer,
+                        setIsCorrect
+                      )
+                    }
+                    value={answer.text}
+                  />
+                  <label htmlFor={`answer-${index}`}>{answer.text}</label>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+          <CardFooter className="gap-5 flex flex-wrap">
+            {selectedAnswer !== null ? (
+              <Button
+                onClick={() =>
+                  handleCheckAnswer(
+                    isCorrect,
+                    setMessage,
+                    question,
+                    setCorrectAnswer,
+                    setFilteredArray,
+                    pushValue(isCorrect)
+                  )
+                }
+                className="px-5">
+                Check Answer
+              </Button>
+            ) : (
+              <p>Please select answer</p>
+            )}
+            <Button
               onClick={() =>
-                handleCheckAnswer(
-                  isCorrect,
+                handleNextQuestion(
+                  randomizedGenEd,
+                  currentIndex,
+                  setCurrentIndex,
+                  setSelectedAnswer,
+                  setIsCorrect,
                   setMessage,
-                  question,
                   setCorrectAnswer,
-                  setFilteredArray,
-                  pushValue(isCorrect)
+                  handleScore()
                 )
-              }
-              className="border-solid border-2 border-sky-500 rounded-full text-white bg-sky-500 px-5 py-3 font-semibold hover:text-sky-500 hover:bg-slate-50 hover:border-sky-500 hover:border-2">
-              Check Answer
-            </button>
-          ) : (
-            <p>Please select answer</p>
-          )}
-          <button
-            onClick={() =>
-              handleNextQuestion(
-                randomizedGenEd,
-                currentIndex,
-                setCurrentIndex,
-                setSelectedAnswer,
-                setIsCorrect,
-                setMessage,
-                setCorrectAnswer,
-                handleScore()
-              )
-            }
-            className="border-solid border-2 border-sky-500 rounded-full text-white bg-sky-500 px-10 py-3 font-semibold hover:text-sky-500 hover:bg-slate-50 hover:border-sky-500 hover:border-2">
-            Next
-          </button>
-        </div>
+              }>
+              Next
+            </Button>
+            <p>{correctAnswer}</p>
+          </CardFooter>
+        </Card>
+
         <div>
           <div className="flex flex-row justify-between items-center border-solid border-2 border-green-500 rounded-full text-white bg-green-500 px-8 py-2 font-semibold mt-5">
             <p className="animate-bounce mt-5">{message}</p>
@@ -88,9 +120,8 @@ const GenEd = () => {
               Score: {score}/{randomizedGenEd.length}
             </p>
           </div>
-          <p className="mt-5">{correctAnswer}</p>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const CardComponent = () => {
@@ -10,7 +17,13 @@ const CardComponent = () => {
         "This section covers a broad range of basic academic subjects that are foundational to a well-rounded education. It tests the examinee's general knowledge and understanding of various disciplines.",
       id: "gened",
       Percentage: 20,
-      Subjects: ["English", "Science", "Filipino", "Mathematics", "Social Science"],
+      Subjects: [
+        "English",
+        "Science",
+        "Filipino",
+        "Mathematics",
+        "Social Science",
+      ],
     },
     {
       Exam: "Professional Education",
@@ -34,7 +47,13 @@ const CardComponent = () => {
         "This section assesses the examinee's expertise in the specific subject area they intend to teach. This part is tailored to the major or specialization that the examinee pursued during their education.",
       id: "biosci",
       Percentage: 40,
-      Subjects: ["Biological Science", "Physical Science", "Filipino", "Mathematics", "Social Science"],
+      Subjects: [
+        "Biological Science",
+        "Physical Science",
+        "Filipino",
+        "Mathematics",
+        "Social Science",
+      ],
     },
   ];
 
@@ -54,9 +73,7 @@ const CardComponent = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
       {data.map((item, index) => (
-        <Card
-          key={`item-${index}`}
-          className="flex flex-col justify-between">
+        <Card key={`item-${index}`} className="flex flex-col justify-between">
           <CardHeader>
             <CardTitle>
               {item.Exam} ({item.Percentage}%)
@@ -71,15 +88,12 @@ const CardComponent = () => {
             </div>
           </CardContent>
           <CardFooter>
-            <Link
-              key={item.id}
-              to={getPath(item.id)}>
+            <Link key={item.id} to={getPath(item.id)}>
               <Button>Take the Quiz!</Button>
             </Link>
           </CardFooter>
         </Card>
       ))}
-      <div>Insert Random Quote Generated</div>
     </div>
   );
 };
