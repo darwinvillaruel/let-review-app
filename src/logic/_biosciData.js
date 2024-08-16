@@ -22,7 +22,8 @@ const biosci = [
   },
   {
     id: 3,
-    question: "What term is used to describe the ability to maintain a constant internal environment?",
+    question:
+      "What term is used to describe the ability to maintain a constant internal environment?",
     answers: [
       { text: "Metabolism", correct: false },
       { text: "Growth and development", correct: false },
@@ -42,7 +43,8 @@ const biosci = [
   },
   {
     id: 5,
-    question: "Which is the smallest unit of life that can survive and reproduce on its own?",
+    question:
+      "Which is the smallest unit of life that can survive and reproduce on its own?",
     answers: [
       { text: "Cell", correct: true },
       { text: "Organ", correct: false },
@@ -73,9 +75,13 @@ const biosci = [
   },
   {
     id: 8,
-    question: "Why is it necessary for men to have more red blood cells per cubic millimeter of blood than women?",
+    question:
+      "Why is it necessary for men to have more red blood cells per cubic millimeter of blood than women?",
     answers: [
-      { text: "Man does strenuous activities and need more energy", correct: true },
+      {
+        text: "Man does strenuous activities and need more energy",
+        correct: true,
+      },
       { text: "They have bigger physique and need more blood", correct: false },
       { text: "Man waste more blood cells and need extra", correct: false },
       { text: "They are more prone to anemia disorders", correct: false },
@@ -108,7 +114,10 @@ const biosci = [
       { text: "There is increased blood flow in the lips", correct: false },
       { text: "Lips are heavily keratinized", correct: false },
       { text: "Lip epidermis is thinner", correct: true },
-      { text: "Many blood vessels are located around the lips", correct: false },
+      {
+        text: "Many blood vessels are located around the lips",
+        correct: false,
+      },
     ],
   },
   {
@@ -123,7 +132,8 @@ const biosci = [
   },
   {
     id: 13,
-    question: "What do we call mutation that is brought about by the earth's natural radioactivity?",
+    question:
+      "What do we call mutation that is brought about by the earth's natural radioactivity?",
     answers: [
       { text: "Continuous", correct: false },
       { text: "Induced", correct: false },
@@ -144,7 +154,8 @@ const biosci = [
   },
   {
     id: 15,
-    question: "Which microbial organism is most commonly used in the creation of genetically modified organisms?",
+    question:
+      "Which microbial organism is most commonly used in the creation of genetically modified organisms?",
     answers: [
       { text: "Pseudomonas vulgaris", correct: false },
       { text: "Bacillus thuringensis", correct: false },
@@ -154,7 +165,8 @@ const biosci = [
   },
   {
     id: 16,
-    question: "What is the branch of zoology that is devoted to the study of fish?",
+    question:
+      "What is the branch of zoology that is devoted to the study of fish?",
     answers: [
       { text: "Helminthology", correct: false },
       { text: "Ichthyology", correct: true },
@@ -164,7 +176,8 @@ const biosci = [
   },
   {
     id: 17,
-    question: "The process involved in the production of mRNA using DNA as template is termed ________?",
+    question:
+      "The process involved in the production of mRNA using DNA as template is termed ________?",
     answers: [
       { text: "Transcription", correct: true },
       { text: "Replication", correct: false },
@@ -184,7 +197,8 @@ const biosci = [
   },
   {
     id: 19,
-    question: "Which is the richest type of tropical rain forest in the Philippines?",
+    question:
+      "Which is the richest type of tropical rain forest in the Philippines?",
     answers: [
       { text: "Molave forest", correct: false },
       { text: "Dipterocarp forest", correct: true },
@@ -194,7 +208,8 @@ const biosci = [
   },
   {
     id: 20,
-    question: "What muscle is described as involuntary, not striated, and have a single nucleus?",
+    question:
+      "What muscle is described as involuntary, not striated, and have a single nucleus?",
     answers: [
       { text: "Smooth", correct: true },
       { text: "Skeletal", correct: false },
@@ -207,14 +222,21 @@ const biosci = [
     question: "We feel warmer just before it rains because __________.",
     answers: [
       { text: "Heat is released by the evaporation of water", correct: false },
-      { text: "The clouds prevent heat from escaping the earth", correct: false },
+      {
+        text: "The clouds prevent heat from escaping the earth",
+        correct: false,
+      },
       { text: "There is an increased relative humidity", correct: false },
-      { text: "Heat is released by the condensation of water vapor", correct: true },
+      {
+        text: "Heat is released by the condensation of water vapor",
+        correct: true,
+      },
     ],
   },
   {
     id: 22,
-    question: "Which of the following is not considered as a reproductive cell?",
+    question:
+      "Which of the following is not considered as a reproductive cell?",
     answers: [
       { text: "Gamete", correct: false },
       { text: "Somatic cell", correct: true },
@@ -234,7 +256,8 @@ const biosci = [
   },
   {
     id: 24,
-    question: "Which of the following is the correct sequence of the level of organization from lowest to highest?",
+    question:
+      "Which of the following is the correct sequence of the level of organization from lowest to highest?",
     answers: [
       { text: "Cells-system-organs-tissues", correct: false },
       { text: "System-organs-tissues-cells", correct: false },
@@ -244,7 +267,8 @@ const biosci = [
   },
   {
     id: 25,
-    question: "At metaphase of the meiotic division, the chromosomes are attached to the spindle fibers as ________.",
+    question:
+      "At metaphase of the meiotic division, the chromosomes are attached to the spindle fibers as ________.",
     answers: [
       { text: "Double chromatids", correct: false },
       { text: "Non-homologous pairs", correct: false },
@@ -259,7 +283,10 @@ const biosci = [
       { text: "Thick green stems of the cactus plant", correct: false },
       { text: "Thick fur of the bear", correct: false },
       { text: "Shedding leaves during summer", correct: true },
-      { text: "Presence of cuticle on the upper surface of the leaves", correct: false },
+      {
+        text: "Presence of cuticle on the upper surface of the leaves",
+        correct: false,
+      },
     ],
   },
   {
@@ -294,7 +321,8 @@ const biosci = [
   },
   {
     id: 30,
-    question: "Which of the following structures serve as a passageway of food and air?",
+    question:
+      "Which of the following structures serve as a passageway of food and air?",
     answers: [
       { text: "Epiglottis", correct: false },
       { text: "Trachea", correct: false },
@@ -304,7 +332,8 @@ const biosci = [
   },
   {
     id: 31,
-    question: "Which kind of relationship is exhibited by algae and fungi in lichen?",
+    question:
+      "Which kind of relationship is exhibited by algae and fungi in lichen?",
     answers: [
       { text: "Commensalism", correct: false },
       { text: "Parasitism", correct: false },
@@ -314,7 +343,8 @@ const biosci = [
   },
   {
     id: 32,
-    question: "What do you call the finger-like folds on the inner linings of the small intestine?",
+    question:
+      "What do you call the finger-like folds on the inner linings of the small intestine?",
     answers: [
       { text: "Villi", correct: true },
       { text: "Appendix", correct: false },
@@ -324,7 +354,8 @@ const biosci = [
   },
   {
     id: 33,
-    question: "Aside from ADP, what else is the end production of the dark-reaction phase of photosynthesis?",
+    question:
+      "Aside from ADP, what else is the end production of the dark-reaction phase of photosynthesis?",
     answers: [
       { text: "Carbon dioxide", correct: false },
       { text: "Sugar", correct: true },
@@ -334,7 +365,8 @@ const biosci = [
   },
   {
     id: 34,
-    question: "What is that flap-like structure that prevents the food from going the wrong way during swallowing?",
+    question:
+      "What is that flap-like structure that prevents the food from going the wrong way during swallowing?",
     answers: [
       { text: "Epiglottis", correct: true },
       { text: "Larynx", correct: false },
@@ -364,7 +396,8 @@ const biosci = [
   },
   {
     id: 37,
-    question: "What is that 3-carbon sugar formed during the dark reaction phase of photosynthesis?",
+    question:
+      "What is that 3-carbon sugar formed during the dark reaction phase of photosynthesis?",
     answers: [
       { text: "ADP", correct: false },
       { text: "NADPH", correct: false },
@@ -384,7 +417,8 @@ const biosci = [
   },
   {
     id: 39,
-    question: "What process is responsible for the upward movement of the water in very tall trees?",
+    question:
+      "What process is responsible for the upward movement of the water in very tall trees?",
     answers: [
       { text: "Osmosis", correct: false },
       { text: "Capillary action", correct: false },
@@ -404,7 +438,8 @@ const biosci = [
   },
   {
     id: 41,
-    question: "What do you call the types of symmetry where the body parts are paired on either side of the body?",
+    question:
+      "What do you call the types of symmetry where the body parts are paired on either side of the body?",
     answers: [
       { text: "Dorsal", correct: false },
       { text: "Bilateral", correct: true },
@@ -424,7 +459,8 @@ const biosci = [
   },
   {
     id: 43,
-    question: "Which stage of incomplete metamorphism is undergone by grasshopper?",
+    question:
+      "Which stage of incomplete metamorphism is undergone by grasshopper?",
     answers: [
       { text: "Nymph, pupa, adult", correct: false },
       { text: "Egg, larva, pupa, adult", correct: false },
@@ -444,7 +480,8 @@ const biosci = [
   },
   {
     id: 45,
-    question: "Where does the toxin substance secreted by bees and ants through their sting originate?",
+    question:
+      "Where does the toxin substance secreted by bees and ants through their sting originate?",
     answers: [
       { text: "Silk glands", correct: false },
       { text: "Intestines", correct: false },
@@ -494,7 +531,8 @@ const biosci = [
   },
   {
     id: 50,
-    question: "What structure provides flexible support and protection to the spinal cord?",
+    question:
+      "What structure provides flexible support and protection to the spinal cord?",
     answers: [
       { text: "Skull", correct: false },
       { text: "Ribs", correct: false },
@@ -534,7 +572,8 @@ const biosci = [
   },
   {
     id: 54,
-    question: "What do you call food in a semi-liquid form, partially digested and mixed with hydrochloric acid?",
+    question:
+      "What do you call food in a semi-liquid form, partially digested and mixed with hydrochloric acid?",
     answers: [
       { text: "Gastric secretion", correct: false },
       { text: "Gastric fluid", correct: false },
@@ -544,7 +583,8 @@ const biosci = [
   },
   {
     id: 55,
-    question: "Which is considered the master gland due to its influence on the activity of all the other glands?",
+    question:
+      "Which is considered the master gland due to its influence on the activity of all the other glands?",
     answers: [
       { text: "Thyroid", correct: false },
       { text: "Adrenal", correct: false },
@@ -554,7 +594,8 @@ const biosci = [
   },
   {
     id: 56,
-    question: "Which part of the brain is responsible for intelligence, memory and learned behavior?",
+    question:
+      "Which part of the brain is responsible for intelligence, memory and learned behavior?",
     answers: [
       { text: "Cerebellum", correct: false },
       { text: "Cerebrum", correct: true },
@@ -564,7 +605,8 @@ const biosci = [
   },
   {
     id: 57,
-    question: "Which of these materials is not a major component of the plasma membrane?",
+    question:
+      "Which of these materials is not a major component of the plasma membrane?",
     answers: [
       { text: "Phospholipids", correct: false },
       { text: "Glycoprotein", correct: false },
@@ -574,7 +616,8 @@ const biosci = [
   },
   {
     id: 58,
-    question: "Which form of RNA delivers information from DNA to be used in making protein?",
+    question:
+      "Which form of RNA delivers information from DNA to be used in making protein?",
     answers: [
       { text: "Messenger RNA", correct: true },
       { text: "Ribosomal RNA", correct: false },
@@ -607,7 +650,10 @@ const biosci = [
     id: 61,
     question: "Which of the following statements is true of diffusion?",
     answers: [
-      { text: "It requires an expenditure of energy by the cell", correct: false },
+      {
+        text: "It requires an expenditure of energy by the cell",
+        correct: false,
+      },
       { text: "It is a passive process", correct: true },
       {
         text: "It occurs when molecules move from a region of lower concentration to one of higher concentration",
@@ -618,7 +664,8 @@ const biosci = [
   },
   {
     id: 62,
-    question: "Which of the following is FALSE in comparing prophase I of meiosis and prophase of mitosis?",
+    question:
+      "Which of the following is FALSE in comparing prophase I of meiosis and prophase of mitosis?",
     answers: [
       { text: "The chromosomes condense in both", correct: false },
       { text: "Tetrads form in both", correct: true },
@@ -628,7 +675,8 @@ const biosci = [
   },
   {
     id: 63,
-    question: "Which are small, irregularly-shaped cells without nuclei but are rich in ATP?",
+    question:
+      "Which are small, irregularly-shaped cells without nuclei but are rich in ATP?",
     answers: [
       { text: "Leukocytes", correct: false },
       { text: "Thrombocytes", correct: false },
@@ -649,7 +697,8 @@ const biosci = [
   },
   {
     id: 65,
-    question: "Which part of seed appears as a scar which marks the entry of the pollen tube during fertilization?",
+    question:
+      "Which part of seed appears as a scar which marks the entry of the pollen tube during fertilization?",
     answers: [
       { text: "Seed leaf", correct: false },
       { text: "Cotyledon", correct: false },
@@ -659,7 +708,8 @@ const biosci = [
   },
   {
     id: 66,
-    question: "Which type of tissue is responsible for the secondary growth in stems and roots of vascular plants?",
+    question:
+      "Which type of tissue is responsible for the secondary growth in stems and roots of vascular plants?",
     answers: [
       { text: "Meristematic cells", correct: false },
       { text: "Cambium", correct: true },
@@ -669,7 +719,8 @@ const biosci = [
   },
   {
     id: 67,
-    question: "Which biome grows tropical grassland with scattered individual trees and larger herbivores?",
+    question:
+      "Which biome grows tropical grassland with scattered individual trees and larger herbivores?",
     answers: [
       { text: "Tundra", correct: false },
       { text: "Rain forest", correct: false },
@@ -679,7 +730,8 @@ const biosci = [
   },
   {
     id: 68,
-    question: "What do you call that process in birds wherein they shed off features at least once a year?",
+    question:
+      "What do you call that process in birds wherein they shed off features at least once a year?",
     answers: [
       { text: "Skinning", correct: false },
       { text: "Molting", correct: true },
@@ -739,7 +791,8 @@ const biosci = [
   },
   {
     id: 74,
-    question: "What hormone promotes the growth of the uterine lining for the implantation of the embryo?",
+    question:
+      "What hormone promotes the growth of the uterine lining for the implantation of the embryo?",
     answers: [
       { text: "Lactogenic hormone", correct: false },
       { text: "Progesterone", correct: true },
@@ -799,7 +852,8 @@ const biosci = [
   },
   {
     id: 80,
-    question: "How many carbon atoms can each pyruvic acid supply into the Kreb’s cycle?",
+    question:
+      "How many carbon atoms can each pyruvic acid supply into the Kreb’s cycle?",
     answers: [
       { text: "8", correct: false },
       { text: "6", correct: false },
@@ -820,7 +874,8 @@ const biosci = [
   },
   {
     id: 82,
-    question: "Which of the following will not be accepted by glycolysis for catabolism?",
+    question:
+      "Which of the following will not be accepted by glycolysis for catabolism?",
     answers: [
       { text: "Starch", correct: false },
       { text: "Glycerol", correct: false },
@@ -830,7 +885,8 @@ const biosci = [
   },
   {
     id: 83,
-    question: "Which of the following characteristic is common between echinoderms and cnidarians?",
+    question:
+      "Which of the following characteristic is common between echinoderms and cnidarians?",
     answers: [
       { text: "They are both radically symmetrical", correct: true },
       { text: "They have segmented bodies", correct: false },
@@ -842,9 +898,18 @@ const biosci = [
     id: 84,
     question: "Which of the following is true of Phylum Chordata?",
     answers: [
-      { text: "Presence of notochord that provides skeletal support", correct: false },
-      { text: "Pharyngeal slits that have become modified for gas exchange", correct: false },
-      { text: "Dorsal hollow nerve cord that develops into the central nervous system", correct: false },
+      {
+        text: "Presence of notochord that provides skeletal support",
+        correct: false,
+      },
+      {
+        text: "Pharyngeal slits that have become modified for gas exchange",
+        correct: false,
+      },
+      {
+        text: "Dorsal hollow nerve cord that develops into the central nervous system",
+        correct: false,
+      },
       { text: "I, II and III", correct: true },
     ],
   },
@@ -883,7 +948,8 @@ const biosci = [
   },
   {
     id: 88,
-    question: "What term describes an egg developing into a new organism without itself being fertilized by a sperm?",
+    question:
+      "What term describes an egg developing into a new organism without itself being fertilized by a sperm?",
     answers: [
       { text: "Regeneration", correct: false },
       { text: "Conjugation", correct: false },
@@ -893,7 +959,8 @@ const biosci = [
   },
   {
     id: 89,
-    question: "Which of the following is responsible for formation of blood cells?",
+    question:
+      "Which of the following is responsible for formation of blood cells?",
     answers: [
       { text: "Cartilage", correct: false },
       { text: "Bone marrow", correct: true },
@@ -903,7 +970,8 @@ const biosci = [
   },
   {
     id: 90,
-    question: "What is most likely to happen when a species cannot adapt to the changes in the environment?",
+    question:
+      "What is most likely to happen when a species cannot adapt to the changes in the environment?",
     answers: [
       { text: "It will be transformed to another form", correct: false },
       { text: "It will become extinct", correct: true },
@@ -913,7 +981,8 @@ const biosci = [
   },
   {
     id: 91,
-    question: "What term is used to describe the release of a matured egg cell from the ovary?",
+    question:
+      "What term is used to describe the release of a matured egg cell from the ovary?",
     answers: [
       { text: "Fertilization", correct: false },
       { text: "Copulation", correct: false },
@@ -923,7 +992,8 @@ const biosci = [
   },
   {
     id: 92,
-    question: "Which of the following blood cells is responsible for blood clotting?",
+    question:
+      "Which of the following blood cells is responsible for blood clotting?",
     answers: [
       { text: "Erythrocytes", correct: false },
       { text: "Leukocytes", correct: false },
@@ -945,10 +1015,19 @@ const biosci = [
     id: 94,
     question: "Why is cell membrane semi-permeability important?",
     answers: [
-      { text: "It is important in determining the size of the cell", correct: false },
-      { text: "It controls the kind of substances that enters and leaves the cell", correct: true },
+      {
+        text: "It is important in determining the size of the cell",
+        correct: false,
+      },
+      {
+        text: "It controls the kind of substances that enters and leaves the cell",
+        correct: true,
+      },
       { text: "It controls the pressure and energy gradient", correct: false },
-      { text: "It allows the molecules to diffuse freely in and out of the cell", correct: false },
+      {
+        text: "It allows the molecules to diffuse freely in and out of the cell",
+        correct: false,
+      },
     ],
   },
   {
@@ -994,7 +1073,8 @@ const biosci = [
   },
   {
     id: 99,
-    question: "What hormone stimulates the development of male secondary sex characteristics?",
+    question:
+      "What hormone stimulates the development of male secondary sex characteristics?",
     answers: [
       { text: "Estrogen", correct: false },
       { text: "Prolactin", correct: false },
@@ -1004,7 +1084,8 @@ const biosci = [
   },
   {
     id: 100,
-    question: "Which of the following parts performs both reproductive and urinary functions in males?",
+    question:
+      "Which of the following parts performs both reproductive and urinary functions in males?",
     answers: [
       { text: "Ureter", correct: false },
       { text: "Testes", correct: false },

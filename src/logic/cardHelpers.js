@@ -1,9 +1,19 @@
-export const handleSelectedAnswer = (index, isCorrect, setSelectedAnswer, setIsCorrect) => {
+export const handleSelectedAnswer = (
+  index,
+  isCorrect,
+  setSelectedAnswer,
+  setIsCorrect
+) => {
   setSelectedAnswer(index);
   setIsCorrect(isCorrect);
 };
 
-export const handleCheckAnswer = (isCorrect, setMessage, question, setCorrectAnswer) => {
+export const handleCheckAnswer = (
+  isCorrect,
+  setMessage,
+  question,
+  setCorrectAnswer
+) => {
   if (isCorrect === false) {
     setMessage("🥶 Wrong!");
     question.answers.forEach((answer) => {

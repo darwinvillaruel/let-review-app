@@ -8,8 +8,9 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import { Badge } from "@/components/ui/badge";
 
-import gened from "../logic/__genedData";
+import gened from "../logic/_genedData";
 import { useState } from "react";
 import {
   handleSelectedAnswer,
@@ -44,6 +45,11 @@ const GenEd = () => {
         <Progress value={currentIndex} className="my-4" />
         <Card className="flex flex-col justify-between">
           <CardHeader>
+            <Badge
+              variant="outline"
+              className="justify-start w-fit bg-emerald-400">
+              {question.category}
+            </Badge>
             <CardTitle className="leading-normal">
               {question.question}
             </CardTitle>

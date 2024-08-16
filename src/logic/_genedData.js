@@ -9,16 +9,19 @@ const gened = [
       { text: "Honesty", correct: false },
       { text: "Critical-mindedness", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 2,
-    question: "_____ it never recycled any waste materials, the company’s environmental record was not perfect.",
+    question:
+      "_____ it never recycled any waste materials, the company’s environmental record was not perfect.",
     answers: [
       { text: "For", correct: false },
       { text: "In that", correct: true },
       { text: "With", correct: false },
       { text: "Due to", correct: false },
     ],
+    category: "English",
   },
   {
     id: 3,
@@ -29,36 +32,55 @@ const gened = [
       { text: "Reticent", correct: false },
       { text: "Spiritless", correct: false },
     ],
+    category: "English",
   },
   {
     id: 4,
-    question: "The sociological concept of home for most Filipino is the presence of _____.",
+    question:
+      "The sociological concept of home for most Filipino is the presence of _____.",
     answers: [
-      { text: "Families with boarders in addition to the family members", correct: false },
+      {
+        text: "Families with boarders in addition to the family members",
+        correct: false,
+      },
       { text: "Nuclear family and extended families", correct: true },
-      { text: "Families with illegal light and water connections", correct: false },
+      {
+        text: "Families with illegal light and water connections",
+        correct: false,
+      },
       { text: "Families with pet dogs and cats", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 5,
-    question: "A man is known by the company he keeps. This is an example of a _____.",
+    question:
+      "A man is known by the company he keeps. This is an example of a _____.",
     answers: [
       { text: "Report", correct: false },
       { text: "Rule", correct: false },
       { text: "Poem", correct: false },
       { text: "Proverb", correct: true },
     ],
+    category: "English",
   },
   {
     id: 6,
-    question: "Which of the following is the ultimate purpose of Human Right Education?",
+    question:
+      "Which of the following is the ultimate purpose of Human Right Education?",
     answers: [
       { text: "To identify threats of human rights", correct: false },
       { text: "To generate awareness of one’s basic rights", correct: true },
-      { text: "To check on abuses in the exercise of human rights", correct: false },
-      { text: "To understand and change conditions which give rise to human rights violation", correct: false },
+      {
+        text: "To check on abuses in the exercise of human rights",
+        correct: false,
+      },
+      {
+        text: "To understand and change conditions which give rise to human rights violation",
+        correct: false,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 7,
@@ -69,6 +91,7 @@ const gened = [
       { text: "Natural persons", correct: false },
       { text: "Primary and secondary cooperatives", correct: true },
     ],
+    category: "Social Science",
   },
   {
     id: 8,
@@ -79,16 +102,19 @@ const gened = [
       { text: "On", correct: false },
       { text: "With", correct: false },
     ],
+    category: "English",
   },
   {
     id: 9,
-    question: "Vascular tissue that transports water in leaves connects directly to which of the following?",
+    question:
+      "Vascular tissue that transports water in leaves connects directly to which of the following?",
     answers: [
       { text: "Meristems in the root tip", correct: false },
       { text: "Pistils in the flower", correct: false },
       { text: "Root hairs in the epidermis", correct: false },
       { text: "Xylem in the stem", correct: true },
     ],
+    category: "Science",
   },
   {
     id: 10,
@@ -99,36 +125,43 @@ const gened = [
       { text: "√3 is a real number.", correct: true },
       { text: "√4 is an irrational number", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 11,
-    question: "If a die is rolled, what is the probability of getting a number divisible by 2?",
+    question:
+      "If a die is rolled, what is the probability of getting a number divisible by 2?",
     answers: [
       { text: "1/6", correct: false },
       { text: "1/2", correct: true },
       { text: "1/4", correct: false },
       { text: "1/3", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 12,
-    question: "Why do mothers usually soak meat in pineapple juice before cooking it?",
+    question:
+      "Why do mothers usually soak meat in pineapple juice before cooking it?",
     answers: [
       { text: "It makes meat tender.", correct: true },
       { text: "It removes the bad odor.", correct: false },
       { text: "It improves the taste of meat.", correct: false },
       { text: "It preserves the natural taste of meat.", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 13,
-    question: "What is considered the earliest form of writing in the Philippines?",
+    question:
+      "What is considered the earliest form of writing in the Philippines?",
     answers: [
       { text: "Abakada", correct: false },
       { text: "Roman alphabet", correct: false },
       { text: "Alibata", correct: true },
       { text: "Balitaw", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 14,
@@ -139,6 +172,7 @@ const gened = [
       { text: "Mars and Jupiter", correct: true },
       { text: "Jupiter and Saturn", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 15,
@@ -150,6 +184,7 @@ const gened = [
       { text: "8 m", correct: false },
       { text: "12 m", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 16,
@@ -160,6 +195,7 @@ const gened = [
       { text: "Hammers, wrenches and screwdrivers", correct: false },
       { text: "Hammers wrenches, and screwdrivers", correct: false },
     ],
+    category: "English",
   },
   {
     id: 17,
@@ -170,6 +206,7 @@ const gened = [
       { text: "Shameful", correct: true },
       { text: "Mysterious", correct: false },
     ],
+    category: "English",
   },
   {
     id: 18,
@@ -181,16 +218,19 @@ const gened = [
       { text: "Metapora", correct: true },
       { text: "Paglilipat-wika", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 19,
-    question: "Which of the following BEST demonstrates the greenhouse principle?",
+    question:
+      "Which of the following BEST demonstrates the greenhouse principle?",
     answers: [
       { text: "A heated aquarium", correct: false },
       { text: "A car with rolled-up windows", correct: true },
       { text: "A microwave oven", correct: false },
       { text: "A solar battery-powered calculator", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 20,
@@ -201,6 +241,7 @@ const gened = [
       { text: "Declared a holiday", correct: false },
       { text: "Declared bankruptcy", correct: true },
     ],
+    category: "English",
   },
   {
     id: 21,
@@ -211,6 +252,7 @@ const gened = [
       { text: "Reading about", correct: false },
       { text: "Studying", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 22,
@@ -221,16 +263,19 @@ const gened = [
       { text: "Cell", correct: true },
       { text: "Atom", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 23,
-    question: "What is the equation of the line whose slope is -2 and whose y-intercept is 3?",
+    question:
+      "What is the equation of the line whose slope is -2 and whose y-intercept is 3?",
     answers: [
       { text: "2x + 3y = 6", correct: false },
       { text: "x + 2y = 3", correct: false },
       { text: "2x + 2y = 4", correct: false },
       { text: "2x + y = 3", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 24,
@@ -241,16 +286,19 @@ const gened = [
       { text: "Mas", correct: false },
       { text: "Lalong", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 25,
-    question: "Two air masses have the same humidity. Which of the following can also be said about them?",
+    question:
+      "Two air masses have the same humidity. Which of the following can also be said about them?",
     answers: [
       { text: "They have the same temperature.", correct: false },
       { text: "They have the same volume.", correct: false },
       { text: "Both have rain clouds.", correct: false },
       { text: "None of the above", correct: true },
     ],
+    category: "Science",
   },
   {
     id: 26,
@@ -260,16 +308,19 @@ const gened = [
       { text: "Could", correct: false },
       { text: "May", correct: true },
     ],
+    category: "English",
   },
   {
     id: 27,
-    question: "What measure of central tendency can best describe the size of t-shirts commonly used by teenagers?",
+    question:
+      "What measure of central tendency can best describe the size of t-shirts commonly used by teenagers?",
     answers: [
       { text: "Mean", correct: false },
       { text: "Median", correct: false },
       { text: "Mode", correct: true },
       { text: "Both A and C", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 28,
@@ -280,6 +331,7 @@ const gened = [
       { text: "She'll", correct: true },
       { text: "She's", correct: false },
     ],
+    category: "English",
   },
   {
     id: 29,
@@ -290,36 +342,55 @@ const gened = [
       { text: "Cope", correct: true },
       { text: "Cope on", correct: false },
     ],
+    category: "English",
   },
   {
     id: 30,
-    question: "Which enables the computer to communicate with other computers over the telephone?",
+    question:
+      "Which enables the computer to communicate with other computers over the telephone?",
     answers: [
       { text: "Network", correct: false },
       { text: "Modem", correct: true },
       { text: "Internet", correct: false },
       { text: "Hypermedia", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 31,
-    question: "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+    question:
+      "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
     answers: [
-      { text: "I learned the distance of the sun from the earth was 90 million miles.", correct: false },
-      { text: "I learned that the sun was 90 million miles from the earth.", correct: false },
-      { text: "I learned that the sun is 90 million miles from the earth.", correct: true },
-      { text: "I learned that the earth and the sun are 90 million miles apart.", correct: false },
+      {
+        text: "I learned the distance of the sun from the earth was 90 million miles.",
+        correct: false,
+      },
+      {
+        text: "I learned that the sun was 90 million miles from the earth.",
+        correct: false,
+      },
+      {
+        text: "I learned that the sun is 90 million miles from the earth.",
+        correct: true,
+      },
+      {
+        text: "I learned that the earth and the sun are 90 million miles apart.",
+        correct: false,
+      },
     ],
+    category: "English",
   },
   {
     id: 32,
-    question: "Basically, the Philippine agrarian reform is a question of _____.",
+    question:
+      "Basically, the Philippine agrarian reform is a question of _____.",
     answers: [
       { text: "Land distribution", correct: true },
       { text: "Nepotism and corruption", correct: false },
       { text: "Graft and corruption", correct: false },
       { text: "Environmental degradation", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 33,
@@ -330,6 +401,7 @@ const gened = [
       { text: "People to smoke", correct: false },
       { text: "To people smoking", correct: true },
     ],
+    category: "English",
   },
   {
     id: 34,
@@ -340,6 +412,7 @@ const gened = [
       { text: "June 19, 1861", correct: true },
       { text: "June 19, 1860", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 35,
@@ -349,8 +422,12 @@ const gened = [
       { text: "The population is very homogeneous.", correct: false },
       { text: "The measures are very unstable.", correct: false },
       { text: "The grades are very scattered.", correct: true },
-      { text: "The range of scores is a very reliable measure of variability.", correct: false },
+      {
+        text: "The range of scores is a very reliable measure of variability.",
+        correct: false,
+      },
     ],
+    category: "Mathematics",
   },
   {
     id: 36,
@@ -361,16 +438,19 @@ const gened = [
       { text: "The three character extension is hidden.", correct: false },
       { text: "All file properties are lost.", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 37,
-    question: "What is the measure of an interior angle of a regular dodecagon?",
+    question:
+      "What is the measure of an interior angle of a regular dodecagon?",
     answers: [
       { text: "120 degrees", correct: false },
       { text: "130 degrees", correct: false },
       { text: "140 degrees", correct: false },
       { text: "150 degrees", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 38,
@@ -382,6 +462,7 @@ const gened = [
       { text: "50% of the original area", correct: false },
       { text: "60% of the original area", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 39,
@@ -392,10 +473,12 @@ const gened = [
       { text: "Software", correct: false },
       { text: "RAM", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 40,
-    question: "Which one of the following is an appropriate routine to shut down a non-responding application?",
+    question:
+      "Which one of the following is an appropriate routine to shut down a non-responding application?",
     answers: [
       {
         text: "Close all open documents and press the power button until the computer automatically switches off.",
@@ -405,28 +488,37 @@ const gened = [
         text: "Press 'Ctrl + Alt + Delete', then select the non-responding application in the Task Manager window and click 'End Task'.",
         correct: true,
       },
-      { text: "Pull out the power cable from the back of the computer.", correct: false },
+      {
+        text: "Pull out the power cable from the back of the computer.",
+        correct: false,
+      },
       {
         text: "Click 'Shut Down' on the Start menu and choose 'Shut down' from the Shut Down Windows drop-down list.",
         correct: false,
       },
     ],
+    category: "Science",
   },
   {
     id: 41,
-    question: "Why do fisherfolks catch more fish during the new moon than during the full moon?",
+    question:
+      "Why do fisherfolks catch more fish during the new moon than during the full moon?",
     answers: [
       {
         text: "Fishes are more active during the new moon because the salt content of water is just right.",
         correct: false,
       },
       { text: "Fishes look for mates during the new moon.", correct: false },
-      { text: "Fishes go near the surface during the new moon because the water is warmer.", correct: false },
+      {
+        text: "Fishes go near the surface during the new moon because the water is warmer.",
+        correct: false,
+      },
       {
         text: "Fishes are attracted to the light from the fishing boat which fishermen make use of during the new moon.",
         correct: true,
       },
     ],
+    category: "General Knowledge",
   },
   {
     id: 42,
@@ -438,6 +530,7 @@ const gened = [
       { text: "Sinisinta", correct: false },
       { text: "Laruan", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 43,
@@ -449,16 +542,19 @@ const gened = [
       { text: "Hydroponics", correct: true },
       { text: "Aerial cultivation", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 44,
-    question: "Which part of the brain is responsible for memory and intelligence?",
+    question:
+      "Which part of the brain is responsible for memory and intelligence?",
     answers: [
       { text: "Cerebellum", correct: false },
       { text: "Cerebrum", correct: true },
       { text: "Medulla oblongata", correct: false },
       { text: "Thalamus", correct: false },
     ],
+    category: "Biology",
   },
   {
     id: 45,
@@ -470,6 +566,7 @@ const gened = [
       { text: "I, II, and III", correct: false },
       { text: "I, III, and IV", correct: false },
     ],
+    category: "Social Studies",
   },
   {
     id: 46,
@@ -481,6 +578,7 @@ const gened = [
       { text: "Marketing cooperative", correct: false },
       { text: "Producers cooperative", correct: false },
     ],
+    category: "Cooperatives",
   },
   {
     id: 47,
@@ -491,6 +589,7 @@ const gened = [
       { text: "Unemployment benefits", correct: true },
       { text: "Government purchases", correct: false },
     ],
+    category: "Economics",
   },
   {
     id: 48,
@@ -502,6 +601,7 @@ const gened = [
       { text: "Rationality", correct: false },
       { text: "Objectivity", correct: true },
     ],
+    category: "Science",
   },
   {
     id: 49,
@@ -513,46 +613,67 @@ const gened = [
       { text: "36", correct: true },
       { text: "40", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 50,
-    question: "Which method of reproduction provides for the most variety of offspring?",
+    question:
+      "Which method of reproduction provides for the most variety of offspring?",
     answers: [
       { text: "Cloning", correct: false },
       { text: "Sexual reproduction", correct: true },
       { text: "Asexual reproduction", correct: false },
       { text: "Cellular reproduction", correct: false },
     ],
+    category: "Biology",
   },
   {
     id: 51,
-    question: "The following EXCEPT one are experiences that help students build a global orientation.",
+    question:
+      "The following EXCEPT one are experiences that help students build a global orientation.",
     answers: [
-      { text: "Teach about the United Nations and its specialized agencies", correct: false },
-      { text: "Explore some of the reasons for the differences in ways of living", correct: false },
-      { text: "Conduct training with schools from other countries", correct: false },
-      { text: "Promote the development of stereotypes and ethnic bias", correct: true },
+      {
+        text: "Teach about the United Nations and its specialized agencies",
+        correct: false,
+      },
+      {
+        text: "Explore some of the reasons for the differences in ways of living",
+        correct: false,
+      },
+      {
+        text: "Conduct training with schools from other countries",
+        correct: false,
+      },
+      {
+        text: "Promote the development of stereotypes and ethnic bias",
+        correct: true,
+      },
     ],
+    category: "Education",
   },
   {
     id: 52,
-    question: "Alin ang paksa sa sumusunod na pangungusap? Ginagawa niya ang pagdarasal araw-araw.",
+    question:
+      "Alin ang paksa sa sumusunod na pangungusap? Ginagawa niya ang pagdarasal araw-araw.",
     answers: [
       { text: "Ginagawa", correct: false },
       { text: "Araw-araw", correct: false },
       { text: "Pagdarasal", correct: true },
       { text: "Niya", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 53,
-    question: "What instrument is used to measure the intensity of earthquakes?",
+    question:
+      "What instrument is used to measure the intensity of earthquakes?",
     answers: [
       { text: "Barograph", correct: false },
       { text: "Thermograph", correct: false },
       { text: "Seismograph", correct: true },
       { text: "Hygrograph", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 54,
@@ -563,6 +684,7 @@ const gened = [
       { text: "You", correct: false },
       { text: "A", correct: false },
     ],
+    category: "English",
   },
   {
     id: 55,
@@ -573,17 +695,28 @@ const gened = [
       { text: "Intay", correct: false },
       { text: "Teka", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 56,
     question:
       "Alin sa mga sumusunod ang aral na ibinigay ng ANG ALAMAT NI MARIANG MAKILING na ikinuwento ni Jose Rizal?",
     answers: [
-      { text: "Pagyamanin at pangalagaan ang ating bayan at lahi pagka’t hiyas at yaman natin ito.", correct: false },
+      {
+        text: "Pagyamanin at pangalagaan ang ating bayan at lahi pagka’t hiyas at yaman natin ito.",
+        correct: false,
+      },
       { text: "Pag-ibig ang makapagbabago sa mundong ito.", correct: false },
-      { text: "Kabanalan ang magpatawad at tulungan ang isang nagkasala.", correct: false },
-      { text: "Dahil sa pagmamalabis at pagsasamantala, maraming biyaya ang sa kanya'y nawawala.", correct: true },
+      {
+        text: "Kabanalan ang magpatawad at tulungan ang isang nagkasala.",
+        correct: false,
+      },
+      {
+        text: "Dahil sa pagmamalabis at pagsasamantala, maraming biyaya ang sa kanya'y nawawala.",
+        correct: true,
+      },
     ],
+    category: "Filipino",
   },
   {
     id: 57,
@@ -594,36 +727,43 @@ const gened = [
       { text: "Control", correct: false },
       { text: "Rehabilitation", correct: false },
     ],
+    category: "Health",
   },
   {
     id: 58,
-    question: "The amount of substance having 6.02 x 10^23 of any kind of chemical unit is called a/an _____.",
+    question:
+      "The amount of substance having 6.02 x 10^23 of any kind of chemical unit is called a/an _____.",
     answers: [
       { text: "Mass number", correct: false },
       { text: "Mole", correct: true },
       { text: "Formula", correct: false },
       { text: "Atomic weight", correct: false },
     ],
+    category: "Chemistry",
   },
   {
     id: 59,
-    question: "How many ways can a committee of 4 people be selected from a group of 7 people?",
+    question:
+      "How many ways can a committee of 4 people be selected from a group of 7 people?",
     answers: [
       { text: "35", correct: true },
       { text: "70", correct: false },
       { text: "140", correct: false },
       { text: "210", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 60,
-    question: "A rectangle is 4 times as long as it is wide. If the length of the third side?",
+    question:
+      "A rectangle is 4 times as long as it is wide. If the length of the third side?",
     answers: [
       { text: "2 x 32", correct: false },
       { text: "4 x 16", correct: true },
       { text: "3 x 14", correct: false },
       { text: "5 x 12", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 61,
@@ -635,6 +775,7 @@ const gened = [
       { text: "R.A. 7722", correct: false },
       { text: "R.A. 7776", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 62,
@@ -646,26 +787,31 @@ const gened = [
       { text: "underneath", correct: false },
       { text: "below", correct: true },
     ],
+    category: "English",
   },
   {
     id: 63,
-    question: "To reduce electronic waste, implement a recycling system. Which belong to an e-waste recycling system?",
+    question:
+      "To reduce electronic waste, implement a recycling system. Which belong to an e-waste recycling system?",
     answers: [
       { text: "I, II, and III", correct: true },
       { text: "I only", correct: false },
       { text: "I and II", correct: false },
       { text: "II only", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 64,
-    question: "A molecule or an ion is classified as a Lewis base if it has which of the following properties?",
+    question:
+      "A molecule or an ion is classified as a Lewis base if it has which of the following properties?",
     answers: [
       { text: "Donates a proton to water", correct: false },
       { text: "Accepts a pair of electrons", correct: false },
       { text: "Has resonance structures", correct: false },
       { text: "Accepts a proton from water", correct: true },
     ],
+    category: "Science",
   },
   {
     id: 65,
@@ -676,6 +822,7 @@ const gened = [
       { text: "Agosto 1-31", correct: false },
       { text: "Marso 13-19", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 66,
@@ -686,26 +833,31 @@ const gened = [
       { text: "Got you", correct: false },
       { text: "Do you", correct: false },
     ],
+    category: "English",
   },
   {
     id: 67,
-    question: "Nowadays, _____ are much better behaved than their parents were at the same age, don’t you think?",
+    question:
+      "Nowadays, _____ are much better behaved than their parents were at the same age, don’t you think?",
     answers: [
       { text: "Teenagers", correct: true },
       { text: "The teenagers", correct: false },
       { text: "A teenager", correct: false },
       { text: "Teen an ager", correct: false },
     ],
+    category: "English",
   },
   {
     id: 68,
-    question: "If x = 1 and y = -2, what is the value of the expression, x^2 + 2xy − 4x + 3xy^2?",
+    question:
+      "If x = 1 and y = -2, what is the value of the expression, x^2 + 2xy − 4x + 3xy^2?",
     answers: [
       { text: "-9/2", correct: false },
       { text: "15/2", correct: false },
       { text: "-7/2", correct: true },
       { text: "17/4", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 69,
@@ -716,6 +868,7 @@ const gened = [
       { text: "The complement of any acute angle is acute.", correct: true },
       { text: "Two supplementary angles are congruent.", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 70,
@@ -727,16 +880,19 @@ const gened = [
       { text: "COMELEC", correct: false },
       { text: "Regional Trial Court", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 71,
-    question: "Ano ang pormasyon na pantig sa mga titik na 'prin' sa salitang prinsesa?",
+    question:
+      "Ano ang pormasyon na pantig sa mga titik na 'prin' sa salitang prinsesa?",
     answers: [
       { text: "KKPK", correct: true },
       { text: "KKP", correct: false },
       { text: "KPK", correct: false },
       { text: "KP", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 72,
@@ -747,6 +903,7 @@ const gened = [
       { text: "Tropical rainforest", correct: true },
       { text: "Grassland", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 73,
@@ -757,16 +914,19 @@ const gened = [
       { text: "100 cm", correct: false },
       { text: "40 cm", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 74,
-    question: "If 500 or 25% of a graduating class are girls, how many are graduating?",
+    question:
+      "If 500 or 25% of a graduating class are girls, how many are graduating?",
     answers: [
       { text: "2000", correct: true },
       { text: "5000", correct: false },
       { text: "10000", correct: false },
       { text: "20000", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 75,
@@ -778,16 +938,19 @@ const gened = [
       { text: "Convection", correct: false },
       { text: "Fusion", correct: true },
     ],
+    category: "Science",
   },
   {
     id: 76,
-    question: "Nobel Prize winners are chosen from different levels. Where was Pres. Quirino considered?",
+    question:
+      "Nobel Prize winners are chosen from different levels. Where was Pres. Quirino considered?",
     answers: [
-      { text: "Politics", correct: false },
+      { text: "Social Science", correct: false },
       { text: "Literature", correct: false },
       { text: "Human rights", correct: false },
       { text: "Economics", correct: true },
     ],
+    category: "Social Science",
   },
   {
     id: 77,
@@ -798,6 +961,7 @@ const gened = [
       { text: "Omnivores", correct: false },
       { text: "Carnivores", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 78,
@@ -808,6 +972,7 @@ const gened = [
       { text: "Lawa", correct: false },
       { text: "Tihaya", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 79,
@@ -818,16 +983,27 @@ const gened = [
       { text: "25", correct: true },
       { text: "26", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 80,
     question: "You cannot share what you do not have. Who portrayed it best?",
     answers: [
-      { text: "Heaven is built on stilts. One can buy all happiness.", correct: false },
-      { text: "The Man scorned on the Cross did not redeem the world without suffering.", correct: true },
-      { text: "Patience on the rice store cue was tested by a grumbling lady.", correct: false },
+      {
+        text: "Heaven is built on stilts. One can buy all happiness.",
+        correct: false,
+      },
+      {
+        text: "The Man scorned on the Cross did not redeem the world without suffering.",
+        correct: true,
+      },
+      {
+        text: "Patience on the rice store cue was tested by a grumbling lady.",
+        correct: false,
+      },
       { text: "Words without deeds can never go far.", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 81,
@@ -839,6 +1015,7 @@ const gened = [
       { text: "Possess global awareness", correct: false },
       { text: "Possess social literacy", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 82,
@@ -850,6 +1027,7 @@ const gened = [
       { text: "15", correct: false },
       { text: "16", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 83,
@@ -860,6 +1038,7 @@ const gened = [
       { text: "Uminom", correct: false },
       { text: "Pag-inuman", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 84,
@@ -869,39 +1048,57 @@ const gened = [
       { text: "Change the weight of your body and load", correct: false },
       { text: "Change the mass of your body", correct: false },
       { text: "Be ready to grab something in case you fall", correct: false },
-      { text: "Change the center of gravity of your body and load", correct: true },
+      {
+        text: "Change the center of gravity of your body and load",
+        correct: true,
+      },
     ],
+    category: "Science",
   },
   {
     id: 85,
-    question: "If a picture frame is 27 cm long and 18 cm wide, what is the ratio of its length to its width?",
+    question:
+      "If a picture frame is 27 cm long and 18 cm wide, what is the ratio of its length to its width?",
     answers: [
       { text: "3:2", correct: true },
       { text: "2:3", correct: false },
       { text: "3:5", correct: false },
       { text: "5:3", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 86,
     question:
       "When a teacher is charged with an administrative case committed in the lawful discharge of professional duties, what right may the teacher invoke for their defense?",
     answers: [
-      { text: "Right to receive compensation in the duration of the case", correct: false },
+      {
+        text: "Right to receive compensation in the duration of the case",
+        correct: false,
+      },
       { text: "Right to be given the due process of law", correct: false },
-      { text: "Right to be defended by the organization of teachers to which they are a member", correct: false },
-      { text: "Right to be provided with free legal service by the appropriate office", correct: true },
+      {
+        text: "Right to be defended by the organization of teachers to which they are a member",
+        correct: false,
+      },
+      {
+        text: "Right to be provided with free legal service by the appropriate office",
+        correct: true,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 87,
-    question: "In how many ways can a team of 10 basketball players be chosen from 12 players?",
+    question:
+      "In how many ways can a team of 10 basketball players be chosen from 12 players?",
     answers: [
       { text: "62", correct: false },
       { text: "64", correct: false },
       { text: "66", correct: true },
       { text: "72", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 88,
@@ -912,16 +1109,19 @@ const gened = [
       { text: "20", correct: false },
       { text: "25", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 89,
-    question: "People who are too _____ are liable to be deceived by unscrupulous individuals.",
+    question:
+      "People who are too _____ are liable to be deceived by unscrupulous individuals.",
     answers: [
       { text: "Wary", correct: false },
       { text: "Credulous", correct: true },
       { text: "Cynical", correct: false },
       { text: "Demanding", correct: false },
     ],
+    category: "English",
   },
   {
     id: 90,
@@ -932,6 +1132,7 @@ const gened = [
       { text: "Iwanan", correct: true },
       { text: "Pag-iwan", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 91,
@@ -942,6 +1143,7 @@ const gened = [
       { text: "Magalis", correct: true },
       { text: "Galis-aso", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 92,
@@ -953,6 +1155,7 @@ const gened = [
       { text: "Prison mayor", correct: false },
       { text: "Habeas corpus", correct: true },
     ],
+    category: "Social Science",
   },
   {
     id: 93,
@@ -964,6 +1167,7 @@ const gened = [
       { text: "11", correct: true },
       { text: "10", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 94,
@@ -974,16 +1178,19 @@ const gened = [
       { text: "7 17/35", correct: false },
       { text: "7 1/35", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 95,
-    question: "For the fruit punch, 3050 mL of fruit juice is needed. How much fruit juice is needed in dekaliters?",
+    question:
+      "For the fruit punch, 3050 mL of fruit juice is needed. How much fruit juice is needed in dekaliters?",
     answers: [
       { text: "0.305", correct: true },
       { text: "3.05", correct: false },
       { text: "5.03", correct: false },
       { text: "0.053", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 96,
@@ -995,26 +1202,31 @@ const gened = [
       { text: "Panregulatori", correct: true },
       { text: "Pang-instrumental", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 97,
-    question: "Anong tayutay ang tinutukoy nito? Durog ang katawang bumagsak sa semento si Miguel.",
+    question:
+      "Anong tayutay ang tinutukoy nito? Durog ang katawang bumagsak sa semento si Miguel.",
     answers: [
       { text: "Pagtutulad", correct: false },
       { text: "Pagbibigay-katauhan", correct: false },
       { text: "Pagmamalabis", correct: false },
       { text: "Pagwawangis", correct: true },
     ],
+    category: "Filipino",
   },
   {
     id: 98,
-    question: "Yes, the script was excellent, but the performances were _____ weak.",
+    question:
+      "Yes, the script was excellent, but the performances were _____ weak.",
     answers: [
       { text: "Completely", correct: false },
       { text: "Extremely", correct: true },
       { text: "Utterly", correct: false },
       { text: "Absolutely", correct: false },
     ],
+    category: "English",
   },
   {
     id: 99,
@@ -1026,26 +1238,31 @@ const gened = [
       { text: "35°, 45°, 110°", correct: false },
       { text: "30°, 45°, 105°", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 100,
-    question: "Tandaan mo na lahat ng paghihirap ni Luis ay _____ sa iyong magandang kinabukasan.",
+    question:
+      "Tandaan mo na lahat ng paghihirap ni Luis ay _____ sa iyong magandang kinabukasan.",
     answers: [
       { text: "Tungkol", correct: false },
       { text: "Upang", correct: false },
       { text: "Sanhi", correct: false },
       { text: "Ukol", correct: true },
     ],
+    category: "Filipino",
   },
   {
     id: 101,
-    question: "Ang mga mata mo ay tulad ng bituin sa kalangitan. Ano ang ginamit na pagpapahayag dito?",
+    question:
+      "Ang mga mata mo ay tulad ng bituin sa kalangitan. Ano ang ginamit na pagpapahayag dito?",
     answers: [
       { text: "Pagtutulad", correct: true },
       { text: "Personipikasyon", correct: false },
       { text: "Pagwawangis", correct: false },
       { text: "Pang-uyam", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 102,
@@ -1056,6 +1273,7 @@ const gened = [
       { text: "Paleontology", correct: false },
       { text: "Geology", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 103,
@@ -1067,17 +1285,22 @@ const gened = [
       { text: "70", correct: false },
       { text: "65", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 104,
     question:
-      "To stimulate the nation's economy and to increase employment, former President Diosdado Macapagal _____.",
+      "To stimulate the nation's economy and to increase employment, former President Diosdado Macapagal _____",
     answers: [
       { text: "Abolished government repressive controls", correct: true },
       { text: "Borrowed money from the World Bank", correct: false },
-      { text: "Standardized the salaries of government employees", correct: false },
+      {
+        text: "Standardized the salaries of government employees",
+        correct: false,
+      },
       { text: "Gave incentives to home cottage industries", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 105,
@@ -1089,10 +1312,12 @@ const gened = [
       { text: "20", correct: true },
       { text: "24", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 106,
-    question: "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+    question:
+      "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
     answers: [
       {
         text: "Good teachers possess a capacity for connectedness; not in the method but in their hearts - a place where intellect, emotion, spirit, and will converge in the human self.",
@@ -1111,6 +1336,7 @@ const gened = [
         correct: false,
       },
     ],
+    category: "English",
   },
   {
     id: 107,
@@ -1121,6 +1347,7 @@ const gened = [
       { text: "Will start", correct: false },
       { text: "Will have been starting", correct: false },
     ],
+    category: "English",
   },
   {
     id: 108,
@@ -1132,6 +1359,7 @@ const gened = [
       { text: "Presidential Decree No. 603", correct: false },
       { text: "Administrative Order No. 2", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 109,
@@ -1142,26 +1370,36 @@ const gened = [
       { text: "Ovules", correct: true },
       { text: "Ovary wall", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 110,
     question: "Renewable",
     answers: [
       { text: "A resource that is inexhaustible", correct: true },
-      { text: "A process where one plate is forced under another", correct: false },
+      {
+        text: "A process where one plate is forced under another",
+        correct: false,
+      },
       { text: "The blanket of air surrounding the Earth", correct: false },
-      { text: "Describes how different types of rocks are formed", correct: false },
+      {
+        text: "Describes how different types of rocks are formed",
+        correct: false,
+      },
     ],
+    category: "Science",
   },
   {
     id: 111,
-    question: "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+    question:
+      "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
     answers: [
       { text: "Albert himself told me it was true.", correct: true },
       { text: "Albert, himself, told me it was true.", correct: false },
       { text: "Albert told me it was true himself.", correct: false },
       { text: "Albert told me himself it was true.", correct: false },
     ],
+    category: "English",
   },
   {
     id: 112,
@@ -1171,26 +1409,39 @@ const gened = [
       { text: "Good weathers", correct: false },
       { text: "Good weather", correct: true },
     ],
+    category: "English",
   },
   {
     id: 113,
     question: "A behavioral psychologist would probably say that _____.",
     answers: [
-      { text: "Introspection is a useful way to study mental processes", correct: false },
-      { text: "The mind is most important when analyzing behavior", correct: false },
-      { text: "We act based on rewards and punishments received", correct: true },
+      {
+        text: "Introspection is a useful way to study mental processes",
+        correct: false,
+      },
+      {
+        text: "The mind is most important when analyzing behavior",
+        correct: false,
+      },
+      {
+        text: "We act based on rewards and punishments received",
+        correct: true,
+      },
       { text: "The unconsciousness stimulates our behavior", correct: false },
     ],
+    category: "Psychology",
   },
   {
     id: 114,
-    question: 'Sino ang naglimbag ng "El Guinto de Pueblo" ng panahon ng Amerikano?',
+    question:
+      'Sino ang naglimbag ng "El Guinto de Pueblo" ng panahon ng Amerikano?',
     answers: [
       { text: "Sergio Osmena", correct: false },
       { text: "Pascual Poblete", correct: false },
       { text: "Jose Palma", correct: true },
       { text: "Francisco Balagtas", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 115,
@@ -1202,17 +1453,28 @@ const gened = [
       { text: "85041", correct: true },
       { text: "85051", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 116,
     question:
       "Which of the following documents embodies the general principles of human rights which set forth the minimum standard of living for all people of the world?",
     answers: [
-      { text: "International Covenant on Civil, Political Rights", correct: false },
-      { text: "International Covenant on SocioEconomic, Cultural Rights", correct: false },
+      {
+        text: "International Covenant on Civil, Political Rights",
+        correct: false,
+      },
+      {
+        text: "International Covenant on SocioEconomic, Cultural Rights",
+        correct: false,
+      },
       { text: "Universal Declaration of Human Rights", correct: false },
-      { text: "United Nations Declaration on Rights to Development", correct: true },
+      {
+        text: "United Nations Declaration on Rights to Development",
+        correct: true,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 117,
@@ -1224,6 +1486,7 @@ const gened = [
       { text: "Onomatopeya", correct: false },
       { text: "Pagtawag", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 118,
@@ -1235,6 +1498,7 @@ const gened = [
       { text: "Program", correct: false },
       { text: "Statement", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 119,
@@ -1245,40 +1509,67 @@ const gened = [
       { text: "I might going", correct: false },
       { text: "I might be go", correct: false },
     ],
+    category: "English",
   },
   {
     id: 120,
     question:
       "The Code of Ethics of Professional Teachers provides that a teacher has the right and duty to determine the academic marks and the promotion of learners. What is the obligation of the teacher in relation to the aforementioned right as mandated in the Education Act of 1982?",
     answers: [
-      { text: "Refrain from making deductions in students' ratings for acts not of poor scholarship.", correct: true },
-      { text: "Refrain from discriminating high and low achievers in the classes they handle.", correct: false },
+      {
+        text: "Refrain from making deductions in students' ratings for acts not of poor scholarship.",
+        correct: true,
+      },
+      {
+        text: "Refrain from discriminating high and low achievers in the classes they handle.",
+        correct: false,
+      },
       {
         text: "Refrain from influencing corporal punishment and make it a basic for deductions in scholastic ratings.",
         correct: false,
       },
-      { text: "Refrain from segregating the fast and slow learners for convenience in rating them.", correct: false },
+      {
+        text: "Refrain from segregating the fast and slow learners for convenience in rating them.",
+        correct: false,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 121,
-    question: "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+    question:
+      "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
     answers: [
-      { text: "A strange car kept blinking the lights at us as he followed closely.", correct: false },
-      { text: "A strange car followed closely, and he kept blinking his lights at us.", correct: false },
-      { text: "A strange car followed us closely, and its driver kept blinking his lights at us.", correct: true },
-      { text: "A strange car, blinking the lights at us, followed closely.", correct: false },
+      {
+        text: "A strange car kept blinking the lights at us as he followed closely.",
+        correct: false,
+      },
+      {
+        text: "A strange car followed closely, and he kept blinking his lights at us.",
+        correct: false,
+      },
+      {
+        text: "A strange car followed us closely, and its driver kept blinking his lights at us.",
+        correct: true,
+      },
+      {
+        text: "A strange car, blinking the lights at us, followed closely.",
+        correct: false,
+      },
     ],
+    category: "English",
   },
   {
     id: 122,
-    question: "Which of the following is the catalytic converter on cars in the control technology?",
+    question:
+      "Which of the following is the catalytic converter on cars in the control Science?",
     answers: [
       { text: "Carbon monoxide", correct: false },
       { text: "Carbon dioxide", correct: false },
       { text: "Nitrogen dioxide", correct: true },
       { text: "Sulfur oxide", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 123,
@@ -1290,16 +1581,19 @@ const gened = [
       { text: "Credit", correct: false },
       { text: "Service", correct: true },
     ],
+    category: "Social Science",
   },
   {
     id: 124,
-    question: "Which is at the base of a triangle that shapes us into what we are?",
+    question:
+      "Which is at the base of a triangle that shapes us into what we are?",
     answers: [
       { text: "Environment", correct: false },
       { text: "Heredity", correct: true },
       { text: "Training", correct: false },
       { text: "School attended", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 125,
@@ -1310,6 +1604,7 @@ const gened = [
       { text: "Hurry", correct: true },
       { text: "Hurry you", correct: false },
     ],
+    category: "English",
   },
   {
     id: 126,
@@ -1320,6 +1615,7 @@ const gened = [
       { text: "Laundry drying", correct: true },
       { text: "Steam forming water droplets", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 127,
@@ -1330,6 +1626,7 @@ const gened = [
       { text: "Lunan", correct: true },
       { text: "Lunod", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 128,
@@ -1341,6 +1638,7 @@ const gened = [
       { text: "21", correct: false },
       { text: "11", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 129,
@@ -1352,6 +1650,7 @@ const gened = [
       { text: "Imperpektibo", correct: false },
       { text: "Perpektibo", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 130,
@@ -1362,50 +1661,69 @@ const gened = [
       { text: "A at B", correct: false },
       { text: "Wala ang sagot sa mga pagpipilian.", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 131,
     question:
       "Who has greater moral responsibility and why? The lazy master teacher who does not teach well or the beginning teacher who is groping while she teaches and so does not teach well either.",
     answers: [
-      { text: "The master teacher, who is older and more experienced.", correct: false },
-      { text: "The master teacher, who is expected to have more knowledge and freedom.", correct: true },
+      {
+        text: "The master teacher, who is older and more experienced.",
+        correct: false,
+      },
+      {
+        text: "The master teacher, who is expected to have more knowledge and freedom.",
+        correct: true,
+      },
       {
         text: "Cannot be determined. Age, experience, or freedom does not necessarily make someone more or less morally responsible than the other.",
         correct: false,
       },
       { text: "Both are equally morally responsible.", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 132,
-    question: "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
+    question:
+      "Which of the following is expressed clearly, effectively states the idea, and has no structural error?",
     answers: [
       { text: "I would not want to be he.", correct: true },
       { text: "I would not want to be himself.", correct: false },
       { text: "I would not want to be themselves.", correct: false },
       { text: "I would not want to theirselves.", correct: false },
     ],
+    category: "English",
   },
   {
     id: 133,
     question: "Alin ang tamang babala sa pagtatapon ng basura?",
     answers: [
-      { text: "Gamitin ang basurahan sa inyong bahay, huwag dito", correct: false },
+      {
+        text: "Gamitin ang basurahan sa inyong bahay, huwag dito",
+        correct: false,
+      },
       { text: "Dito ang tambakan ng basura", correct: false },
       { text: "Huwag mag-tapon ng basura dito", correct: true },
       { text: "Huwag mag-ipon ng basura dito", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 134,
-    question: "Which is the MOST important perceived need and problem of the Filipino family?",
+    question:
+      "Which is the MOST important perceived need and problem of the Filipino family?",
     answers: [
       { text: "Unemployment or financial problem", correct: true },
       { text: "Proneness to vices", correct: false },
       { text: "Over protectiveness of children", correct: false },
-      { text: "Double standard on the roles of male and female", correct: false },
+      {
+        text: "Double standard on the roles of male and female",
+        correct: false,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 135,
@@ -1414,8 +1732,12 @@ const gened = [
       { text: "All living things use energy to function.", correct: false },
       { text: "All living things are composed of cells.", correct: false },
       { text: "All living things have a nervous system.", correct: true },
-      { text: "All living things are capable of reproduction.", correct: false },
+      {
+        text: "All living things are capable of reproduction.",
+        correct: false,
+      },
     ],
+    category: "Science",
   },
   {
     id: 136,
@@ -1423,39 +1745,57 @@ const gened = [
       "Robert Frost wrote the poem 'Acquainted with the Night' from which the stanza is taken: 'I have been one acquainted with the night. I have walked out in rain-back in rain. I have out walked the farthest city light.' The poet in the stanza talks of:",
     answers: [
       { text: "Isolation and loneliness.", correct: true },
-      { text: "Happiness in having been acquainted with the night.", correct: false },
+      {
+        text: "Happiness in having been acquainted with the night.",
+        correct: false,
+      },
       { text: "Joy getting out of the house.", correct: false },
       { text: "Youthful delight playing in the rain.", correct: false },
     ],
+    category: "English",
   },
   {
     id: 137,
-    question: "What form of government is characterized by the separation of powers?",
+    question:
+      "What form of government is characterized by the separation of powers?",
     answers: [
       { text: "Parliamentary", correct: false },
       { text: "Presidential", correct: true },
       { text: "Aristocracy", correct: false },
       { text: "Monarchical", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 138,
     question: "Which is the BEST evidence that helium gas is lighter than air?",
     answers: [
-      { text: "Helium has the lowest boiling point of all elements.", correct: false },
-      { text: "Helium atoms do not combine with other air atoms.", correct: false },
+      {
+        text: "Helium has the lowest boiling point of all elements.",
+        correct: false,
+      },
+      {
+        text: "Helium atoms do not combine with other air atoms.",
+        correct: false,
+      },
       { text: "Helium-filled balloons rise in air.", correct: true },
-      { text: "By volume, helium makes up only 0.0005% of air.", correct: false },
+      {
+        text: "By volume, helium makes up only 0.0005% of air.",
+        correct: false,
+      },
     ],
+    category: "Science",
   },
   {
     id: 139,
-    question: "I _____ get up at six o'clock this morning with much difficulty.",
+    question:
+      "I _____ get up at six o'clock this morning with much difficulty.",
     answers: [
       { text: "Could", correct: false },
       { text: "Managed to", correct: true },
       { text: "Can", correct: false },
     ],
+    category: "English",
   },
   {
     id: 140,
@@ -1467,6 +1807,7 @@ const gened = [
       { text: "None of these", correct: true },
       { text: "10 pounds heavier", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 141,
@@ -1478,16 +1819,19 @@ const gened = [
       { text: "Excitement", correct: false },
       { text: "Excessive fat", correct: false },
     ],
+    category: "Health",
   },
   {
     id: 142,
-    question: "Which of the following facts support the Big Bang theory's explanation of the creation of the universe?",
+    question:
+      "Which of the following facts support the Big Bang theory's explanation of the creation of the universe?",
     answers: [
       { text: "The universe does not expand nor contract.", correct: false },
       { text: "The universe seldom expands.", correct: false },
       { text: "The universe will have background radiation.", correct: true },
       { text: "The universe has no beginning nor end.", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 143,
@@ -1499,6 +1843,7 @@ const gened = [
       { text: "225", correct: false },
       { text: "375/8", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 144,
@@ -1508,6 +1853,7 @@ const gened = [
       { text: "Broke - was playing", correct: true },
       { text: "Breaks - is playing", correct: false },
     ],
+    category: "English",
   },
   {
     id: 145,
@@ -1517,18 +1863,29 @@ const gened = [
       { text: "Environment and ICT are poles apart.", correct: false },
       { text: "ICT impacts on environment.", correct: true },
       { text: "Environment affects ICT.", correct: false },
-      { text: "ICT brings us away from an interconnected society.", correct: false },
+      {
+        text: "ICT brings us away from an interconnected society.",
+        correct: false,
+      },
     ],
+    category: "Social Science",
   },
   {
     id: 146,
     question: "Mantle",
     answers: [
       { text: "The thickest layer of the Earth", correct: true },
-      { text: "A process where one plate is forced under another", correct: false },
+      {
+        text: "A process where one plate is forced under another",
+        correct: false,
+      },
       { text: "The blanket of air surrounding the Earth", correct: false },
-      { text: "Describes how different types of rocks are formed", correct: false },
+      {
+        text: "Describes how different types of rocks are formed",
+        correct: false,
+      },
     ],
+    category: "Science",
   },
   {
     id: 147,
@@ -1540,60 +1897,78 @@ const gened = [
       { text: "Na", correct: false },
       { text: "Doo bidoo", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 148,
     question:
       "A town that is located ______ is a location that should have most nearly twelve hours of daylight and twelve hours of darkness during December.",
     answers: [
-      { text: "Halfway between the Equator and the South Pole", correct: false },
+      {
+        text: "Halfway between the Equator and the South Pole",
+        correct: false,
+      },
       { text: "Close to the Equator", correct: true },
       { text: "Close to the North Pole", correct: false },
       { text: "Close to the South Pole", correct: false },
     ],
+    category: "Geography",
   },
   {
     id: 149,
-    question: "And now for this evening’s main headline: Britain _____ another Olympic gold medal!",
+    question:
+      "And now for this evening’s main headline: Britain _____ another Olympic gold medal!",
     answers: [
       { text: "Had won", correct: false },
       { text: "Wins", correct: false },
       { text: "Won", correct: false },
       { text: "Has won", correct: true },
     ],
+    category: "English",
   },
   {
     id: 150,
     question: "Charity begins at home. What illustrates this value?",
     answers: [
       { text: "Millionaires send checks anonymously", correct: false },
-      { text: "Patrons check out donations by the size of the advertisement", correct: false },
-      { text: "Grandparents stay with the Home for the Aged. They are nuisance to modern families", correct: false },
+      {
+        text: "Patrons check out donations by the size of the advertisement",
+        correct: false,
+      },
+      {
+        text: "Grandparents stay with the Home for the Aged. They are nuisance to modern families",
+        correct: false,
+      },
       {
         text: "An ambassador in Jeddah shelters battered Filipino OCW’s and avoids social gatherings to be able to save food for these refugees",
         correct: true,
       },
     ],
+    category: "Social Science",
   },
   {
     id: 151,
-    question: "Let us campaign for the total ban ____________ of harmful insecticides.",
+    question:
+      "Let us campaign for the total ban ____________ of harmful insecticides.",
     answers: [
       { text: "With the use", correct: false },
       { text: "On using", correct: false },
       { text: "On the use", correct: true },
       { text: "With using", correct: false },
     ],
+    category: "English",
   },
   {
     id: 152,
-    question: "“Your statements are IMPERTINENT to the case.” The capitalized word means ______________.",
+    question:
+      "“Your statements are IMPERTINENT to the case.” The capitalized word means ______________.",
     answers: [
       { text: "Important", correct: false },
       { text: "Irrelevant", correct: true },
       { text: "Violent", correct: false },
       { text: "Malicious", correct: false },
     ],
+    category: "English",
   },
   {
     id: 153,
@@ -1605,6 +1980,7 @@ const gened = [
       { text: "Forgiving", correct: true },
       { text: "Loyalty", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 154,
@@ -1615,6 +1991,7 @@ const gened = [
       { text: "Mercy is limited in extent", correct: false },
       { text: "Mercy is spontaneous and freely given", correct: true },
     ],
+    category: "English",
   },
   {
     id: 155,
@@ -1625,6 +2002,7 @@ const gened = [
       { text: "Jose Rizal", correct: false },
       { text: "Marcelo H. Del Pilar", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 156,
@@ -1633,9 +2011,13 @@ const gened = [
     answers: [
       { text: "The passerine birds will thrive.", correct: false },
       { text: "The lions will eventually die.", correct: true },
-      { text: "The passerine birds will convert to herbivores.", correct: false },
+      {
+        text: "The passerine birds will convert to herbivores.",
+        correct: false,
+      },
       { text: "The lettuce will wilt and die.", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 157,
@@ -1647,16 +2029,19 @@ const gened = [
       { text: "Down-top", correct: false },
       { text: "Top-down", correct: false },
     ],
+    category: "Education",
   },
   {
     id: 158,
-    question: "If threat of punishment is necessary on erring students, how should this best be done?",
+    question:
+      "If threat of punishment is necessary on erring students, how should this best be done?",
     answers: [
       { text: "Make the threat and reinforce with warning", correct: false },
       { text: "Make the threat with immediate punishment", correct: false },
       { text: "Warn and threaten at the same time", correct: false },
       { text: "First a warning before the threat", correct: true },
     ],
+    category: "Education",
   },
   {
     id: 159,
@@ -1668,6 +2053,7 @@ const gened = [
       { text: "Certain", correct: true },
       { text: "Callous", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 160,
@@ -1679,6 +2065,7 @@ const gened = [
       { text: "Antropolohiya", correct: false },
       { text: "Pansikolohiya", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 161,
@@ -1689,56 +2076,67 @@ const gened = [
       { text: "My, his", correct: false },
       { text: "Yours, mine", correct: false },
     ],
+    category: "English",
   },
   {
     id: 162,
-    question: "Neither the teacher nor the students ___________ present in the affairs.",
+    question:
+      "Neither the teacher nor the students ___________ present in the affairs.",
     answers: [
       { text: "Am", correct: false },
       { text: "Was", correct: false },
       { text: "Is", correct: false },
       { text: "Were", correct: true },
     ],
+    category: "English",
   },
   {
     id: 163,
-    question: "We admire __________ when Cynthia speaks English fluently with __________.",
+    question:
+      "We admire __________ when Cynthia speaks English fluently with __________.",
     answers: [
       { text: "Him, them", correct: false },
       { text: "Her, us", correct: true },
       { text: "Him, we", correct: false },
       { text: "Him, me", correct: false },
     ],
+    category: "English",
   },
   {
     id: 164,
-    question: "The figures must be TRANSMUTED in order to understand the grade. The capitalized word means:",
+    question:
+      "The figures must be TRANSMUTED in order to understand the grade. The capitalized word means:",
     answers: [
       { text: "Estimated", correct: false },
       { text: "Surpassed", correct: false },
       { text: "Changed", correct: true },
       { text: "Summed", correct: false },
     ],
+    category: "English",
   },
   {
     id: 165,
-    question: "Some preachers suggest the __________ that the end of the world is near.",
+    question:
+      "Some preachers suggest the __________ that the end of the world is near.",
     answers: [
       { text: "Proposal", correct: false },
       { text: "Prophecy", correct: true },
       { text: "Prophetic", correct: false },
       { text: "Prophet", correct: false },
     ],
+    category: "Religion",
   },
   {
     id: 166,
-    question: "Filipino writer whose stories and poems depict Filipino-Spanish cultural beliefs and traditions.",
+    question:
+      "Filipino writer whose stories and poems depict Filipino-Spanish cultural beliefs and traditions.",
     answers: [
       { text: "Edilberto Tiempo", correct: false },
       { text: "N.V.M. Gonzales", correct: false },
       { text: "Bienvenido Santos", correct: false },
       { text: "Nick Joaquin", correct: true },
     ],
+    category: "Literature",
   },
   {
     id: 167,
@@ -1749,6 +2147,7 @@ const gened = [
       { text: "Real estate tax", correct: false },
       { text: "Inheritance tax", correct: false },
     ],
+    category: "Finance",
   },
   {
     id: 168,
@@ -1759,6 +2158,7 @@ const gened = [
       { text: "Joseph Estrada", correct: false },
       { text: "Aquilino Pimentel", correct: true },
     ],
+    category: "Social Science",
   },
   {
     id: 169,
@@ -1770,16 +2170,19 @@ const gened = [
       { text: "Environmental habitation", correct: false },
       { text: "Ecological niche", correct: true },
     ],
+    category: "Biology",
   },
   {
     id: 170,
-    question: "If a die is rolled, what is the probability of getting a number divisible by 2?",
+    question:
+      "If a die is rolled, what is the probability of getting a number divisible by 2?",
     answers: [
       { text: "½", correct: true },
       { text: "1/3", correct: false },
       { text: "¼", correct: false },
       { text: "1/6", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 171,
@@ -1791,16 +2194,22 @@ const gened = [
       { text: "2 days", correct: true },
       { text: "3 ½ days", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 172,
-    question: "Maternity leaves are extended to women. What legal provision extends this?",
+    question:
+      "Maternity leaves are extended to women. What legal provision extends this?",
     answers: [
       { text: "Article XIV Education", correct: false },
       { text: "Article XIII Sec 14 women", correct: true },
-      { text: "Article XIII Role and Rights of People's Organization", correct: false },
+      {
+        text: "Article XIII Role and Rights of People's Organization",
+        correct: false,
+      },
       { text: "Article XII Bill of Rights", correct: false },
     ],
+    category: "Law",
   },
   {
     id: 173,
@@ -1811,6 +2220,7 @@ const gened = [
       { text: "Philippines", correct: false },
       { text: "Thailand", correct: false },
     ],
+    category: "Geography",
   },
   {
     id: 174,
@@ -1821,6 +2231,7 @@ const gened = [
       { text: "Manila Bay", correct: false },
       { text: "Taal Volcano", correct: false },
     ],
+    category: "Geography",
   },
   {
     id: 175,
@@ -1832,6 +2243,7 @@ const gened = [
       { text: "Father Gregorio Aglipay", correct: false },
       { text: "Father Jose Burgos", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 176,
@@ -1843,16 +2255,24 @@ const gened = [
       { text: "Confucius", correct: true },
       { text: "Lao-Tzu", correct: false },
     ],
+    category: "Philosophy",
   },
   {
     id: 177,
     question: "Which of the following was the first to happen?",
     answers: [
       { text: "Aguinaldo declared Philippine Independence.", correct: true },
-      { text: "Guerilla warfare against the US was initiated.", correct: false },
-      { text: "The Philippines was ceded to the US by the Treaty of Paris.", correct: false },
+      {
+        text: "Guerilla warfare against the US was initiated.",
+        correct: false,
+      },
+      {
+        text: "The Philippines was ceded to the US by the Treaty of Paris.",
+        correct: false,
+      },
       { text: "Aguinaldo was captured.", correct: false },
     ],
+    category: "Social Science",
   },
   {
     id: 178,
@@ -1863,6 +2283,7 @@ const gened = [
       { text: "Letter", correct: false },
       { text: "Label", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 179,
@@ -1873,6 +2294,7 @@ const gened = [
       { text: "1/4", correct: false },
       { text: "1/8", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 180,
@@ -1883,6 +2305,7 @@ const gened = [
       { text: "3 / (x + 3)", correct: false },
       { text: "3 / (x – 1)", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 181,
@@ -1894,46 +2317,55 @@ const gened = [
       { text: "Parliamentary", correct: false },
       { text: "Dictatorial", correct: true },
     ],
+    category: "Politics",
   },
   {
     id: 182,
-    question: "The 'Rubaiyat' a loosely joined series of 280 stanzas, has this general theme. Which one?",
+    question:
+      "The 'Rubaiyat' a loosely joined series of 280 stanzas, has this general theme. Which one?",
     answers: [
       { text: "Always look forward to a new day.", correct: false },
       { text: "Grasp pleasure while you can.", correct: true },
       { text: "Never give in to death easily.", correct: false },
       { text: "Create your own world and beautify it.", correct: false },
     ],
+    category: "Literature",
   },
   {
     id: 183,
-    question: "This demonstrated the feeding connections between all life forms.",
+    question:
+      "This demonstrated the feeding connections between all life forms.",
     answers: [
       { text: "Nutrition cycles", correct: false },
       { text: "Fossil cycle", correct: false },
       { text: "Biochemical pathways", correct: false },
       { text: "Food web", correct: true },
     ],
+    category: "Biology",
   },
   {
     id: 184,
-    question: "A toothpick can sit on the surface of water due to _________________.",
+    question:
+      "A toothpick can sit on the surface of water due to _________________.",
     answers: [
       { text: "Surface tension", correct: true },
       { text: "Atmospheric pressure", correct: false },
       { text: "Buoyancy", correct: false },
       { text: "Viscosity", correct: false },
     ],
+    category: "Physics",
   },
   {
     id: 185,
-    question: "In a flame test, the presence of boron in a solution is evident by what color of flame?",
+    question:
+      "In a flame test, the presence of boron in a solution is evident by what color of flame?",
     answers: [
       { text: "Bright green", correct: true },
       { text: "Brick red", correct: false },
       { text: "Gold", correct: false },
       { text: "Lilac", correct: false },
     ],
+    category: "Chemistry",
   },
   {
     id: 186,
@@ -1944,16 +2376,19 @@ const gened = [
       { text: "Diego de los Rios", correct: true },
       { text: "Fermin Jaudenes", correct: false },
     ],
+    category: "History",
   },
   {
     id: 187,
-    question: "One of the pledges of the President of the Philippines is to defend its:",
+    question:
+      "One of the pledges of the President of the Philippines is to defend its:",
     answers: [
       { text: "Constitution", correct: true },
       { text: "Citizens", correct: false },
       { text: "Land", correct: false },
       { text: "Islands", correct: false },
     ],
+    category: "Politics",
   },
   {
     id: 188,
@@ -1964,16 +2399,19 @@ const gened = [
       { text: "14", correct: false },
       { text: "12", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 189,
-    question: "Which of the following has the smallest mass when measured in an equal arm balance?",
+    question:
+      "Which of the following has the smallest mass when measured in an equal arm balance?",
     answers: [
       { text: "½ sheet of pad paper", correct: false },
       { text: "¼ sheet of pad paper", correct: false },
       { text: "1/8 sheet of pad paper", correct: true },
       { text: "1/3 sheet of pad paper", correct: false },
     ],
+    category: "Science",
   },
   {
     id: 190,
@@ -1985,16 +2423,19 @@ const gened = [
       { text: "45", correct: false },
       { text: "50", correct: true },
     ],
+    category: "Mathematics",
   },
   {
     id: 191,
-    question: "If the average or arithmetic mean of x and -5 is 10, then what must be the value of x?",
+    question:
+      "If the average or arithmetic mean of x and -5 is 10, then what must be the value of x?",
     answers: [
       { text: "25", correct: true },
       { text: "15", correct: false },
       { text: "30", correct: false },
       { text: "20", correct: false },
     ],
+    category: "Mathematics",
   },
   {
     id: 192,
@@ -2006,33 +2447,36 @@ const gened = [
       { text: "14.5", correct: true },
       { text: "15", correct: false },
     ],
+    category: "Mathematics",
   },
-
   {
     id: 193,
     question:
       "In one of his poems, the Filipino author Zulueta da Costa said that the Filipinos are like the Molave. What figure of speech was used?",
     answers: [
-      { text: "simile", correct: true },
-      { text: "personification", correct: false },
-      { text: "metaphor", correct: false },
-      { text: "hyperbole", correct: false },
+      { text: "Simile", correct: true },
+      { text: "Personification", correct: false },
+      { text: "Metaphor", correct: false },
+      { text: "Hyperbole", correct: false },
     ],
+    category: "Literature",
   },
   {
     id: 194,
     question:
       "Helen of Troy is the face who launched a thousand ships. What figure of speech is used in the given sentence?",
     answers: [
-      { text: "ellipsis", correct: false },
-      { text: "synecdoche", correct: true },
-      { text: "alliteration", correct: false },
-      { text: "irony", correct: false },
+      { text: "Ellipsis", correct: false },
+      { text: "Synecdoche", correct: true },
+      { text: "Alliteration", correct: false },
+      { text: "Irony", correct: false },
     ],
+    category: "Literature",
   },
   {
     id: 195,
-    question: "Si Ana at Ariadne ay masisipag na mag-aaral. Ano ang mali sa pangungusap?",
+    question:
+      "Si Ana at Ariadne ay masisipag na mag-aaral. Ano ang mali sa pangungusap?",
     answers: [
       { text: "Si", correct: true },
       { text: "at", correct: false },
@@ -2040,6 +2484,7 @@ const gened = [
       { text: "mag-aaral", correct: false },
       { text: "Walang mali", correct: false },
     ],
+    category: "Grammar",
   },
   {
     id: 196,
@@ -2050,6 +2495,7 @@ const gened = [
       { text: "Dalhan", correct: true },
       { text: "Dadalahin", correct: false },
     ],
+    category: "Grammar",
   },
   {
     id: 197,
@@ -2061,6 +2507,7 @@ const gened = [
       { text: "Ayon kay", correct: false },
       { text: "Marahil", correct: false },
     ],
+    category: "Law",
   },
   {
     id: 198,
@@ -2071,6 +2518,7 @@ const gened = [
       { text: "napagod", correct: false },
       { text: "nahihilo", correct: false },
     ],
+    category: "Vocabulary",
   },
   {
     id: 199,
@@ -2081,6 +2529,7 @@ const gened = [
       { text: "maramihan : gaga-gaano", correct: false },
       { text: "maramihan : ganuano", correct: false },
     ],
+    category: "Vocabulary",
   },
   {
     id: 200,
@@ -2091,6 +2540,7 @@ const gened = [
       { text: "magulo", correct: true },
       { text: "mapayapa", correct: false },
     ],
+    category: "Idiom",
   },
   {
     id: 201,
@@ -2101,6 +2551,7 @@ const gened = [
       { text: "nagtatago", correct: false },
       { text: "nagmunimuni", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 202,
@@ -2111,6 +2562,7 @@ const gened = [
       { text: "Alejandro Abadilla", correct: false },
       { text: "Severino Reyes", correct: true },
     ],
+    category: "Filipino",
   },
   {
     id: 203,
@@ -2121,26 +2573,31 @@ const gened = [
       { text: "Bidasari", correct: false },
       { text: "Bantugan", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 204,
-    question: "Ang titik “ng” sa Alpabetong Filipino ay nagmula sa alpabetong _____.",
+    question:
+      "Ang titik “ng” sa Alpabetong Filipino ay nagmula sa alpabetong _____.",
     answers: [
       { text: "Ingles", correct: false },
       { text: "Abecedario", correct: false },
       { text: "Romano", correct: false },
       { text: "Abakada", correct: true },
     ],
+    category: "Filipino",
   },
   {
     id: 205,
-    question: "Ilang titik ang hiniram ng Alpabetong Filipino mula sa Alpabetong Ingles?",
+    question:
+      "Ilang titik ang hiniram ng Alpabetong Filipino mula sa Alpabetong Ingles?",
     answers: [
       { text: "6", correct: false },
       { text: "7", correct: true },
       { text: "8", correct: false },
       { text: "9", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 206,
@@ -2151,17 +2608,21 @@ const gened = [
       { text: "pluma", correct: true },
       { text: "basket", correct: false },
     ],
+    category: "Filipino",
   },
   {
     id: 207,
-    question: "Ang aking pag-ibig ay tanging sa iyo lamang. Ibigay ang ayos ng pangungusap na ito.",
+    question:
+      "Ang aking pag-ibig ay tanging sa iyo lamang. Ibigay ang ayos ng pangungusap na ito.",
     answers: [
       { text: "payak", correct: false },
       { text: "tambalan", correct: false },
       { text: "karaniwan", correct: false },
       { text: "di-karaniwan", correct: true },
     ],
+    category: "Filipino",
   },
+
   //16
 ];
 

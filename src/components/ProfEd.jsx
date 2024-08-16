@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 
-import profed from "../logic/__profedData";
+import profed from "../logic/_profedData";
 import { useState } from "react";
 import {
   handleSelectedAnswer,
