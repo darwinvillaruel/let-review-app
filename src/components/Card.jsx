@@ -8,87 +8,47 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import categories from "@/logic/categories";
+import { useEffect } from "react";
 
 const CardComponent = () => {
-  const data = [
-    {
-      Exam: "General Education",
-      description:
-        "This section covers a broad range of basic academic subjects that are foundational to a well-rounded education. It tests the examinee's general knowledge and understanding of various disciplines.",
-      id: "gened",
-      Percentage: 20,
-      Subjects: [
-        "English",
-        "Science",
-        "Filipino",
-        "Mathematics",
-        "Social Science",
-      ],
-    },
-    {
-      Exam: "Professional Education",
-      description:
-        "This section evaluates the examinee's understanding of educational theories, principles, and practices essential for effective teaching.",
-      id: "profed",
-      Percentage: 40,
-      Subjects: [
-        "Assessment of Learning",
-        "Curriculum Development",
-        "Child and Adolescent Development",
-        "Educational Technology",
-        "Principles of Teaching",
-        "Social Dimension",
-        "Teaching Profession",
-      ],
-    },
-    {
-      Exam: "Specialization",
-      description:
-        "This section assesses the examinee's expertise in the specific subject area they intend to teach. This part is tailored to the major or specialization that the examinee pursued during their education.",
-      id: "biosci",
-      Percentage: 40,
-      Subjects: [
-        "Biological Science",
-        "Physical Science",
-        "Filipino",
-        "Mathematics",
-        "Social Science",
-      ],
-    },
-  ];
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
 
-  function getPath(id) {
-    switch (id) {
-      case "profed":
-        return "/profed";
-      case "gened":
-        return "/gened";
-      case "biosci":
-        return "/biosci";
-      default:
-        return "/error-path";
-    }
-  }
+    const hiddenElements = document.querySelectorAll(".hide");
+    hiddenElements.forEach((el) => observer.observe(el));
+  }, []);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
-      {data.map((item, index) => (
+    <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+      {categories.map((item, index) => (
         <Card key={`item-${index}`} className="flex flex-col justify-between">
-          <CardHeader>
+          <CardHeader className="hide">
             <CardTitle>
               {item.Exam} ({item.Percentage}%)
             </CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </CardHeader>
-          <CardContent>
-            <div className="mx-5">
+          <CardContent className="hide">
+            <ul className="mx-5 list-outside">
               {item.Subjects.map((subjects, subIndex) => (
-                <li key={`subjects-${subIndex}`}>{subjects}</li>
+                <li key={`subjects-${subIndex}`} className="list-disc">
+                  {subjects}
+                </li>
               ))}
-            </div>
+            </ul>
           </CardContent>
-          <CardFooter>
-            <Link key={item.id} to={getPath(item.id)}>
+          <CardFooter className="hide">
+            <Link key={item.id} to={`/option/${item.id}`}>
               <Button>Take the Quiz!</Button>
             </Link>
           </CardFooter>

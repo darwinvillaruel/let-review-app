@@ -8,6 +8,7 @@ import BioSci from "./components/BioSci.jsx";
 import GenEd from "./components/GenEd.jsx";
 import ProfEd from "./components/ProfEd.jsx";
 import Results from "./components/Results.jsx";
+import Option from "./components/Option.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/results",
     element: <Results />,
+  },
+  {
+    path: "/option/:id",
+    element: <Option />,
   },
 ]);
 
