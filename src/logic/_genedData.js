@@ -792,11 +792,11 @@ const gened = [
   {
     id: 63,
     question:
-      "To reduce electronic waste, implement a recycling system. Which belong to an e-waste recycling system?",
+      "To reduce electronic waste, implement a recycling system. Which belong to an e-waste recycling system? I. Repair II. Reuse III. Upgrading of existing equipment",
     answers: [
-      { text: "I, II, and III", correct: true },
+      { text: "I, II, and III", correct: false },
       { text: "I only", correct: false },
-      { text: "I and II", correct: false },
+      { text: "I and II", correct: true },
       { text: "II only", correct: false },
     ],
     category: "Science",
@@ -854,8 +854,8 @@ const gened = [
     answers: [
       { text: "-9/2", correct: false },
       { text: "15/2", correct: false },
-      { text: "-7/2", correct: true },
-      { text: "17/4", correct: false },
+      { text: "-7/2", correct: false },
+      { text: "17/4", correct: true },
     ],
     category: "Mathematics",
   },
@@ -1173,9 +1173,9 @@ const gened = [
     id: 94,
     question: "4 1/5 + 3 2/7 = _____",
     answers: [
-      { text: "7 3/12", correct: true },
+      { text: "7 3/12", correct: false },
       { text: "7 3/35", correct: false },
-      { text: "7 17/35", correct: false },
+      { text: "7 17/35", correct: true },
       { text: "7 1/35", correct: false },
     ],
     category: "Mathematics",
@@ -1912,7 +1912,7 @@ const gened = [
       { text: "Close to the North Pole", correct: false },
       { text: "Close to the South Pole", correct: false },
     ],
-    category: "Geography",
+    category: "Science",
   },
   {
     id: 149,
@@ -2124,7 +2124,7 @@ const gened = [
       { text: "Prophetic", correct: false },
       { text: "Prophet", correct: false },
     ],
-    category: "Religion",
+    category: "English",
   },
   {
     id: 166,
@@ -2136,7 +2136,7 @@ const gened = [
       { text: "Bienvenido Santos", correct: false },
       { text: "Nick Joaquin", correct: true },
     ],
-    category: "Literature",
+    category: "English",
   },
   {
     id: 167,
@@ -2147,7 +2147,7 @@ const gened = [
       { text: "Real estate tax", correct: false },
       { text: "Inheritance tax", correct: false },
     ],
-    category: "Finance",
+    category: "Social Science",
   },
   {
     id: 168,
@@ -2220,7 +2220,7 @@ const gened = [
       { text: "Philippines", correct: false },
       { text: "Thailand", correct: false },
     ],
-    category: "Geography",
+    category: "Science",
   },
   {
     id: 174,
@@ -2231,7 +2231,7 @@ const gened = [
       { text: "Manila Bay", correct: false },
       { text: "Taal Volcano", correct: false },
     ],
-    category: "Geography",
+    category: "Science",
   },
   {
     id: 175,
@@ -2255,7 +2255,7 @@ const gened = [
       { text: "Confucius", correct: true },
       { text: "Lao-Tzu", correct: false },
     ],
-    category: "Philosophy",
+    category: "English",
   },
   {
     id: 177,
@@ -2300,9 +2300,9 @@ const gened = [
     id: 180,
     question: "Simplify (3x – 9) / (x2 – 9)",
     answers: [
-      { text: "3 / (x – 3)", correct: true },
+      { text: "3 / (x – 3)", correct: false },
       { text: "3 / (x + 1)", correct: false },
-      { text: "3 / (x + 3)", correct: false },
+      { text: "3 / (x + 3)", correct: true },
       { text: "3 / (x – 1)", correct: false },
     ],
     category: "Mathematics",
@@ -2317,7 +2317,7 @@ const gened = [
       { text: "Parliamentary", correct: false },
       { text: "Dictatorial", correct: true },
     ],
-    category: "Politics",
+    category: "Social Science",
   },
   {
     id: 182,
@@ -2329,7 +2329,7 @@ const gened = [
       { text: "Never give in to death easily.", correct: false },
       { text: "Create your own world and beautify it.", correct: false },
     ],
-    category: "Literature",
+    category: "English",
   },
   {
     id: 183,
@@ -2376,7 +2376,7 @@ const gened = [
       { text: "Diego de los Rios", correct: true },
       { text: "Fermin Jaudenes", correct: false },
     ],
-    category: "History",
+    category: "Social Science",
   },
   {
     id: 187,
@@ -2388,7 +2388,7 @@ const gened = [
       { text: "Land", correct: false },
       { text: "Islands", correct: false },
     ],
-    category: "Politics",
+    category: "Social Science",
   },
   {
     id: 188,
@@ -2459,7 +2459,7 @@ const gened = [
       { text: "Metaphor", correct: false },
       { text: "Hyperbole", correct: false },
     ],
-    category: "Literature",
+    category: "English",
   },
   {
     id: 194,
@@ -2471,7 +2471,7 @@ const gened = [
       { text: "Alliteration", correct: false },
       { text: "Irony", correct: false },
     ],
-    category: "Literature",
+    category: "English",
   },
   {
     id: 195,
@@ -2484,7 +2484,7 @@ const gened = [
       { text: "mag-aaral", correct: false },
       { text: "Walang mali", correct: false },
     ],
-    category: "Grammar",
+    category: "English",
   },
   {
     id: 196,
@@ -2495,7 +2495,7 @@ const gened = [
       { text: "Dalhan", correct: true },
       { text: "Dadalahin", correct: false },
     ],
-    category: "Grammar",
+    category: "English",
   },
   {
     id: 197,
@@ -2507,7 +2507,7 @@ const gened = [
       { text: "Ayon kay", correct: false },
       { text: "Marahil", correct: false },
     ],
-    category: "Law",
+    category: "Social Science",
   },
   {
     id: 198,
@@ -2518,7 +2518,7 @@ const gened = [
       { text: "napagod", correct: false },
       { text: "nahihilo", correct: false },
     ],
-    category: "Vocabulary",
+    category: "English",
   },
   {
     id: 199,
@@ -2529,7 +2529,7 @@ const gened = [
       { text: "maramihan : gaga-gaano", correct: false },
       { text: "maramihan : ganuano", correct: false },
     ],
-    category: "Vocabulary",
+    category: "English",
   },
   {
     id: 200,
@@ -2540,7 +2540,7 @@ const gened = [
       { text: "magulo", correct: true },
       { text: "mapayapa", correct: false },
     ],
-    category: "Idiom",
+    category: "English",
   },
   {
     id: 201,
@@ -2621,6 +2621,135 @@ const gened = [
       { text: "di-karaniwan", correct: true },
     ],
     category: "Filipino",
+  },
+  {
+    id: 207,
+    question:
+      '"Adios, Patria Adorada Region del Sol Querida Perla del Mar de Oriente, Nuestro Perdido Eden!" These are the first lines of the poem, written by Jose Rizal before his execution and known for its title:',
+    answers: [
+      { text: "Huling Paalam", correct: true },
+      { text: "Huwag Mo Akong Salingin", correct: false },
+      { text: "Sa Aking Mga Kabata", correct: false },
+      { text: "Bagong Lipunan", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 208,
+    question:
+      'The last line in Rizal\'s poem Mi Ultimo Adios "morir es descansar" reflects:',
+    answers: [
+      { text: "Rizal's acceptance of death for his country", correct: true },
+      { text: "Rizal's desire to escape punishment", correct: false },
+      { text: "Rizal's wish for revenge", correct: false },
+      { text: "Rizal's remorse in facing death", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 209,
+    question:
+      'All the sisters and brother of Rizal used "Mercado", the father\'s surname; Rizal instead used the maternal surname of his father to allow Rizal to move freely while studying because:',
+    answers: [
+      {
+        text: "Young Rizal was expelled from a parochial school",
+        correct: false,
+      },
+      {
+        text: "The Mercado siblings were blacklisted in schools",
+        correct: false,
+      },
+      {
+        text: "The Mercado family members were suspects as anti-government",
+        correct: true,
+      },
+      { text: "Jose Rizal was an adopted son", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 210,
+    question:
+      "Jose Rizal's mother preferred to be imprisoned and walked miles away as punishment for a trumped-up charge of a Spanish official rather than apologize by accepting the charge. Such action shows that she was a woman of:",
+    answers: [
+      { text: "hesitation", correct: false },
+      { text: "submission", correct: false },
+      { text: "incertitude", correct: false },
+      { text: "conviction", correct: true },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 211,
+    question:
+      'The night before his execution, Rizal as a genius was manifested in his poem "Mi Ultimo Adios" which is classified as:',
+    answers: [
+      { text: "Haiku", correct: false },
+      { text: "Sonnet", correct: false },
+      { text: "Elegy", correct: true },
+      { text: "Epic", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 212,
+    question:
+      "Rizal's literary genius was manifested in various literary types such as elegy as exemplified in:",
+    answers: [
+      { text: "A1 Trabajo", correct: false },
+      { text: "La Juventud Filipina", correct: false },
+      { text: "Mi Ultimo Adios", correct: true },
+      { text: "Mi Primera Inspiracion", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 213,
+    question:
+      "The novel written by Rizal which was first published in 1891 in Ghent, Belgium translated as 'The Reign of Greed' or 'The Subversion' was:",
+    answers: [
+      { text: "Ala Juventud Filipina", correct: false },
+      { text: "Noli Me Tangere", correct: false },
+      { text: "El Filibusterismo", correct: true },
+      { text: "Mi Ultimo Adios", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 214,
+    question:
+      "Rizal's novel revealing details of the abuse during the Spanish regime in the Philippines and translated as 'The Social Cancer' or 'Touch Me Not' was:",
+    answers: [
+      { text: "La Solidaridad", correct: false },
+      { text: "El Filibusterismo", correct: false },
+      { text: "Noli Me Tangere", correct: true },
+      { text: "La Independencia", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 215,
+    question:
+      "Rizal fought for freedom in a silent but powerful way - expressing his fervent wish for the Philippines in his novels, poems, essays, and feature articles rather than through the use of force or aggression. The quotation that best describes his heroic method is:",
+    answers: [
+      { text: "Death is better than a life of dishonor.", correct: false },
+      { text: "Give me liberty or give me death.", correct: false },
+      { text: "The pen is mightier than the sword.", correct: true },
+      { text: "To err is human, to forgive is divine.", correct: false },
+    ],
+    category: "Rizal",
+  },
+  {
+    id: 216,
+    question:
+      "Jose Rizal's essay and Marcelo H. del Pilar's various writings were published in the propaganda newspaper:",
+    answers: [
+      { text: "La Solidaridad", correct: true },
+      { text: "La Patria", correct: false },
+      { text: "La Frailocracia", correct: false },
+      { text: "La Independencia", correct: false },
+    ],
+    category: "Rizal",
   },
 
   //16

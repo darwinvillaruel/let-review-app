@@ -1,5 +1,5 @@
-import biosci from "../logic/_biosciData";
-import { useState } from "react";
+import gened from "../logic/_genedData";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { randomizeArray } from "../logic/cardHelpers";
 import {
@@ -26,12 +26,14 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Link } from "react-router-dom";
 
-const BioSci = () => {
+const Rizal = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const choice = Number(params.get("questions")) || 10;
 
-  const [randomizedBioSci] = useState(() => randomizeArray([...biosci]));
+  const [randomizedGenEd] = useState(() =>
+    randomizeArray([...gened].filter((item) => item.category === "Rizal")),
+  );
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [filteredArray, setFilteredArray] = useState([]);
@@ -40,8 +42,12 @@ const BioSci = () => {
   const [color, setColor] = useState("border-sky-400");
   const [alert, setAlert] = useState(false);
 
-  const random = randomizedBioSci.slice(0, choice);
+  const random = randomizedGenEd.slice(0, choice);
   const question = random[currentIndex];
+
+  useEffect(() => {
+    console.log(randomizedGenEd);
+  }, [randomizedGenEd]);
 
   // Checks if boolean value of the index
   const correctAnswer = (value) => {
@@ -181,4 +187,4 @@ const BioSci = () => {
   );
 };
 
-export default BioSci;
+export default Rizal;

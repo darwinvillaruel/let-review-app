@@ -16,16 +16,3 @@ export const randomizeArray = (array) => {
   }
   return array;
 };
-
-export const getPath = (id) => {
-  switch (id) {
-    case "profed":
-      return "/profed";
-    case "gened":
-      return "/gened";
-    case "biosci":
-      return "/biosci";
-    default:
-      return "/error-path";
-  }
-};

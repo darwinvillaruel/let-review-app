@@ -22,6 +22,8 @@ const Option = () => {
       pathname = "/profed";
     } else if (pathname === "/option/biosci") {
       pathname = "/biosci";
+    } else if (pathname === "/option/rizal") {
+      pathname = "/rizal";
     } else {
       console.log("Error pathname");
     }
@@ -36,6 +38,8 @@ const Option = () => {
       subName = "Professional Education";
     } else if (subName === "/option/biosci") {
       subName = "Biological Science";
+    } else if (subName === "/option/rizal") {
+      subName = "Rizal Life and Works";
     } else {
       console.log("Error pathname");
     }
@@ -53,7 +57,7 @@ const Option = () => {
           Pick the number of questions you want to generate
         </h4>
         <div className="flex flex-row space-x-2">
-          <select name="count" id="count">
+          <select name="count" id="count" className="rounded-md">
             <option value="10">10</option>
             <option value="25">25</option>
             <option value="50">50</option>

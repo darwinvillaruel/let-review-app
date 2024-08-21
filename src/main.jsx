@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import BioSci from "./components/BioSci.jsx";
 import GenEd from "./components/GenEd.jsx";
 import ProfEd from "./components/ProfEd.jsx";
-import Results from "./components/Results.jsx";
+import Rizal from "./components/Rizal.jsx";
 import Option from "./components/Option.jsx";
 
 const router = createBrowserRouter([
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <ProfEd />,
   },
   {
-    path: "/results",
-    element: <Results />,
+    path: "/rizal",
+    element: <Rizal />,
   },
   {
     path: "/option/:id",
@@ -40,5 +40,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

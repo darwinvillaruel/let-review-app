@@ -13,14 +13,18 @@ import {
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-// import {
-//   AlertDialog,
-//   AlertDialogContent,
-//   AlertDialogDescription,
-//   AlertDialogHeader,
-//   AlertDialogTitle,
-//   AlertDialogTrigger,
-// } from "@/components/ui/alert-dialog";
+import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+  AlertDialogFooter,
+  AlertDialogCancel,
+  AlertDialogAction,
+} from "@/components/ui/alert-dialog";
+import { Link } from "react-router-dom";
 
 const GenEd = () => {
   const location = useLocation();
@@ -34,6 +38,7 @@ const GenEd = () => {
   const [message, setMessage] = useState(null);
   const [score, setScore] = useState(0);
   const [color, setColor] = useState("border-sky-400");
+  const [alert, setAlert] = useState(false);
 
   const random = randomizedGenEd.slice(0, choice);
   const question = random[currentIndex];
@@ -43,7 +48,7 @@ const GenEd = () => {
     const isCorrect = question.answers[value].correct;
     const answerText = question.answers.forEach((answer) => {
       if (answer.correct !== null && answer.correct === true) {
-        return setMessage(`❌ Wrong!! Correct Answer: ${answer.text}`);
+        return setMessage(`❌ Correct Answer: ${answer.text}`);
       }
     });
 
@@ -75,10 +80,37 @@ const GenEd = () => {
       setMessage(null);
       setColor("border-sky-500");
     } else {
-      console.log("Finished");
+      setAlert(true);
     }
 
     handleScore();
+  };
+
+  // Display score
+  const displayScore = () => {
+    return (
+      <AlertDialog>
+        <AlertDialogTrigger asChild>
+          <Button className="bg-green-500 hover:bg-green-400">
+            Show Score
+          </Button>
+        </AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Great! Thanks for answering!</AlertDialogTitle>
+            <AlertDialogDescription>
+              You&apos;ve scored {score} out of {random.length}!
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter className="flex flex-row items-center justify-center gap-3">
+            <AlertDialogAction>
+              <Link to="/">Home</Link>
+            </AlertDialogAction>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    );
   };
 
   // Adding the answer to an array
@@ -132,15 +164,16 @@ const GenEd = () => {
             </ul>
           </CardContent>
           <CardFooter className="flex justify-end">
-            <Button onClick={() => handleNextQuestion(random)}>Next</Button>
+            {alert ? (
+              displayScore()
+            ) : (
+              <Button onClick={() => handleNextQuestion(random)}>Next</Button>
+            )}
           </CardFooter>
         </Card>
         <Card className={`mt-5 border-l-4 border-solid ${color}`}>
           <CardContent className="flex flex-col justify-between gap-y-3 p-6">
             <div>{message === null ? "Please select answer" : message}</div>
-            <div>
-              Score: {score} / {random.length}
-            </div>
           </CardContent>
         </Card>
       </main>

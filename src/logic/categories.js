@@ -43,6 +43,19 @@ const categories = [
       "Social Science",
     ],
   },
+  {
+    Exam: "Rizal Life and Works",
+    description: `This section evaluates the examinee's knowledge of the life and works of Dr. José Rizal. It is specifically designed to assess the examinee's understanding of Rizal's contributions, his writings, and his impact on Philippine history and nationalism.`,
+    id: "rizal",
+    Percentage: 40,
+    Subjects: [
+      "Biological Science",
+      "Physical Science",
+      "Filipino",
+      "Mathematics",
+      "Social Science",
+    ],
+  },
 ];
 
 export default categories;
