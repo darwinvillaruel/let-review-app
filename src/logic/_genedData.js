@@ -2751,8 +2751,396 @@ const gened = [
     ],
     category: "Rizal",
   },
-
-  //16
+  {
+    id: 217,
+    question: "Aling Salita ang may diptonggo?",
+    answers: [
+      { text: "buwis", correct: false },
+      { text: "bayan", correct: false },
+      { text: "buhay", correct: true },
+      { text: "iwas", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 218,
+    question:
+      "Ang epiko tungkol sa kasaysayan ng pag-iibigan ng mga bathala na nagmula sa Iloilo ay ang ______.",
+    answers: [
+      { text: "Hinilawod", correct: true },
+      { text: "Biag-ni-Lam-ang", correct: false },
+      { text: "Bidasari", correct: false },
+      { text: "Maragtas", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 219,
+    question:
+      "Anong teorya ng wika ang nagsasabing ang wika ay nailikha bunga ng masidhing damdamin ng tao?",
+    answers: [
+      { text: "Bow-wow", correct: false },
+      { text: "Pooh-pooh", correct: true },
+      { text: "Ding-dong", correct: false },
+      { text: "Yoheho", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 220,
+    question:
+      "”Natutulog ba ang Diyos?” Ang pahayag sa itaas ay halimbawa ng anong uri ng tayutay?",
+    answers: [
+      { text: "Pagdaramdam", correct: false },
+      { text: "Tanong Retorikal", correct: true },
+      { text: "Pagtanggi", correct: false },
+      { text: "Pagsalungat", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 221,
+    question: "Ano ang nagging pangalan ng wikang pambansa noong 1959?",
+    answers: [
+      { text: "Pilipino", correct: true },
+      { text: "Filipino", correct: false },
+      { text: "Tagalog", correct: false },
+      { text: "Wikang Pambansa", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 222,
+    question:
+      "The captain of the pep squad are working feverishly to boost the team`s morale. No error.",
+    answers: [
+      { text: "pep-squad", correct: false },
+      { text: "are", correct: true },
+      { text: "to boost", correct: false },
+      { text: "team`s morale", correct: false },
+      { text: "No error", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 223,
+    question:
+      "The teachers as well as the guidance counselor is accompanying the students on a field trip. No error.",
+    answers: [
+      { text: "teachers", correct: false },
+      { text: "guidance counselor", correct: false },
+      { text: "is accompanying", correct: true },
+      { text: "on a field trip", correct: false },
+      { text: "No error", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 224,
+    question:
+      "Simba and Nala is my favorite characters in The Lion King. No error.",
+    answers: [
+      { text: "and", correct: false },
+      { text: "is", correct: true },
+      { text: "The Lion King", correct: false },
+      { text: "No error", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 225,
+    question:
+      "The committee are meeting on Friday to discuss the details of the charaity ball. No error.",
+    answers: [
+      { text: "are meeting", correct: true },
+      { text: "on Friday", correct: false },
+      { text: "to discuss", correct: false },
+      { text: "charity ball", correct: false },
+      { text: "No error", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 226,
+    question:
+      "Mumps, which are a dangerous disease, can be prevented through vaccination. No error.",
+    answers: [
+      { text: "Mumps", correct: false },
+      { text: "are", correct: true },
+      { text: "disease", correct: false },
+      { text: "vaccination", correct: false },
+      { text: "No error", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 227,
+    question:
+      "The student leaders ______ surveys to determine the students` need since last week.",
+    answers: [
+      { text: "has conducted", correct: false },
+      { text: "have conducted", correct: false },
+      { text: "has conducting", correct: false },
+      { text: "have been conducting", correct: true },
+    ],
+    category: "English",
+  },
+  {
+    id: 228,
+    question: "The President _______ the bill on Children`s Right last Monday.",
+    answers: [
+      { text: "vetoes", correct: false },
+      { text: "vetos", correct: false },
+      { text: "vetoed", correct: true },
+      { text: "vetoid", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 229,
+    question: "The Committee on Ethics ____ every Friday.",
+    answers: [
+      { text: "meets", correct: true },
+      { text: "meet", correct: false },
+      { text: "has met", correct: false },
+      { text: "have met", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 230,
+    question:
+      "It is estimated that in the present century, there ______ about 954 million illiterate adults.",
+    answers: [
+      { text: "is", correct: false },
+      { text: "are", correct: true },
+      { text: "was", correct: false },
+      { text: "were", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 231,
+    question:
+      "In 1960, 58% of illiterates ______ women; the corresponding figure today is more than 60%.",
+    answers: [
+      { text: "is", correct: false },
+      { text: "are", correct: false },
+      { text: "was", correct: false },
+      { text: "were", correct: true },
+    ],
+    category: "English",
+  },
+  {
+    id: 232,
+    question: "The warm humid air irritated he.",
+    answers: [
+      { text: "irritated he.", correct: false },
+      { text: "irritated him.", correct: true },
+      { text: "irritation him.", correct: false },
+      { text: "irritating him.", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 233,
+    question: "Keep on reading and you will learn more.",
+    answers: [
+      { text: "Keep on reading", correct: true },
+      { text: "Keep to read", correct: false },
+      { text: "Keep on read", correct: false },
+      { text: "Keeping on reading", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 234,
+    question: "Even though Mariel studied hard, she got the highest mark.",
+    answers: [
+      { text: "Even though Mariel studied hard", correct: false },
+      { text: "But Mariel hard", correct: false },
+      { text: "Because Mariel studied hard", correct: true },
+      { text: "While Mariel studied hard", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 235,
+    question:
+      "The Carlos Palanca Memorial Award for Literature were given to different literary pieces that excel in their respective genres.",
+    answers: [
+      { text: "were given to different literary pieces", correct: false },
+      { text: "is given by different literary pieces", correct: false },
+      { text: "are given at different literary pieces", correct: false },
+      { text: "is given to different literary pieces", correct: true },
+    ],
+    category: "English",
+  },
+  {
+    id: 236,
+    question: "We hike Mt.Apo half an hour.",
+    answers: [
+      { text: "half an hour.", correct: false },
+      { text: "for half an hour.", correct: true },
+      { text: "at half an hour.", correct: false },
+      { text: "by half an hour.", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 237,
+    question: "Kmono: ______ :: kilt : Scandinavian",
+    answers: [
+      { text: "Indian", correct: false },
+      { text: "Indonesian", correct: false },
+      { text: "Chinese", correct: false },
+      { text: "Japanese", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 238,
+    question: "king of beats : lion :: king of birds : _______",
+    answers: [
+      { text: "robin", correct: false },
+      { text: "sparrow", correct: false },
+      { text: "eagle", correct: true },
+      { text: "falcon", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 239,
+    question: "Jewish : kosher : : halal",
+    answers: [
+      { text: "Muslim", correct: true },
+      { text: "Buddhist", correct: false },
+      { text: "Christian", correct: false },
+      { text: "Pagans", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 240,
+    question: "Catholic : priest : : Buddhist : ______",
+    answers: [
+      { text: "Imam", correct: false },
+      { text: "rabbi", correct: false },
+      { text: "lama", correct: true },
+      { text: "pope", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 241,
+    question: "laity : lay people : : clergy : ______",
+    answers: [
+      { text: "clergymen", correct: true },
+      { text: "clerics", correct: false },
+      { text: "clergy", correct: false },
+      { text: "clerks", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 242,
+    question: "Ano ang tamang ispeling ng salitang barbershop sa Filipino?",
+    answers: [
+      { text: "barbersyap", correct: false },
+      { text: "barbershop", correct: true },
+      { text: "barbershap", correct: false },
+      { text: "barbersiyap", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 243,
+    question: "”Ikaw ang aking mahal.” Ibigay ang ayos ng pangungusap na ito.",
+    answers: [
+      { text: "payak", correct: false },
+      { text: "tambalan", correct: false },
+      { text: "karaniwan", correct: false },
+      { text: "di-karaniwan", correct: true },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 244,
+    question: "Alin sa mga sumusunod ang HINDI tulang pasalaysay?",
+    answers: [
+      { text: "Moro-moro", correct: true },
+      { text: "Epiko", correct: false },
+      { text: "Awit", correct: false },
+      { text: "korido", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 245,
+    question: "Alin sa mga sumusunod ang HINDI epiko ng Bisaya?",
+    answers: [
+      { text: "Lagda", correct: false },
+      { text: "Maragtas", correct: false },
+      { text: "Bidasari", correct: true },
+      { text: "Hinilawod", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 246,
+    question: "Alin sa mga sumusunod ang isang epiko ng mga Ifugao?",
+    answers: [
+      { text: "Ibalon at Aslon", correct: false },
+      { text: "Hudhod", correct: true },
+      { text: "Biag ni Lam-ang", correct: false },
+      { text: "Haraya", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 247,
+    question: "”Nagtaksil si Adrian.” Ibigay ang ayos ng pangungusap na ito.",
+    answers: [
+      { text: "payak", correct: false },
+      { text: "tambalan", correct: false },
+      { text: "karaniwan", correct: true },
+      { text: "di-karaniwan", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 248,
+    question: "Ito ay ang pag-aaral ng makabuluhang tunog ng isang wika.",
+    answers: [
+      { text: "Ponolohiya", correct: false },
+      { text: "Morpolohiya", correct: true },
+      { text: "Sintaks", correct: false },
+      { text: "Palabuuan", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 249,
+    question: "Siya ang may-akda ng nobelang “Banaag at Sikat”?",
+    answers: [
+      { text: "Jose dela Cruz", correct: false },
+      { text: "Lope K. Santos", correct: true },
+      { text: "Jose Corazon de Jesus", correct: false },
+      { text: "Emilio Jacinto", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 250,
+    question: "Isang awiting bayan na tungkol sa pakikipagkaibigan ang _____ .",
+    answers: [
+      { text: "sambotani", correct: false },
+      { text: "salagintok", correct: false },
+      { text: "daeleng", correct: false },
+      { text: "oyayi", correct: true },
+    ],
+    category: "Filipino",
+  },
 ];
 
 export default gened;
