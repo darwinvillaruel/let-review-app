@@ -25,6 +25,12 @@ import {
   AlertDialogAction,
 } from "@/components/ui/alert-dialog";
 import { Link } from "react-router-dom";
+import {
+  handleNextQuestion,
+  correctAnswer,
+  handleScore,
+  pushValue,
+} from "../logic/questionHelpers";
 
 const ProfEd = () => {
   const location = useLocation();
@@ -43,47 +49,29 @@ const ProfEd = () => {
   const random = randomizedProfEd.slice(0, choice);
   const question = random[currentIndex];
 
-  // Checks if boolean value of the index
-  const correctAnswer = (value) => {
-    const isCorrect = question.answers[value].correct;
-    const answerText = question.answers.forEach((answer) => {
-      if (answer.correct !== null && answer.correct === true) {
-        return setMessage(`❌ Correct Answer: ${answer.text}`);
-      }
-    });
+  const handleNext = () => {
+    handleNextQuestion(
+      currentIndex,
+      random,
+      setCurrentIndex,
+      setSelectedAnswer,
+      setMessage,
+      setColor,
+      setAlert,
+      () => handleScore(filteredArray, setScore),
+    );
+  };
 
-    if (isCorrect === null) {
-      setMessage("Please select answer");
-    } else if (isCorrect === true) {
-      setMessage("🎉 Correct!");
-      setColor("border-green-500");
-    } else {
-      answerText;
-      setColor("border-red-500");
-    }
-
-    pushValue(isCorrect);
+  const checkAnswer = (value) => {
+    correctAnswer(value, question, setMessage, setColor, (value) =>
+      pushValue(value, setFilteredArray),
+    );
   };
 
   // Checks the index of selected answer
   const handleSelectedAnswer = (index) => {
     setSelectedAnswer(index);
-    correctAnswer(index);
-  };
-
-  // Handles the next question
-  const handleNextQuestion = (questions) => {
-    const nextIndex = currentIndex + 1;
-    if (nextIndex < questions.length) {
-      setCurrentIndex(nextIndex);
-      setSelectedAnswer(null);
-      setMessage(null);
-      setColor("border-sky-500");
-    } else {
-      setAlert(true);
-    }
-
-    handleScore();
+    checkAnswer(index);
   };
 
   // Display score
@@ -111,17 +99,6 @@ const ProfEd = () => {
         </AlertDialogContent>
       </AlertDialog>
     );
-  };
-
-  // Adding the answer to an array
-  const pushValue = (value) => {
-    setFilteredArray((prevItem) => [...prevItem, value]);
-  };
-
-  // Checks for answer
-  const handleScore = () => {
-    const finalScore = filteredArray.filter((item) => item === true);
-    setScore(finalScore.length);
   };
 
   return (
@@ -167,7 +144,7 @@ const ProfEd = () => {
             {alert ? (
               displayScore()
             ) : (
-              <Button onClick={() => handleNextQuestion(random)}>Next</Button>
+              <Button onClick={handleNext}>Next</Button>
             )}
           </CardFooter>
         </Card>

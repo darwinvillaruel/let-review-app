@@ -21,11 +21,9 @@ const categories = [
     Percentage: 40,
     Subjects: [
       "Assessment of Learning",
-      "Curriculum Development",
       "Child and Adolescent Development",
-      "Educational Technology",
-      "Principles of Teaching",
-      "Social Dimension",
+      "Facilitating Student-Centered Learning",
+      "The Teacher and The Curriculum",
       "Teaching Profession",
     ],
   },
