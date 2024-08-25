@@ -505,7 +505,7 @@ const profed = [
   {
     id: 38,
     question:
-      "As provided in the Republic Act #4670, every teacher shall enjoy equitable safeguards at each stage of any disciplinary procedures and shall have the following except:",
+      "As provided in the Republic Act #4670, every teacher shall enjoy equitable safeguards at each stage of any disciplinary procedures and shall have the following:",
     answers: [
       {
         text: "The right to be informed in writing, of the charges",
@@ -767,7 +767,8 @@ const profed = [
   },
   {
     id: 58,
-    question: "Which apply/applies to extrinsically motivated learners?",
+    question:
+      "Which apply/applies to extrinsically motivated learners? I. Tend to process information superficially, II. Tend to be content with meeting minimum requirements, III. Achieve at high level",
     answers: [
       { text: "I and II", correct: true },
       { text: "II only", correct: false },
@@ -2179,6 +2180,440 @@ const profed = [
       category: "The Teacher and The Curriculum",
     },
   ],
+  {
+    id: 151,
+    question:
+      "Which assumption underlies the teacher's use of performance objectives?",
+    answers: [
+      { text: "Not every form of learning is observable.", correct: false },
+      {
+        text: "Performance objectives assure the learner of learning.",
+        correct: false,
+      },
+      {
+        text: "Learning is defined as a change in the learner's observable performance.",
+        correct: true,
+      },
+      {
+        text: "The success of learner is based on teacher performance.",
+        correct: false,
+      },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 152,
+    question: "In the parlance of test construction what does TOS mean?",
+    answers: [
+      { text: "Table of Specifics", correct: false },
+      { text: "Table of Specifications", correct: true },
+      { text: "Table of Specific Test Items", correct: false },
+      { text: "Team of Specifications", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 153,
+    question:
+      "A student passes a research report poorly written but ornately presented in a folder to make up for the poor quality of the book report content. Which Filipino trait does this practice prove? Emphasis on __________.",
+    answers: [
+      { text: "art over academics", correct: false },
+      { text: "substance over porma", correct: false },
+      { text: "art over science", correct: false },
+      { text: "porma over substance", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 154,
+    question:
+      "In a criterion-referenced testing, what must you do to ensure that your test is fair?",
+    answers: [
+      { text: "Make all of the questions true or false.", correct: false },
+      { text: "Ask each student to contribute one question.", correct: false },
+      {
+        text: "Make twenty questions but ask the students to answer only ten of their choice.",
+        correct: false,
+      },
+      {
+        text: "Use the objectives for the units as guide in your test construction.",
+        correct: true,
+      },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 155,
+    question:
+      "Which does Noam Chomsky assert about language learning for children? I. Young children learn and apply grammatical rules and vocabulary as they are exposed to them., II. Begin formal teaching of grammatical rules to children as early as possible. III. Do not require initial formal language teaching for children.",
+    answers: [
+      {
+        text: "I and III",
+        correct: true,
+      },
+      {
+        text: "II only",
+        correct: false,
+      },
+      {
+        text: "I only",
+        correct: false,
+      },
+      {
+        text: "I and II",
+        correct: true,
+      },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 156,
+    question:
+      "Which Filipino trait works against the shift in teacher's role from teacher as a fountain of information to teacher as facilitator?",
+    answers: [
+      { text: "Authoritativeness", correct: false },
+      { text: "Authoritarianism", correct: false },
+      { text: "Hiya", correct: true },
+      { text: "Pakikisama", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 157,
+    question:
+      "If a teacher plans a constructivist lesson, what will he most likely do? Plan how he can",
+    answers: [
+      { text: "evaluate his students' work", correct: false },
+      { text: "do reciprocal teaching", correct: false },
+      { text: "lecture to his students", correct: false },
+      { text: "engage his students in convergent thinking", correct: true },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 158,
+    question:
+      "Who among the following needs less verbal counseling but needs more concrete and operational forms of assistance? The child who __________.",
+    answers: [
+      { text: "has mental retardation", correct: false },
+      { text: "has attention-deficit disorder", correct: true },
+      { text: "has learning disability", correct: false },
+      { text: "has conduct disorder", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 159,
+    question:
+      "How would you select the most fit in government positions? Applying Confucius teachings, which would be the answer?",
+    answers: [
+      {
+        text: "By course accreditation of an accrediting body",
+        correct: false,
+      },
+      { text: "By merit system and course accreditation", correct: false },
+      { text: "By merit system", correct: true },
+      { text: "By government examinations", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 160,
+    question:
+      "Which type of play is most characteristic of a four to six-year-old child?",
+    answers: [
+      { text: "Solitary and onlooker plays", correct: false },
+      { text: "Associative and cooperative plays", correct: true },
+      { text: "Associative and onlooker plays", correct: false },
+      { text: "Cooperative and solitary plays", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 161,
+    question:
+      "A teacher's summary of a lesson serves the following functions, EXCEPT",
+    answers: [
+      { text: "It links the parts of the lesson", correct: false },
+      {
+        text: "It brings together the information that has been discussed",
+        correct: true,
+      },
+      {
+        text: "It makes provisions for full participation of students.",
+        correct: false,
+      },
+      {
+        text: "It clinches the basic ideas or concepts of the lesson.",
+        correct: false,
+      },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 162,
+    question:
+      "All of the following describe the development of children aged eleven to thirteen EXCEPT __________.",
+    answers: [
+      {
+        text: "They shift from impulsivity to adaptive ability.",
+        correct: true,
+      },
+      { text: "Sex differences in IQ become more evident.", correct: false },
+      {
+        text: "They exhibit increased objectivity in thinking.",
+        correct: false,
+      },
+      { text: "They show abstract thinking and judgment.", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 163,
+    question:
+      "Teacher T taught a lesson denoting ownership by means of possessives. He first introduced the rule, then gave examples, followed by class exercises, then back to the rule before he moved into the second rule. Which presenting technique did he use?",
+    answers: [
+      { text: "Combinatorial", correct: false },
+      { text: "Comparative", correct: false },
+      { text: "Part-whole", correct: true },
+      { text: "Sequence", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 164,
+    question:
+      "'In the light of the facts presented, what is most likely to happen when ... ?' is a sample thought question on",
+    answers: [
+      { text: "Inferring", correct: true },
+      { text: "Generalizing", correct: false },
+      { text: "Synthesizing", correct: false },
+      { text: "Justifying", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 165,
+    question:
+      "Teacher E discussed how electricity flows through wires and what generates the electric charge. Then she gave the students wires, bulbs, switches, and dry cells and told the class to create a circuit that will increase the brightness of each bulb. Which one best describes the approach used?",
+    answers: [
+      { text: "It used a taxonomy of basic thinking skills", correct: false },
+      { text: "It was constructivist", correct: false },
+      {
+        text: "It helped students understand scientific methodology",
+        correct: true,
+      },
+      { text: "It used cooperative learning", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 166,
+    question:
+      "Teacher B uses the direct instruction strategy. Which sequence of steps will she follow? I. Independent practice, II. Feedback and correctiveness, III. Guided student practice, IV. Presenting and structuring, V. Reviewing the previous day's work",
+    answers: [
+      { text: "V-II-IV-III-I", correct: false },
+      { text: "III-II-IV-I-V", correct: false },
+      { text: "V-lV-III-II-I", correct: true },
+      { text: "I-V-II-III-IV", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 167,
+    question: "Which are direct measures of competence?",
+    answers: [
+      { text: "Personality tests", correct: false },
+      { text: "Performance tests", correct: false },
+      { text: "Paper-and-pencil tests", correct: false },
+      { text: "Standardized test", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 168,
+    question:
+      "Under which program were students who were not accommodated in public elementary and secondary schools because of lack of classroom, teachers, and instructional materials, enrolled in private schools in their respective communities at the government's expense?",
+    answers: [
+      { text: "Government Assistance Program", correct: false },
+      { text: "Study Now-Pay Later", correct: false },
+      { text: "Educational Service Contract System", correct: false },
+      { text: "National Scholarship Program", correct: true },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 169,
+    question:
+      "Which activity should a teacher have more for his students if he wants them to develop logical-mathematical thinking?",
+    answers: [
+      { text: "Problem solving", correct: true },
+      { text: "Choral reading", correct: false },
+      { text: "Drama", correct: false },
+      { text: "Storytelling", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 170,
+    question:
+      "An effective classroom manager uses low-profile classroom control. Which is a low-profile classroom technique?",
+    answers: [
+      { text: "Note to parents", correct: false },
+      { text: "After-school detention", correct: false },
+      { text: "Withdrawal of privileges", correct: false },
+      { text: "Raising the pitch of the voice", correct: true },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 171,
+    question:
+      "Your teacher is of the opinion that the world and everything in it are ever-changing and so teaches you the skill to cope with change. What is his governing philosophy?",
+    answers: [
+      { text: "Idealism", correct: false },
+      { text: "Existentialism", correct: true },
+      { text: "Experimentalism", correct: false },
+      { text: "Realism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 172,
+    question:
+      "To come closer to the truth, we need to go back to the things themselves. This is the advice of the __________.",
+    answers: [
+      { text: "Behaviorists", correct: false },
+      { text: "Phenomenologists", correct: true },
+      { text: "Idealists", correct: false },
+      { text: "Pragmatists", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 173,
+    question:
+      "Test norms are established in order to have a basis for __________.",
+    answers: [
+      { text: "Establishing learning goals", correct: false },
+      { text: "Interpreting test results", correct: true },
+      { text: "Computing grades", correct: false },
+      { text: "Identifying pupils' difficulties", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 174,
+    question:
+      "A stitch in time saves nine, so goes the adage. Applied to classroom management, this means that we __________.",
+    answers: [
+      {
+        text: "May not occupy ourselves with disruptions that are minor",
+        correct: false,
+      },
+      {
+        text: "Must be reactive in our approach to discipline",
+        correct: false,
+      },
+      {
+        text: "Have to resolve minor disruptions before they are out of control",
+        correct: true,
+      },
+      { text: "May apply 9 rules out of 10 consistently", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 175,
+    question:
+      "Which criterion should guide a teacher in the choice of instructional devices?",
+    answers: [
+      { text: "Attractiveness", correct: false },
+      { text: "Cost", correct: false },
+      { text: "Novelty", correct: false },
+      { text: "Appropriateness", correct: true },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 176,
+    question:
+      "Based on Piaget's theory, what should a teacher provide for children in the sensorimotor stage?",
+    answers: [
+      {
+        text: "Games and other physical activities to develop motor skills.",
+        correct: true,
+      },
+      {
+        text: "Learning activities that involve problems of classification and ordering.",
+        correct: false,
+      },
+      { text: "Activities for hypothesis formulation.", correct: false },
+      {
+        text: "A stimulating environment with ample objects to play with.",
+        correct: false,
+      },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 177,
+    question:
+      "Who among the following puts more emphasis on core requirements, longer school days, longer academic year, and more challenging textbooks?",
+    answers: [
+      { text: "Perennialist", correct: false },
+      { text: "Essentialist", correct: true },
+      { text: "Progressivist", correct: false },
+      { text: "Existentialist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 178,
+    question:
+      "The search for related literature by accessing several databases by the use of a telephone line to connect a computer library with other computers that have a database is termed __________.",
+    answers: [
+      { text: "Compact disc search", correct: false },
+      { text: "Manual search", correct: false },
+      { text: "On-line search", correct: true },
+      { text: "Computer search", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 179,
+    question:
+      "With synthesizing skills in mind, which has the highest diagnostic value?",
+    answers: [
+      { text: "Essay test", correct: false },
+      { text: "Performance test", correct: true },
+      { text: "Completion test", correct: false },
+      { text: "Multiple choice test", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 180,
+    question:
+      "Based on Piaget's theory, what should a teacher provide for children in the concrete operational stage?",
+    answers: [
+      { text: "Activities for hypothesis formulation.", correct: false },
+      {
+        text: "Learning activities that involve problems of classification and ordering.",
+        correct: true,
+      },
+      {
+        text: "Games and other physical activities to develop motor skills.",
+        correct: false,
+      },
+      {
+        text: "A stimulating environment with ample objects to play with.",
+        correct: false,
+      },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  //31
 ];
 
 export default profed;

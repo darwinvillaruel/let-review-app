@@ -54,6 +54,19 @@ const categories = [
       "Social Science",
     ],
   },
+  {
+    Exam: "Theories in Behaviorism",
+    description: `This section evaluates the examinee's understanding of behaviorism. It is specifically designed to assess the examinee's knowledge of the principles of behaviorism, key figures in the field, and the impact of behaviorist theories on psychology and education.`,
+    id: "behavior",
+    Percentage: 40,
+    Subjects: [
+      "Biological Science",
+      "Physical Science",
+      "Filipino",
+      "Mathematics",
+      "Social Science",
+    ],
+  },
 ];
 
 export default categories;

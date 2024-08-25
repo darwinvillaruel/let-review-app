@@ -65,7 +65,7 @@ const CardComponent = () => {
       <Separator />
       <div className="mt-5 grid grid-cols-1 gap-5 lg:grid-cols-2">
         {categories
-          .filter((item) => item.id === "rizal")
+          .filter((item) => ["rizal", "behavior"].includes(item.id))
           .map((filteredItem, index) => (
             <Card key={`item-${index}`}>
               <CardHeader>

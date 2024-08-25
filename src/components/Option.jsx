@@ -24,6 +24,8 @@ const Option = () => {
       pathname = "/biosci";
     } else if (pathname === "/option/rizal") {
       pathname = "/rizal";
+    } else if (pathname === "/option/behavior") {
+      pathname = "/behavior";
     } else {
       console.log("Error pathname");
     }
@@ -40,6 +42,8 @@ const Option = () => {
       subName = "Biological Science";
     } else if (subName === "/option/rizal") {
       subName = "Rizal Life and Works";
+    } else if (subName === "/option/behavior") {
+      subName = "Theories in Behaviorism";
     } else {
       console.log("Error pathname");
     }

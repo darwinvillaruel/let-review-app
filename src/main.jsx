@@ -9,6 +9,7 @@ import GenEd from "./components/GenEd.jsx";
 import ProfEd from "./components/ProfEd.jsx";
 import Rizal from "./components/Rizal.jsx";
 import Option from "./components/Option.jsx";
+import Behavior from "./components/Behavior.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/rizal",
     element: <Rizal />,
+  },
+  {
+    path: "/behavior",
+    element: <Behavior />,
   },
   {
     path: "/option/:id",
