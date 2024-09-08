@@ -81,6 +81,23 @@ const CardComponent = () => {
               </CardFooter>
             </Card>
           ))}
+        {categories
+          .filter((item) => ["gened"].includes(item.id))
+          .map((filteredItem, index) => (
+            <Card key={`item-${index}`}>
+              <CardHeader>
+                <CardTitle>{filteredItem.Exam}</CardTitle>
+                <CardDescription>{filteredItem.description}</CardDescription>
+              </CardHeader>
+              <CardFooter>
+                <Link to={`/option/${filteredItem.id}/special`}>
+                  <Button className="bg-red-500 hover:bg-red-400">
+                    Take the Quiz!
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
+          ))}
       </div>
     </div>
   );

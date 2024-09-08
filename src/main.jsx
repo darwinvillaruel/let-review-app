@@ -10,6 +10,7 @@ import ProfEd from "./components/ProfEd.jsx";
 import Rizal from "./components/Rizal.jsx";
 import Option from "./components/Option.jsx";
 import Behavior from "./components/Behavior.jsx";
+import GenEdSpecial from "./components/GenEdSpecial.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/option/:id",
     element: <Option />,
+  },
+  {
+    path: "/option/gened/special",
+    element: <GenEdSpecial />,
   },
 ]);
 

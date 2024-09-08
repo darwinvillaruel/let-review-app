@@ -26,6 +26,8 @@ const Option = () => {
       pathname = "/rizal";
     } else if (pathname === "/option/behavior") {
       pathname = "/behavior";
+    } else if (pathname === "/option/gened/special") {
+      pathname = "/gened/special";
     } else {
       console.log("Error pathname");
     }
