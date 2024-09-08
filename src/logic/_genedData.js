@@ -3141,6 +3141,1339 @@ const gened = [
     ],
     category: "Filipino",
   },
+  {
+    id: 251,
+    tag: "actual",
+    question: "Ang salitang-ugat ng salitang `nagulumihanan` ay _______",
+    answers: [
+      { text: "guluhan", correct: false },
+      { text: "gulo", correct: true },
+      { text: "gulu", correct: false },
+      { text: "nagulo", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 252,
+    tag: "actual",
+    question: "The first sovereign wealth fund of the Philippines is _______",
+    answers: [
+      { text: "International Monetary Fund", correct: false },
+      { text: "Government Bonds", correct: false },
+      { text: "World Bank Fund", correct: false },
+      { text: "Maharlika Fund", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 253,
+    tag: "actual",
+    question: "`The Last Supper` and `Mona Lisa` was painted by _______",
+    answers: [
+      { text: "Van Gogh", correct: false },
+      { text: "Da Vinci", correct: true },
+      { text: "Raphael", correct: false },
+      { text: "Donatello", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 254,
+    tag: "actual",
+    question:
+      "The monarch of England whose strict adherence to morality influenced the struggle of good over evil in literary pieces was Queen _______",
+    answers: [
+      { text: "Mary", correct: false },
+      { text: "Sophia", correct: false },
+      { text: "Elizabeth", correct: false },
+      { text: "Victoria", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 255,
+    tag: "actual",
+    question:
+      "All the sisters and brother of Rizal used `Mercado`, the father's surname; Rizal instead used the maternal surname of his father to allow Rizal to move freely while studying because _______",
+    answers: [
+      {
+        text: "Young Rizal was expelled from a parochial school",
+        correct: false,
+      },
+      {
+        text: "The mercado siblings were blacklisted in schools",
+        correct: false,
+      },
+      {
+        text: "The mercado family members were suspects as anti-government",
+        correct: true,
+      },
+      { text: "Jose Rizal was an adopted son", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 256,
+    tag: "actual",
+    question:
+      "The characters in Rizal's novels symbolize the varied reactions towards the colonizers from _______",
+    answers: [
+      { text: "China", correct: false },
+      { text: "Japan", correct: false },
+      { text: "Spain", correct: true },
+      { text: "US", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 257,
+    tag: "actual",
+    question:
+      "In social trends, how do you call those who are for the revival of the classics? _______",
+    answers: [
+      { text: "Existentialist", correct: false },
+      { text: "Humanist", correct: true },
+      { text: "Reformist", correct: false },
+      { text: "Rationalist", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 258,
+    tag: "actual",
+    question:
+      "The famous character in Rizal's novel who became the symbol of the abused Filipino mother is _______",
+    answers: [
+      { text: "Sisa", correct: true },
+      { text: "Teodora Alonso", correct: false },
+      { text: "Maria Clara", correct: false },
+      { text: "Tiya Isabel", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 259,
+    tag: "actual",
+    question:
+      "Society determines on what scientific and technological projects its resources should be spent and vice versa, science and technology contribute modern products and process to society. Such relationship is described as _______",
+    answers: [
+      { text: "Cooperation", correct: false },
+      { text: "Reciprocal", correct: true },
+      { text: "Reversible", correct: false },
+      { text: "Distinction", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 260,
+    tag: "actual",
+    question:
+      "Distance education is made possible by computers known as _______",
+    answers: [
+      { text: "Tutorial learning", correct: false },
+      { text: "Modular learning", correct: false },
+      { text: "Asynchronous learning", correct: false },
+      { text: "Online learning", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 261,
+    tag: "actual",
+    question:
+      "When I met Pilar yesterday, it was the first time I her since Christmas.",
+    answers: [
+      { text: "have seen", correct: true },
+      { text: "have been seen", correct: false },
+      { text: "saw", correct: false },
+      { text: "had seen", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 262,
+    tag: "actual",
+    question: "A toothpick can sit on the surface of water due to _______",
+    answers: [
+      { text: "Surface tension", correct: true },
+      { text: "Atmospheric pressure", correct: false },
+      { text: "Buoyancy", correct: false },
+      { text: "Viscosity", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 263,
+    tag: "actual",
+    question:
+      "All these are American writers of famous literary pieces EXCEPT _______",
+    answers: [
+      { text: "Mark Twain", correct: false },
+      { text: "Edgar Allan Poe", correct: false },
+      { text: "Marlowe", correct: true },
+      { text: "Longfellow", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 264,
+    tag: "actual",
+    question:
+      "Polysaccharides, triglycerides, polypeptides and nucleic acids are classified as _______",
+    answers: [
+      { text: "Carbohydrates", correct: false },
+      { text: "Phospholipids", correct: false },
+      { text: "Acids and bases", correct: false },
+      { text: "Macromolecular", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 265,
+    tag: "actual",
+    question: "Half of the celestial sphere is called _______",
+    answers: [
+      { text: "Biosphere", correct: false },
+      { text: "Hemisphere", correct: true },
+      { text: "Mid circle", correct: false },
+      { text: "Semi-global", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 266,
+    tag: "actual",
+    question:
+      "The molecules that contain an organism's genetic make-up is called _______",
+    answers: [
+      { text: "Genetic membrane", correct: false },
+      { text: "Nucleolus", correct: false },
+      { text: "Nucleic acid", correct: true },
+      { text: "Cytoplasm", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 267,
+    tag: "actual",
+    question:
+      "During the Hispanic era, native and Chinese male mestizos 16-60 years old are obligated to do forced labor for forty days. How can exemption be made?",
+    answers: [
+      { text: "Getting a cedula personal", correct: false },
+      { text: "Paying the bandala", correct: false },
+      { text: "Give sanctorum tax to the church", correct: false },
+      { text: "Paying the falla (exemption fee)", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 268,
+    tag: "actual",
+    question:
+      "Who was the father of modern taxonomy and responsible for coining the term Homo sapiens for human?",
+    answers: [
+      { text: "Chatton", correct: false },
+      { text: "H. Copland", correct: false },
+      { text: "Aristotle", correct: false },
+      { text: "Linnaeus", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 269,
+    tag: "actual",
+    question:
+      "What contained the concrete promise of the Americans to Filipinos independence 'as soon as stable government can be established'?",
+    answers: [
+      { text: "Preamble of the Jones Law", correct: true },
+      { text: "Preamble of the Commonwealth Government", correct: false },
+      { text: "Fairfield Bill of 1924", correct: false },
+      { text: "First 1919 Parliamentary Mission to the U.S.", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 270,
+    tag: "actual",
+    question:
+      "What technology technique is employed during breeding in captivity in order to restore the populations of endangered and threatened species to safe levels?",
+    answers: [
+      { text: "Artificial insemination", correct: true },
+      { text: "Cross pollination", correct: false },
+      { text: "Cobalt radiation", correct: false },
+      { text: "Genetic engineering", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 271,
+    tag: "actual",
+    question:
+      "Participation in governance, including the right to vote and seek public office is secured within the citizenry's _______",
+    answers: [
+      { text: "Political rights", correct: true },
+      { text: "Socio-civic rights", correct: false },
+      { text: "Right of suffrage", correct: false },
+      { text: "Right to due process", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 272,
+    tag: "actual",
+    question:
+      "The economic policy that good action is one that helps the greatest number of people is called _______",
+    answers: [
+      { text: "Mercantilism", correct: false },
+      { text: "Colonialism", correct: false },
+      { text: "Capitalism", correct: false },
+      { text: "Utilitarianism", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 273,
+    tag: "actual",
+    question:
+      "After an earthquake of 7.8 magnitude in 1990, the _______ erupted.",
+    answers: [
+      { text: "Mt. Apo", correct: false },
+      { text: "Mt. Pinatubo", correct: true },
+      { text: "Taal Volcano", correct: false },
+      { text: "Mayon Volcano", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 274,
+    tag: "actual",
+    question:
+      "Whose philosophy advocates the use of reason in understanding the existence of God? _______",
+    answers: [
+      { text: "St. Benedict", correct: false },
+      { text: "St. John", correct: false },
+      { text: "St. Peter", correct: false },
+      { text: "St. Thomas Aquinas", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 275,
+    tag: "actual",
+    question:
+      "Tax imposed on all employed and practicing professionals is called _______",
+    answers: [
+      { text: "Income tax", correct: true },
+      { text: "Community tax", correct: false },
+      { text: "Real estate tax", correct: false },
+      { text: "Inheritance tax", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 276,
+    tag: "actual",
+    question:
+      "Which constitutional safeguard prevents one branch of government from becoming powerful or abusive? _______",
+    answers: [
+      { text: "Impeachment", correct: false },
+      { text: "Check and Balance", correct: true },
+      { text: "Ombudsman", correct: false },
+      { text: "Laissez Faire", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 277,
+    tag: "actual",
+    question:
+      "In social trends, how do you call those who are for the revival of the classics? _______",
+    answers: [
+      { text: "Existentialists", correct: false },
+      { text: "Humanist", correct: true },
+      { text: "Rationalists", correct: false },
+      { text: "Reformists", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 278,
+    tag: "actual",
+    question:
+      '"Ang atletang Pilipino ay lubhang masigasig", ang "lubhang" ay isang _______',
+    answers: [
+      { text: "pang-uri", correct: false },
+      { text: "pang-abay", correct: true },
+      { text: "pangngalan", correct: false },
+      { text: "pandiwa", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 279,
+    tag: "actual",
+    question:
+      "Prose and poetry are two general types of the art forms called _______",
+    answers: [
+      { text: "emotional", correct: false },
+      { text: "literature", correct: true },
+      { text: "sentimental", correct: false },
+      { text: "physical", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 280,
+    tag: "actual",
+    question:
+      "Happy times await you provided you can overcome the reluctance to do some unpleasant chores that need immediate action. Remember that effort is far more easily sustained if it is joined by enthusiasm. This suggests that work worth doing at all is worth doing _______",
+    answers: [
+      { text: "reluctantly", correct: false },
+      { text: "repeatedly", correct: false },
+      { text: "cheerfully", correct: true },
+      { text: "effortless", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 281,
+    tag: "actual",
+    question:
+      "With the Batasang Pambansa performing legislative and executive powers in the Marcos regime, which form of government was implemented?",
+    answers: [
+      { text: "Monarchial", correct: false },
+      { text: "Presidential", correct: false },
+      { text: "Parliamentary", correct: true },
+      { text: "Dictatorial", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 282,
+    tag: "actual",
+    question: "As a result of EDSA I, the Philippines _______",
+    answers: [
+      {
+        text: "Changed its form of government to parliamentary",
+        correct: false,
+      },
+      {
+        text: "Intensified its participation in international affairs",
+        correct: false,
+      },
+      {
+        text: "Saw the impeachment of Joseph Estrada as president",
+        correct: false,
+      },
+      {
+        text: "Became known worldwide for its People's Power Revolution",
+        correct: true,
+      },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 283,
+    tag: "actual",
+    question:
+      "When parents decide to send their children to a private school and pay their tuition fee instead of sending them to the public school, they don't get their share in the benefit derived from the taxes they pay. This is a case of _______",
+    answers: [
+      { text: "social inequity", correct: false },
+      { text: "social injustice", correct: false },
+      { text: "double taxation", correct: true },
+      { text: "double jeopardy", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 284,
+    tag: "actual",
+    question: "What does a professional code of conduct prescribe? _______",
+    answers: [
+      { text: "Civic conduct for all", correct: false },
+      { text: "Professional traditions and mores", correct: false },
+      { text: "Moral and ethical standards", correct: true },
+      { text: "Stricter implementation of laws", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 285,
+    tag: "actual",
+    question:
+      "If carbohydrates are hydrophilic organic compounds, lipids are _______ organic compounds.",
+    answers: [
+      { text: "Simple", correct: false },
+      { text: "Polypeptide", correct: false },
+      { text: "Biomolecules", correct: false },
+      { text: "Hydrophobic", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 286,
+    tag: "actual",
+    question:
+      "Which of the following human activities reduces the level of ozone in the atmosphere? _______",
+    answers: [
+      {
+        text: "Using large banks of solar cells for energy production",
+        correct: false,
+      },
+      {
+        text: "Using artificial lighting in scientific polar station",
+        correct: false,
+      },
+      { text: "Releasing of fluorocarbons from aerosol cans", correct: true },
+      {
+        text: "Destroying large areas of the equatorial rain forests",
+        correct: false,
+      },
+    ],
+    category: "Science",
+  },
+  {
+    id: 287,
+    tag: "actual",
+    question:
+      "What is the most significant cause of dwindling biodiversity? _______",
+    answers: [
+      { text: "large plant consumption", correct: false },
+      { text: "destruction of habitat", correct: true },
+      { text: "global warming", correct: false },
+      { text: "depletion of ozone layer", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 288,
+    tag: "actual",
+    question:
+      "The existence of extraterrestrial life may never be proven, but this idea will become more scientifically acceptable over time if _______",
+    answers: [
+      {
+        text: "Alternative hypotheses are proposed and confirmed",
+        correct: false,
+      },
+      { text: "Hypotheses are made related to the idea", correct: false },
+      {
+        text: "No one disputes this idea in a scientific forum",
+        correct: false,
+      },
+      {
+        text: "Increasing scientific evidence supports the idea",
+        correct: true,
+      },
+    ],
+    category: "Science",
+  },
+  {
+    id: 289,
+    tag: "actual",
+    question:
+      "Why is incineration not favored as a method of waste disposal? _______",
+    answers: [
+      { text: "It is expensive for a country like ours.", correct: false },
+      {
+        text: "The country lacks funds to install incineration.",
+        correct: false,
+      },
+      { text: "It requires large energy expenditure.", correct: false },
+      { text: "It releases noxious gases.", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 290,
+    tag: "actual",
+    question:
+      "Which of the following has the smallest mass when measured in an equal arm balance? _______",
+    answers: [
+      { text: "1/2 sheet of pad paper", correct: false },
+      { text: "1/4 sheet of pad paper", correct: false },
+      { text: "1/8 sheet of pad paper", correct: true },
+      { text: "1/3 sheet of pad paper", correct: false },
+    ],
+    category: "Mathematics",
+  },
+  {
+    id: 291,
+    tag: "actual",
+    question: "Which of the following activities help reduce water pollution?",
+    answers: [
+      { text: "Throwing only liquids wastes.", correct: false },
+      { text: "Cleaning with soap instead of detergents.", correct: false },
+      { text: "Treating wastewater before it is discharged.", correct: true },
+      { text: "Using organic fertilizers in farms.", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 292,
+    tag: "actual",
+    question: "Leaves are green in sunlight because _______",
+    answers: [
+      { text: "They absorb the green light.", correct: false },
+      { text: "Their tints bounce off.", correct: false },
+      { text: "They absorb the blue and yellow light.", correct: false },
+      { text: "They reflect green light.", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 293,
+    tag: "actual",
+    question:
+      "A stainless steel spoon feels colder than a plastic spoon because stainless steel _______",
+    answers: [
+      {
+        text: "absorbs less heat from the hand than plastic does.",
+        correct: false,
+      },
+      { text: "is really colder than plastic.", correct: false },
+      { text: "has a lower temperature than plastic.", correct: false },
+      {
+        text: "conducts heat away from the hand faster than plastic does.",
+        correct: true,
+      },
+    ],
+    category: "Science",
+  },
+  {
+    id: 294,
+    tag: "actual",
+    question:
+      "Why does the level of water in a beaker rise after a stone is placed in it? _______",
+    answers: [
+      { text: "The stone and water occupy the same space.", correct: false },
+      { text: "The stone takes the place occupied by water.", correct: true },
+      { text: "The stone has more mass than the water.", correct: false },
+      { text: "The water weighs less than stone.", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 295,
+    tag: "actual",
+    question:
+      "The surface of the Earth between the Tropic of Cancer and Arctic Circle is called _______",
+    answers: [
+      { text: "Zone", correct: true },
+      { text: "Plane", correct: false },
+      { text: "Cone", correct: false },
+      { text: "Circle", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 296,
+    tag: "actual",
+    question:
+      "Solar panels are examples of utilizing alternative sources of energy specifically _______",
+    answers: [
+      { text: "Water", correct: false },
+      { text: "Sunlight", correct: true },
+      { text: "Waves", correct: false },
+      { text: "Wind", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 297,
+    tag: "actual",
+    question:
+      "This is Paz Marquez-Benitez's masterpiece which stands out as a model of perfection in character delineation. Local color, plot, and message.",
+    answers: [
+      { text: "My Life", correct: false },
+      { text: "Dead Stars", correct: true },
+      { text: "Dead Rats", correct: false },
+      { text: "My Brother", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 298,
+    tag: "actual",
+    question: "Ang 'lubhang' sa pariralang 'lubhang masigasig' ay _______",
+    answers: [
+      { text: "Pang-abay", correct: true },
+      { text: "Pang-uri", correct: false },
+      { text: "Pandiwa", correct: false },
+      { text: "Panghalip", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 299,
+    tag: "actual",
+    question:
+      "Who was the first editor of La Solidaridad and an orator of the Reform Movement?",
+    answers: [
+      { text: "Jose Rizal", correct: false },
+      { text: "Graciano Lopez Jaena", correct: true },
+      { text: "Marcelo H. Del Pilar", correct: false },
+      { text: "Juan Luna", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 300,
+    tag: "actual",
+    question:
+      "Ang taong mapagsamantala sa kapwa ay ang tinutukoy ng sawikain na _______",
+    answers: [
+      { text: "Bulang gugo", correct: false },
+      { text: "Buwaya sa katihan", correct: true },
+      { text: "Salubong ang kilay", correct: false },
+      { text: "Lukso ng dugo", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 301,
+    tag: "actual",
+    question:
+      "He was excused because all he said were white lies. The underline idiomatic expression means _______",
+    answers: [
+      { text: "Lies are really harmless.", correct: false },
+      { text: "Lies are written on white page.", correct: false },
+      { text: "Lies recited are excusable.", correct: true },
+      { text: "He recited the lies in public.", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 302,
+    tag: "actual",
+    question:
+      "What does the 'presumption of innocence' mean in so far as human rights is concerned? _______",
+    answers: [
+      { text: "Has the right to remain silent.", correct: false },
+      { text: "Remains innocence until proven guilty.", correct: true },
+      { text: "Is considered guilty unless proven otherwise.", correct: false },
+      { text: "Has the right to a legal counsel.", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 303,
+    tag: "actual",
+    question:
+      "Upon which is the claim that there is no single universal standard to be used to judge any culture based? _______",
+    answers: [
+      { text: "Cultural diversity", correct: false },
+      { text: "Cultural relativism", correct: true },
+      { text: "Cultural shock", correct: false },
+      { text: "Ethical relativism", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 304,
+    tag: "actual",
+    question:
+      "You have to take extra care when you critique the work of a Filipino. Your negative comment may be mistaken to be an attack against his/her person. Upon which Filipino trait is this advice based? _______",
+    answers: [
+      { text: "'Bayanihan' spirit", correct: false },
+      { text: "'Sakop' mentality", correct: false },
+      { text: "Extreme personalism", correct: true },
+      { text: "Adaptability", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 305,
+    tag: "actual",
+    question: "Which of the following was the first to happen? _______",
+    answers: [
+      { text: "Aguinaldo declared Philippine independence", correct: true },
+      { text: "Guerilla warfare against the US was initiated", correct: false },
+      {
+        text: "The Philippines was ceded to the US by the Treaty of Paris.",
+        correct: false,
+      },
+      { text: "Aguinaldo was captured", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 306,
+    tag: "actual",
+    question:
+      "Symbiotic relationship between orchid on the trunk of a tree; bird with nest on tree's branches, clownfish and sea anemone refers to relationship which is _______",
+    answers: [
+      { text: "parasitism", correct: false },
+      { text: "commensalism", correct: true },
+      { text: "mutualism", correct: false },
+      { text: "reciprocity", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 307,
+    tag: "actual",
+    question:
+      "Governor-General Narciso Claveria was the one who ordered the _______",
+    answers: [
+      { text: "Founding of the Union Obrera Democratica", correct: false },
+      { text: "Use of Spanish Surnames by Filipinos", correct: true },
+      {
+        text: "Resettlement of Filipino communities in cabeceras",
+        correct: false,
+      },
+      { text: "Tobacco monopoly", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 308,
+    tag: "actual",
+    question:
+      "Leadership of people with competence and integrity results in a social system called _______",
+    answers: [
+      { text: "royalty", correct: false },
+      { text: "monarchy", correct: false },
+      { text: "meritocracy", correct: true },
+      { text: "aristocracy", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 309,
+    tag: "actual",
+    question:
+      "The main thought of William Shakespeare's 'Merchant of Venice' is _______",
+    answers: [
+      { text: "Mercy comes from rain", correct: false },
+      { text: "Mercy is limited", correct: false },
+      { text: "Mercy is spontaneous and freely given", correct: true },
+      { text: "Mercy is only for the deserving", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 310,
+    tag: "actual",
+    question:
+      "The Elizabethan period in English literature produced enduring literary pieces, the most famous were written by _______",
+    answers: [
+      { text: "Shakespeare", correct: true },
+      { text: "Tagore", correct: false },
+      { text: "Longfellow", correct: false },
+      { text: "O. Henry", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 311,
+    tag: "actual",
+    question: "Who was the first National Artist in painting? _______",
+    answers: [
+      { text: "Fernando Amorsolo", correct: true },
+      { text: "Hernando Ocampo", correct: false },
+      { text: "Juan Luna", correct: false },
+      { text: "Napoleon Abueva", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 312,
+    tag: "actual",
+    question:
+      "What is the progress in one's occupation or workplace called? _______",
+    answers: [
+      { text: "rank status", correct: false },
+      { text: "career development", correct: true },
+      { text: "occupational renewal", correct: false },
+      { text: "work award", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 313,
+    tag: "actual",
+    question:
+      "They belong to a privileged class of Filipinos who studied in Europe and introduced ideas of reforms when they came back. Who are they? _______",
+    answers: [
+      { text: "Filipino clergy", correct: false },
+      { text: "mestizos", correct: false },
+      { text: "ilustrados", correct: true },
+      { text: "encomienderos", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 314,
+    tag: "actual",
+    question:
+      "The practical application of scientific knowledge on daily human activities is called _______",
+    answers: [
+      { text: "technology", correct: true },
+      { text: "innovation", correct: false },
+      { text: "invention", correct: false },
+      { text: "discovery", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 315,
+    tag: "actual",
+    question:
+      "The First Philippine President from the Ilocos Region was _______",
+    answers: [
+      { text: "Rodrigo Duterte", correct: false },
+      { text: "Elpidio Quirino", correct: true },
+      { text: "Ferdinand Marcos", correct: false },
+      { text: "Manuel Roxas", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 316,
+    tag: "actual",
+    question:
+      "The poem that expresses faith in the Filipino youth as hope of the fatherland is _______",
+    answers: [
+      { text: "Al trabajo", correct: false },
+      { text: "A La Juventud Filipina", correct: true },
+      { text: "Mi Ultimo Adios", correct: false },
+      { text: "La Belleza", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 317,
+    tag: "actual",
+    question: "The following are techniques in sculpture, EXCEPT _______",
+    answers: [
+      { text: "Casting", correct: false },
+      { text: "Brushing", correct: true },
+      { text: "Modeling", correct: false },
+      { text: "Carving", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 318,
+    tag: "actual",
+    question:
+      "By organizing the Katipunan, armed struggle was the method to freedom chosen by _______",
+    answers: [
+      { text: "Jose Rizal", correct: false },
+      { text: "Andres Bonifacio", correct: true },
+      { text: "Manuel Quezon", correct: false },
+      { text: "Graciano Lopez Jaena", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 319,
+    tag: "actual",
+    question:
+      "The indigenous people of Pampanga, Tarlac and Zambales are the _______",
+    answers: [
+      { text: "Aetas", correct: true },
+      { text: "Mangyans", correct: false },
+      { text: "Igorots", correct: false },
+      { text: "Dinagats", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 320,
+    tag: "actual",
+    question:
+      "The researcher found the source creditable and so she _______ the method.",
+    answers: [
+      { text: "adopt", correct: true },
+      { text: "adjust", correct: false },
+      { text: "adapt", correct: false },
+      { text: "adept", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 321,
+    tag: "actual",
+    question:
+      "Maghapon at magdamag na nagbasa ng aklat at lathalain si Gng. Llana, ang panaguri sa pangungusap ay _______",
+    answers: [
+      { text: "Gng. Llana", correct: false },
+      { text: "magdamag", correct: false },
+      { text: "maghapon", correct: false },
+      { text: "nagbasa", correct: true },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 322,
+    tag: "actual",
+    question:
+      "William Sydney Porter was a famous American writer of short stories noted for surprise endings like the 'Gifts of the Magi', 'Cabbages and King' and 'The Last Leaf' in which he used the pen name _______",
+    answers: [
+      { text: "Mark Twain", correct: false },
+      { text: "George Eliot", correct: false },
+      { text: "Longfellow", correct: false },
+      { text: "O' Henry", correct: true },
+    ],
+    category: "English",
+  },
+  {
+    id: 323,
+    tag: "actual",
+    question:
+      "'Reduccion' is the Spanish policy which provided the resettlement of Filipino communities to form town centers or _______",
+    answers: [
+      { text: "haciendas", correct: false },
+      { text: "cedulas", correct: false },
+      { text: "encomiendas", correct: false },
+      { text: "cabeceras", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 324,
+    tag: "actual",
+    question:
+      "A child is at the top of the slide, a ripe guava falls, a yoyo is released are examples of potential energy. This potential energy is _______",
+    answers: [
+      { text: "electrical", correct: false },
+      { text: "chemical", correct: false },
+      { text: "mechanical", correct: false },
+      { text: "gravitational", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 325,
+    tag: "actual",
+    question:
+      "The collection of stories of animals which teach moral lessons is _______",
+    answers: [
+      { text: "The Lion King", correct: false },
+      { text: "One Thousand and One Arabian Nights", correct: false },
+      { text: "Aesop's fables", correct: true },
+      { text: "Grimm's Fairy Tales", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 326,
+    tag: "actual",
+    question: "The world's largest ecosystem of desert is _______",
+    answers: [
+      { text: "Libya", correct: false },
+      { text: "Saudi", correct: false },
+      { text: "Africa", correct: false },
+      { text: "Sahara", correct: true },
+    ],
+    category: "Science",
+  },
+  {
+    id: 327,
+    tag: "actual",
+    question: "The following are techniques in painting, except _______",
+    answers: [
+      { text: "Acrylic", correct: false },
+      { text: "Color Painting", correct: false },
+      { text: "Oil", correct: false },
+      { text: "Molding", correct: true },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 328,
+    tag: "actual",
+    question:
+      "Easy access to travel, rise of mass media and interconnectedness through technology made possible through the existence of the concept _______",
+    answers: [
+      { text: "global village", correct: true },
+      { text: "world wide web", correct: false },
+      { text: "united nations", correct: false },
+      { text: "international alliance", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 329,
+    tag: "actual",
+    question: "The equation of the line with equal coordinates is _______",
+    answers: [
+      { text: "y = 3x", correct: false },
+      { text: "y=x", correct: true },
+      { text: "x + y = 0", correct: false },
+      { text: "y = -x", correct: false },
+    ],
+    category: "Mathematics",
+  },
+  {
+    id: 330,
+    tag: "actual",
+    question:
+      "Bernadette's aquarium has length, width and height of 10cm, 8 cm and 6 cm respectively. Its volume is _______",
+    answers: [
+      { text: "72 cubic centimeters", correct: false },
+      { text: "24 cubic centimeters", correct: false },
+      { text: "240 cubic centimeters", correct: false },
+      { text: "480 cubic centimeters", correct: true },
+    ],
+    category: "Mathematics",
+  },
+  {
+    id: 331,
+    tag: "actual",
+    question:
+      "The last line in Rizal's poem Mi Ultimo Adios 'morir es descansar' reflects _______",
+    answers: [
+      { text: "Rizal's acceptance of death for his country", correct: true },
+      { text: "Rizal's desire to escape punishment", correct: false },
+      { text: "Rizal's wish for revenge", correct: false },
+      { text: "Rizal's remorse in facing death", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 332,
+    tag: "actual",
+    question:
+      "'How do I love thee? Let me count the ways...' of Elizabeth Browning is an example of _______",
+    answers: [
+      { text: "Sonnet", correct: true },
+      { text: "Elegy", correct: false },
+      { text: "Epic", correct: false },
+      { text: "Allegory", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 333,
+    tag: "actual",
+    question:
+      "The child who just lost his front tooth could not _______ the apple.",
+    answers: [
+      { text: "bit", correct: false },
+      { text: "bait", correct: false },
+      { text: "bite", correct: true },
+      { text: "bitten", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 334,
+    tag: "actual",
+    question:
+      "'Scent of Apples', a collection of stories that succeeded with the United States audience, was written by _______",
+    answers: [
+      { text: "Bienvenido Santos", correct: true },
+      { text: "Carlos Bulosan", correct: false },
+      { text: "Nick Joaquin", correct: false },
+      { text: "Jose Garcia Villa", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 335,
+    tag: "actual",
+    question:
+      "Ensuring the economic security of the nation is productivity, just as commitment to the progress of the country in a global community is _______",
+    answers: [
+      { text: "valor", correct: false },
+      { text: "endurance", correct: false },
+      { text: "nationalism", correct: true },
+      { text: "competitiveness", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 336,
+    tag: "actual",
+    question:
+      "The right to demand the presence of the accused is the right invoked in _______",
+    answers: [
+      { text: "writ of habeas corpus", correct: true },
+      { text: "writ of amparo", correct: false },
+      { text: "writ of habeas data", correct: false },
+      { text: "writ of mandamus", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 337,
+    tag: "actual",
+    question:
+      "What happened in the Philippines in 1986 that ended the dictatorial rule and came to be admired internationally as model of non-violence was popularly known as _______",
+    answers: [
+      { text: "COVID 19", correct: false },
+      { text: "People Power", correct: true },
+      { text: "Propaganda", correct: false },
+      { text: "Bagong Lipunan", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 338,
+    tag: "actual",
+    question:
+      "Moralists write literary pieces that inform and teach moral lessons which are called _______",
+    answers: [
+      { text: "autobiographical", correct: false },
+      { text: "historical", correct: false },
+      { text: "lyric", correct: false },
+      { text: "didactic", correct: true },
+    ],
+    category: "English",
+  },
+  {
+    id: 339,
+    tag: "actual",
+    question:
+      "Jose Rizal's mother preferred to be imprisoned and walked a miles away as punishment for a trumped up charged of Spanish official rather than apologize by accepting the charge. Such action shows that she was a woman of _______",
+    answers: [
+      { text: "hesitation", correct: false },
+      { text: "submission", correct: false },
+      { text: "incertitude", correct: false },
+      { text: "conviction", correct: true },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 340,
+    tag: "actual",
+    question: "Ang Ama ng Balarila ay si _______",
+    answers: [
+      { text: "Eulogio 'Amang' Rodriguez", correct: false },
+      { text: "Lope K. Santos", correct: true },
+      { text: "Jose Corazon de Jesus", correct: false },
+      { text: "Iñigo Ed. Regalado", correct: false },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 341,
+    tag: "actual",
+    question:
+      "The similar art form which combines a story or emotional experience through the use of lyrical and auditory patterns of rhyme, rhythm, and instrumental accompaniment is _______",
+    answers: [
+      { text: "music", correct: true },
+      { text: "film", correct: false },
+      { text: "sculpture", correct: false },
+      { text: "architecture", correct: false },
+    ],
+    category: "Arts",
+  },
+  {
+    id: 342,
+    tag: "actual",
+    question:
+      "Considering the 'tayo-tayo' mentality of the Filipinos, one goal for CHANGE that should be worked on is to develop _______",
+    answers: [
+      { text: "A sense of common good.", correct: true },
+      { text: "A sense of national pride.", correct: false },
+      { text: "'Pakikisama'", correct: false },
+      { text: "The habits of discipline and hard work.", correct: false },
+    ],
+    category: "Social Science",
+  },
+  {
+    id: 343,
+    tag: "actual",
+    question: "Film is a modern art because it uses _______",
+    answers: [
+      { text: "fireworks", correct: false },
+      { text: "technologies", correct: true },
+      { text: "robots", correct: false },
+      { text: "camera tricks", correct: false },
+    ],
+    category: "Arts",
+  },
+  {
+    id: 344,
+    tag: "actual",
+    question:
+      "Famous composer from Angono who was declared as national artist is _______",
+    answers: [
+      { text: "Cayabyab", correct: false },
+      { text: "Buenaventura", correct: false },
+      { text: "Cenizal", correct: false },
+      { text: "San Pedro", correct: true },
+    ],
+    category: "Arts",
+  },
+  {
+    id: 345,
+    tag: "actual",
+    question:
+      "The lowest form of learning observed especially among animals is _______",
+    answers: [
+      { text: "motivation", correct: false },
+      { text: "maturation", correct: false },
+      { text: "conditioning", correct: true },
+      { text: "reinforcement", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 346,
+    tag: "actual",
+    question: "The fisherman uses worms to _____ the fish.",
+    answers: [
+      { text: "bait", correct: true },
+      { text: "bite", correct: false },
+      { text: "bitten", correct: false },
+      { text: "bit", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 347,
+    tag: "actual",
+    question: "Half of the celestial sphere is called _______",
+    answers: [
+      { text: "Biosphere", correct: false },
+      { text: "Hemisphere", correct: true },
+      { text: "Mid circle", correct: false },
+      { text: "Semi-global", correct: false },
+    ],
+    category: "Science",
+  },
+  {
+    id: 348,
+    tag: "actual",
+    question:
+      "'Laong-laan' and 'Dimasalang' were the pen names used by _______",
+    answers: [
+      { text: "Andres Bonifacio", correct: false },
+      { text: "Juan Luna", correct: false },
+      { text: "Emilio Aguinaldo", correct: false },
+      { text: "Jose Rizal", correct: true },
+    ],
+    category: "Filipino",
+  },
+  {
+    id: 349,
+    tag: "actual",
+    question:
+      "All these are American writers of famous literary pieces EXCEPT _______",
+    answers: [
+      { text: "Mark Twain", correct: false },
+      { text: "Edgar Allan Poe", correct: false },
+      { text: "Marlowe", correct: true },
+      { text: "Longfellow", correct: false },
+    ],
+    category: "English",
+  },
+  {
+    id: 350,
+    tag: "actual",
+    question: "Sick of stomach was the result of what she _______",
+    answers: [
+      { text: "ate", correct: true },
+      { text: "eat", correct: false },
+      { text: "eating", correct: false },
+      { text: "eaten", correct: false },
+    ],
+    category: "English",
+  },
 ];
 
 export default gened;
