@@ -744,7 +744,7 @@ const profed = [
   {
     id: 56,
     question:
-      "In their desire to make schools perform, the DepEd then published the ranking of schools in NAT results nationwide. As an effect of this practice, what did schools tend to do?",
+      "In their desire to make schools perform, the DepEd then published the ranking of schools in NAT results nationwide. As an effect of this practice, what did schools tend to do? I. Taught at the expense of NAT, II. Conducted review classes for NAT at the expense of  teaching, III. Practiced the so-called teaching to the test",
     answers: [
       { text: "II and III", correct: true },
       { text: "II only", correct: false },
@@ -780,7 +780,7 @@ const profed = [
   {
     id: 59,
     question:
-      "To make our children become like 'little scientists', which of the following methods should we employ more often?",
+      "To make our children become like 'little scientists', which of the following methods should we employ more often? I. Inquiry, II. Problem-solving, III. Laboratory",
     answers: [
       { text: "II and III", correct: false },
       { text: "I and II", correct: false },
@@ -2063,9 +2063,9 @@ const profed = [
       "Who is the forerunner of the presence of the Language Acquisition Device?",
     answers: [
       { text: "Watson", correct: false },
-      { text: "Chomsky", correct: false },
+      { text: "Chomsky", correct: true },
       { text: "Gardner", correct: false },
-      { text: "Piaget", correct: true },
+      { text: "Piaget", correct: false },
     ],
     category: "Child and Adolescent Development",
   },
@@ -2613,7 +2613,1647 @@ const profed = [
     ],
     category: "Child and Adolescent Development",
   },
-  //31
+  {
+    id: 181,
+    tag: "actual",
+    question: "Which is NOT a sound purpose for asking questions?",
+    answers: [
+      { text: "To probe deeper after an answer is given.", correct: false },
+      { text: "To discipline a bully in class.", correct: true },
+      { text: "To remind students of a procedure.", correct: false },
+      { text: "To encourage self-reflection.", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 182,
+    tag: "actual",
+    question:
+      "The main purpose of compulsory study of the Constitution is to __________",
+    answers: [
+      {
+        text: "develop students into responsible, thinking citizens",
+        correct: true,
+      },
+      {
+        text: "acquaint students with the historical development of the Philippine Constitution",
+        correct: false,
+      },
+      { text: "make constitutional experts of the students", correct: false },
+      { text: "prepare students for law-making", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 183,
+    tag: "actual",
+    question:
+      "A child who gets punished for stealing candy may not steal again immediately. But this does not mean that the child may not steal again. Based on Thorndike's theory on punishment and learning, this shows that __________",
+    answers: [
+      { text: "punishment strengthens a response", correct: false },
+      { text: "punishment removes a response", correct: false },
+      { text: "punishment does not remove a response", correct: true },
+      { text: "punishment weakens a response", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 184,
+    tag: "actual",
+    question:
+      "As a teacher, you are a reconstructionist. Which among these will be your guiding principle?",
+    answers: [
+      {
+        text: "I must teach the child every knowledge, skill, and value that he needs for a better future.",
+        correct: true,
+      },
+      {
+        text: "I must teach the child to develop his mental powers to the full.",
+        correct: false,
+      },
+      {
+        text: "I must teach the child so he is assured of heaven.",
+        correct: false,
+      },
+      {
+        text: "I must teach the child that we can never have real knowledge of anything.",
+        correct: false,
+      },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 185,
+    tag: "actual",
+    question: "How can you exhibit expert power on the first day of school?",
+    answers: [
+      {
+        text: "By making them feel you know what you are talking about.",
+        correct: true,
+      },
+      {
+        text: "By making them realize the importance of good grades.",
+        correct: false,
+      },
+      {
+        text: "By reminding them your students your authority over them again and again.",
+        correct: false,
+      },
+      {
+        text: "By giving your students a sense of belonging and acceptance.",
+        correct: false,
+      },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 186,
+    tag: "actual",
+    question:
+      "A sixth grade twelve-year-old boy comes from a dysfunctional family and has been abused and neglected. He has been to two orphanages and three different elementary schools. The student can decode on the second grade level, but he can comprehend orally material at the fourth or fifth grade level. The most probable cause/s of this student's reading problem is/are __________.",
+    answers: [
+      { text: "emotional factors", correct: false },
+      { text: "poor teaching", correct: false },
+      { text: "neurological factors", correct: true },
+      { text: "immaturity", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 187,
+    tag: "actual",
+    question:
+      "Teacher Q does not want Teacher B to be promoted and so writes an anonymous letter against Teacher B accusing her of fabricated lies. Teacher Q mails this anonymous letter to the Schools Division Superintendent. What should Teacher Q do if she has to act professionally?",
+    answers: [
+      {
+        text: "Submit a signed justifiable criticism against Teacher B, if there is any.",
+        correct: true,
+      },
+      {
+        text: "Go straight to the Schools Division Superintendent and give criticism verbally.",
+        correct: false,
+      },
+      {
+        text: "Hire a group to distribute poison letters against Teacher B for information dissemination.",
+        correct: false,
+      },
+      {
+        text: "Instigate student activists to read poison letters over the microphone.",
+        correct: false,
+      },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 188,
+    tag: "actual",
+    question:
+      "In self-directed learning, to what extent should a teacher's scaffolding be?",
+    answers: [
+      { text: "To a degree the student needs it.", correct: false },
+      {
+        text: "None, to force the student to learn by himself.",
+        correct: false,
+      },
+      {
+        text: "To the minimum, to speed up development of student's sense of independence.",
+        correct: true,
+      },
+      {
+        text: "To the maximum, in order to extend to the student all the help he needs.",
+        correct: false,
+      },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 189,
+    tag: "actual",
+    question:
+      "If your Licensure Examination Test (LET) items sample adequately the competencies listed in the syllabi, it can be said that the LET possesses __________ validity.",
+    answers: [
+      { text: "concurrent", correct: false },
+      { text: "construct", correct: false },
+      { text: "content", correct: true },
+      { text: "predictive", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 190,
+    tag: "actual",
+    question:
+      "Which guideline must be observed in the use of prompting to shape the correct performance of your students?",
+    answers: [
+      { text: "Use the least intrusive prompt first.", correct: true },
+      { text: "Use all prompts available.", correct: false },
+      { text: "Use the most intrusive prompt first.", correct: false },
+      { text: "Refrain from using prompts.", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 191,
+    tag: "actual",
+    question:
+      "It is not wise to laugh at a two-year-old child when he utters a bad word because in his stage he is learning to __________.",
+    answers: [
+      { text: "consider other's views", correct: true },
+      { text: "distinguish sex differences", correct: false },
+      { text: "socialize", correct: false },
+      { text: "distinguish right from wrong", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 192,
+    tag: "actual",
+    question:
+      "In a treatment for alcoholism, Ramil was made to drink an alcoholic beverage and then made to ingest a drug that produces nausea. Eventually, he was nauseated at the sight and smell of alcohol and stopped drinking alcohol. Which theory explains this?",
+    answers: [
+      { text: "Operant conditioning", correct: false },
+      { text: "Social Learning Theory", correct: false },
+      { text: "Associative Learning", correct: true },
+      { text: "Attribution Theory", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 193,
+    tag: "actual",
+    question: "Which is a true foundation of the social order?",
+    answers: [
+      { text: "Obedient citizenry", correct: false },
+      { text: "The reciprocation of rights and duties", correct: true },
+      { text: "Strong political leadership", correct: false },
+      { text: "Equitable distribution of wealth", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 194,
+    tag: "actual",
+    question:
+      "As a teacher, what do you do when you engage yourself in major task analysis?",
+    answers: [
+      {
+        text: "Test if learning reached higher level thinking skills.",
+        correct: false,
+      },
+      { text: "Break down a complex task into sub-skills.", correct: true },
+      { text: "Determine the level of thinking involved.", correct: false },
+      { text: "Revise lesson objectives.", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 195,
+    tag: "actual",
+    question:
+      "In instructional planning it is necessary that the parts of the plan from the first to the last have __________.",
+    answers: [
+      { text: "clarity", correct: false },
+      { text: "symmetry", correct: true },
+      { text: "coherence", correct: false },
+      { text: "conciseness", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 196,
+    tag: "actual",
+    question:
+      "In a study conducted, the pupils were asked which nationality they preferred, if given a choice. Majority of the pupils wanted to be Americans. In this case, in which obligation relative to the state, do schools seem to be failing? In their obligation to __________.",
+    answers: [
+      { text: "respect for all duly constituted authorities", correct: false },
+      { text: "promote national pride", correct: true },
+      { text: "promote obedience to the laws of the state", correct: false },
+      { text: "instill allegiance to the Constitution", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 197,
+    tag: "actual",
+    question:
+      "The best way for a guidance counselor to begin to develop study skills and habits in underachieving students would be to __________.",
+    answers: [
+      {
+        text: "have these underachieving students observe the study habits of excelling students",
+        correct: false,
+      },
+      {
+        text: "encourage students to talk about study habits from their own experiences",
+        correct: true,
+      },
+      {
+        text: "have them view film strips about various study approaches",
+        correct: false,
+      },
+      { text: "give out a list of effective study approaches", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 198,
+    tag: "actual",
+    question:
+      "What is most likely to happen to our economy when export continuously surpasses import is a thought question on __________.",
+    answers: [
+      { text: "creating", correct: false },
+      { text: "relating cause-and-effect", correct: true },
+      { text: "synthesizing", correct: false },
+      { text: "predicting", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 199,
+    tag: "actual",
+    question:
+      "Direct instruction is for facts, rules, and actions as indirect instruction is for __________, __________, __________.",
+    answers: [
+      { text: "hypotheses, verified data and conclusions", correct: false },
+      { text: "concepts, patterns and abstractions", correct: false },
+      { text: "concepts, processes and generalizations", correct: true },
+      { text: "guesses, data and conclusions", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 200,
+    tag: "actual",
+    question: "Why should a teacher NOT use direct instruction all the time?",
+    answers: [
+      { text: "It requires much time.", correct: false },
+      {
+        text: "It requires use of many supplementary materials.",
+        correct: false,
+      },
+      {
+        text: "It is generally effective only in the teaching of concepts and abstractions.",
+        correct: true,
+      },
+      { text: "It reduces students engagement in learning.", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 201,
+    tag: "actual",
+    question:
+      "The principle of individual differences requires teachers to __________.",
+    answers: [
+      { text: "give greater attention to gifted learners", correct: false },
+      { text: "provide for a variety of learning activities", correct: true },
+      {
+        text: "treat all learners alike while in the classroom",
+        correct: false,
+      },
+      { text: "prepare modules for slow learners in class", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 202,
+    tag: "actual",
+    question: "Which questioning practice promotes more class interaction?",
+    answers: [
+      {
+        text: "Asking the question before calling on a student.",
+        correct: false,
+      },
+      { text: "Focusing on divergent questions", correct: true },
+      { text: "Focusing on convergent questions.", correct: false },
+      { text: "Asking rhetorical questions.", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 203,
+    tag: "actual",
+    question:
+      "Teacher F wanted to teach the pupils the skill to do cross stitching. Her check up quiz was a written test on the steps of cross stitching. Which characteristic of a good test does it lack?",
+    answers: [
+      { text: "Scorability", correct: true },
+      { text: "Reliability", correct: false },
+      { text: "Objectivity", correct: false },
+      { text: "Validity", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 204,
+    tag: "actual",
+    question:
+      "The attention to the development of a deep respect and affection for our rich cultural past is an influence of __________.",
+    answers: [
+      { text: "Confucius", correct: true },
+      { text: "Hegel", correct: false },
+      { text: "Teilhard de Chardin", correct: false },
+      { text: "Dewey", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 205,
+    tag: "actual",
+    question:
+      "How can you exhibit legitimate power on the first day of school?",
+    answers: [
+      {
+        text: "By making your students feel they are accepted for who they are.",
+        correct: false,
+      },
+      {
+        text: "By informing them you are allowed to act in loco parentis.",
+        correct: false,
+      },
+      {
+        text: "By making them realize the importance of good grades.",
+        correct: false,
+      },
+      {
+        text: "By making them feel you have mastery of subject matter.",
+        correct: true,
+      },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 206,
+    tag: "actual",
+    question:
+      "Study this group of tests which was administered with the following results, then answer the question. Subject Mean SD Ronnels's Score. Math 56 10 43. Physics 41 9 31/ English 80 16 109. In which subject(s) did Ronnel perform most poorly in relation to the group's performance?",
+    answers: [
+      { text: "English", correct: true },
+      { text: "English and Math", correct: false },
+      { text: "Math", correct: false },
+      { text: "Physics", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 207,
+    tag: "actual",
+    question: "Which holds true to standardized tests?",
+    answers: [
+      { text: "They are used for comparative purposes", correct: false },
+      { text: "They are administered differently", correct: false },
+      {
+        text: "They are scored according to different standards",
+        correct: true,
+      },
+      { text: "They are used for assigning grades", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 208,
+    tag: "actual",
+    question: "In which subject(s) were the scores most homogenous?",
+    answers: [
+      { text: "Math", correct: false },
+      { text: "English", correct: false },
+      { text: "Physics", correct: false },
+      { text: "Physics and Math", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 209,
+    tag: "actual",
+    question:
+      "What can be said of Peter who obtained a score of 75 in a Grammar objective test?",
+    answers: [
+      { text: "He answered 75 items in the test correctly.", correct: false },
+      { text: "He answered 75% of the test items correctly.", correct: false },
+      { text: "His rating is 75.", correct: false },
+      {
+        text: "He performed better than 5% of his classmates.",
+        correct: true,
+      },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 210,
+    tag: "actual",
+    question: "Quiz is to formative test while periodic is to __________.",
+    answers: [
+      { text: "criterion-reference test", correct: false },
+      { text: "summative test", correct: true },
+      { text: "norm-reference test", correct: false },
+      { text: "diagnostic test", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 211,
+    tag: "actual",
+    question: "Which applies when skewness is zero?",
+    answers: [
+      { text: "Mean is greater than the median", correct: false },
+      { text: "Median is greater than mean", correct: false },
+      { text: "Scores have three modes", correct: false },
+      { text: "Scores are normally distributed", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 212,
+    tag: "actual",
+    question:
+      "Value clarification as a strategy in Values Education classes is anchored on which philosophy?",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Christian philosophy", correct: false },
+      { text: "Idealism", correct: true },
+      { text: "Hedonism", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 213,
+    tag: "actual",
+    question:
+      "Out of 3 distracters in a multiple choice test item, namely B, C, and D, no pupil chose D as answer. This implies that D is __________.",
+    answers: [
+      { text: "an ineffective distracter", correct: true },
+      { text: "a vague distracter", correct: false },
+      { text: "an effective distracter", correct: false },
+      { text: "a plausible distracter", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 214,
+    tag: "actual",
+    question:
+      "All men are pretty much alike. It is only by custom that they are set apart, said one Oriental philosopher. Where can this thought be most inspiring?",
+    answers: [
+      { text: "In a multi-cultural group of learners", correct: false },
+      {
+        text: "In multi-cultural and heterogeneous groups of learners and indigenous peoples' group",
+        correct: true,
+      },
+      { text: "In a class composed of indigenous peoples", correct: false },
+      { text: "In heterogeneous class of learners", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 215,
+    tag: "actual",
+    question:
+      "Which group of philosophers maintain that truth exists in an objective order that is independent of the knower?",
+    answers: [
+      { text: "Idealists", correct: false },
+      { text: "Pragmatists", correct: false },
+      { text: "Existentialists", correct: false },
+      { text: "Realists", correct: true },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 216,
+    tag: "actual",
+    question:
+      "Each teacher is said to be a trustee of the cultural and educational heritage of the nation and is, under obligation to transmit to learners such heritage. Which practice makes him fulfill such obligation?",
+    answers: [
+      { text: "Use the latest instructional technology.", correct: false },
+      { text: "Observe continuing professional education.", correct: false },
+      { text: "Use interactive teaching strategies.", correct: false },
+      { text: "Study the life of Filipino heroes.", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 217,
+    tag: "actual",
+    question:
+      "Teacher B engages her students with information for thorough understanding for meaning and for competent application. Which principle governs Teacher B's practice?",
+    answers: [
+      { text: "Constructivist", correct: false },
+      { text: "Gestalt", correct: false },
+      { text: "Behaviorist", correct: false },
+      { text: "Cognitivist", correct: true },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 218,
+    tag: "actual",
+    question:
+      "In which competency do my students find the greatest difficulty? In the item with a difficulty index of __________.",
+    answers: [
+      { text: "0.1", correct: true },
+      { text: "0.9", correct: false },
+      { text: "0.5", correct: false },
+      { text: "1.0", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 219,
+    tag: "actual",
+    question: "Rights and duties are correlative. This means that __________.",
+    answers: [
+      {
+        text: "rights and duties regulate the relationship of men in society",
+        correct: false,
+      },
+      { text: "rights and duties arise from natural law", correct: false },
+      {
+        text: "each right carries with it one or several corresponding duties",
+        correct: true,
+      },
+      { text: "rights and duties ultimately come from God", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 220,
+    tag: "actual",
+    question: "Which describes norm-referenced grading?",
+    answers: [
+      { text: "The performance of the group", correct: true },
+      { text: "What constitutes a perfect score", correct: false },
+      { text: "The students' past performance", correct: false },
+      { text: "An absolute standard", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 221,
+    tag: "actual",
+    question:
+      "Teacher U teaches to his pupils that pleasure is not the highest good. Teacher's teaching is against what philosophy?",
+    answers: [
+      { text: "Realism", correct: false },
+      { text: "Hedonism", correct: true },
+      { text: "Epicureanism", correct: false },
+      { text: "Empiricism", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 222,
+    tag: "actual",
+    question: "Standard deviation is to variability as mode to __________.",
+    answers: [
+      { text: "Level of difficulty", correct: false },
+      { text: "Discrimination", correct: false },
+      { text: "Correlation", correct: true },
+      { text: "Central tendency", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 223,
+    tag: "actual",
+    question: "Which test has broad sampling of topics as strength?",
+    answers: [
+      { text: "Objective test", correct: false },
+      { text: "Short answer test", correct: false },
+      { text: "Essay test", correct: true },
+      { text: "Problem type", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 224,
+    tag: "actual",
+    question:
+      "I combined several subject areas in order to focus on a single concept for inter-disciplinary teaching. Which strategy/method did I use?",
+    answers: [
+      { text: "Problem-centered learning", correct: false },
+      { text: "Thematic instruction", correct: false },
+      { text: "Reading-writing activity", correct: false },
+      { text: "Unit method", correct: true },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 225,
+    tag: "actual",
+    question:
+      "Which teaching activity is founded on Bandura's Social Learning Theory?",
+    answers: [
+      { text: "Lecturing", correct: false },
+      { text: "Modeling", correct: false },
+      { text: "Questioning", correct: false },
+      { text: "Inductive reasoning", correct: true },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 226,
+    tag: "actual",
+    question: "For which may you use the direct instruction method?",
+    answers: [
+      { text: "Become aware of the pollutants around us.", correct: false },
+      { text: "Appreciate Milton's Paradise Lost.", correct: false },
+      { text: "Use a microscope properly.", correct: true },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 227,
+    tag: "actual",
+    question:
+      "We encounter people whose prayer goes like this: 'O God, if there is a God; save my soul, if I have a soul.' From whom is this prayer?",
+    answers: [
+      { text: "Stoic", correct: false },
+      { text: "Empiricist", correct: false },
+      { text: "Agnostic", correct: true },
+      { text: "Skeptic", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 228,
+    tag: "actual",
+    question:
+      "What measure of central tendency does the number 16 represent in the following data: 14, 15, 17, 16, 19, 20, 16, 14, 16?",
+    answers: [
+      { text: "Mode", correct: false },
+      { text: "Median", correct: false },
+      { text: "Mode and median", correct: true },
+      { text: "Mean", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 229,
+    tag: "actual",
+    question:
+      "Availment of the Philippine Education Placement Test (PEPT) for adults and out-of-school youths is in support of the government's educational program towards __________.",
+    answers: [
+      { text: "Equitable access", correct: true },
+      { text: "Quality", correct: false },
+      { text: "Quality and relevance", correct: false },
+      { text: "Relevance", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 230,
+    tag: "actual",
+    question: "Which one can best evaluate students' attitudinal development?",
+    answers: [
+      { text: "Essay test", correct: false },
+      { text: "Portfolio", correct: true },
+      { text: "Observation", correct: false },
+      { text: "Short answer test", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 231,
+    tag: "actual",
+    question: "Which is a form of direct instruction?",
+    answers: [
+      { text: "Discovery process", correct: false },
+      { text: "Problem solving", correct: false },
+      { text: "Programmed instruction", correct: true },
+      { text: "Inductive reasoning", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 232,
+    tag: "actual",
+    question:
+      "History books used in schools are replete with events portraying defeats and weaknesses of the Filipino as a people. How should you tackle them in the classroom?",
+    answers: [
+      {
+        text: "Present them and express your feelings of shame.",
+        correct: false,
+      },
+      {
+        text: "Present facts and use them as means in inspiring your class to learn from them.",
+        correct: true,
+      },
+      {
+        text: "Present them and blame those people responsible or those who have contributed.",
+        correct: false,
+      },
+      {
+        text: "Present them as they are presented, and tell the class to accept reality.",
+        correct: false,
+      },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 233,
+    tag: "actual",
+    question: "Standard deviation is to variability as mean is to __________.",
+    answers: [
+      { text: "Coefficient of correlation", correct: false },
+      { text: "Central tendency", correct: true },
+      { text: "Discrimination index", correct: false },
+      { text: "Level of difficulty", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 234,
+    tag: "actual",
+    question:
+      "A mother gives her boy his favorite snack every time the boy cleans up his room. Afterwards, the boy cleaned his room every day in anticipation of the snack. Which theory is illustrated?",
+    answers: [
+      { text: "Associative Learning", correct: false },
+      { text: "Classical Conditioning", correct: false },
+      { text: "Operant Conditioning", correct: false },
+      { text: "Pavlovian Conditioning", correct: true },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 235,
+    tag: "actual",
+    question:
+      "Bruner's theory on intellectual development moves from enactive to iconic and symbolic stages. In which stage(s) are diagrams helpful to accompany verbal information?",
+    answers: [
+      { text: "Enactive and iconic", correct: false },
+      { text: "Symbolic", correct: true },
+      { text: "Symbolic and enactive", correct: false },
+      { text: "Iconic", correct: false },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 236,
+    tag: "actual",
+    question:
+      "Teacher A discovered that his pupils are very good in dramatizing. Which tool must have helped him discover his pupils' strength?",
+    answers: [
+      { text: "Portfolio assessment", correct: false },
+      { text: "Performance test", correct: true },
+      { text: "Journal entry", correct: false },
+      { text: "Paper-and-pencil test", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 237,
+    tag: "actual",
+    question: "Which one can enhance the comparability of grades?",
+    answers: [
+      {
+        text: "Using common conversion table for translating test scores into ratings",
+        correct: true,
+      },
+      {
+        text: "Formulating tests that vary from one teacher to another",
+        correct: false,
+      },
+      {
+        text: "Allowing individual teachers to determine factors for rating",
+        correct: false,
+      },
+      {
+        text: "Individual teachers giving weights to factors considered for rating",
+        correct: false,
+      },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 238,
+    tag: "actual",
+    question:
+      "In the Preamble of the Code of Ethics of Professional Teachers, which is NOT said of teachers?",
+    answers: [
+      { text: "LET passers", correct: true },
+      { text: "Duly licensed professionals", correct: false },
+      { text: "Possess dignity and reputation", correct: false },
+      {
+        text: "With high-moral values as well as technical and professional competence",
+        correct: false,
+      },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 239,
+    tag: "actual",
+    question: "Which is the first step in planning an achievement test?",
+    answers: [
+      { text: "Define the instructional objective.", correct: false },
+      { text: "Decide on the length of the test.", correct: false },
+      { text: "Select the type of test items to use.", correct: false },
+      { text: "Build a table of specification.", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 240,
+    tag: "actual",
+    question: "A teacher who equates authority with power does NOT __________.",
+    answers: [
+      { text: "Shame", correct: false },
+      { text: "Develop self-respect in every pupil", correct: true },
+      { text: "Retaliate", correct: false },
+      { text: "Intimidate", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 241,
+    tag: "actual",
+    question: "Which is a major advantage of a curriculum-based assessment?",
+    answers: [
+      { text: "It is informal in nature.", correct: false },
+      { text: "It connects testing with teaching.", correct: false },
+      {
+        text: "It tends to focus on anecdotal information on student progress.",
+        correct: false,
+      },
+      {
+        text: "It is based on a norm-referenced measurement model.",
+        correct: true,
+      },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 242,
+    tag: "actual",
+    question:
+      "Which does NOT belong to the group of alternative learning systems?",
+    answers: [
+      { text: "Multi-grade grouping", correct: false },
+      { text: "Multi-age grouping", correct: false },
+      { text: "Graded education", correct: true },
+      { text: "Non-graded grouping", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 243,
+    tag: "actual",
+    question:
+      "Theft of school equipment like TV, computer, etc. by teenagers in the community itself is becoming a common phenomenon. What does this incident signify?",
+    answers: [
+      { text: "Prevalence of poverty in the community.", correct: false },
+      { text: "Inability of school to hire security guards.", correct: false },
+      { text: "Deprivation of Filipino schools.", correct: false },
+      { text: "Community's lack of sense of co-ownership.", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 244,
+    tag: "actual",
+    question: "Which can effectively measure students' awareness of values?",
+    answers: [
+      { text: "Projective techniques", correct: false },
+      { text: "Moral dilemma", correct: false },
+      { text: "Likert scales", correct: false },
+      { text: "Anecdotal record", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 245,
+    tag: "actual",
+    question:
+      "Based on Edgar Dale's Cone of Experience, which activity is closest to the real thing?",
+    answers: [
+      { text: "View images", correct: false },
+      { text: "Attend exhibit", correct: true },
+      { text: "Watch a demo", correct: false },
+      { text: "Hear", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 246,
+    tag: "actual",
+    question:
+      "Teacher B is a teacher of English as a Second Language. She uses vocabulary cards, fill-in-the-blank sentences, dictation, and writing exercises in teaching a lesson about grocery shopping. Based on this information, which of the following is a valid conclusion?",
+    answers: [
+      {
+        text: "The teacher is reinforcing learning by giving the same information in a variety of methods.",
+        correct: true,
+      },
+      {
+        text: "The teacher is applying Bloom's hierarchy of cognitive learning.",
+        correct: false,
+      },
+      { text: "The teacher wants to do less talk.", correct: false },
+      {
+        text: "The teacher is emphasizing listening and speaking skills.",
+        correct: false,
+      },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 247,
+    tag: "actual",
+    question:
+      "Helping in the development of graduates who are maka-Diyos is an influence of __________.",
+    answers: [
+      { text: "Naturalistic morality", correct: false },
+      { text: "Classical Christian morality", correct: true },
+      { text: "Situational morality", correct: false },
+      { text: "Dialectical morality", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 248,
+    tag: "actual",
+    question:
+      "From whom do we owe the theory of deductive inference as illustrated in syllogisms?",
+    answers: [
+      { text: "Plato", correct: true },
+      { text: "Socrates", correct: false },
+      { text: "Aristotle", correct: false },
+      { text: "Pythagoras", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 249,
+    tag: "actual",
+    question:
+      "Studies in the areas of neurosciences disclosed that the human brain has limitless capacity. What does this imply?",
+    answers: [
+      {
+        text: "Some pupils are admittedly not capable of learning.",
+        correct: false,
+      },
+      {
+        text: "Every pupil has his own native ability and his learning is limited to this native ability.",
+        correct: false,
+      },
+      { text: "Every child is a potential genius.", correct: true },
+      {
+        text: "Pupils can possibly reach a point where they have learned everything.",
+        correct: false,
+      },
+    ],
+    category: "Child and Adolescent Development",
+  },
+  {
+    id: 250,
+    question:
+      "Teacher: In what ways other than the periodic table might we predict the undiscovered elements? Bobby: We could go to the moon and see if there are some elements there we don't have. Betty: We could dig down to the center of the earth and see if we find any of the missing elements. Ricky: We could study debris from the meteorites if we can find any. Teacher: Those are all good answers, but what if those excursions to the moon, to the center of the earth, or to find meteorites were too costly and time-consuming? How might we use the elements we already have here on earth to find some new ones? Which questioning strategy/ies does/do the exchange of thoughts above illustrate?",
+    answers: [
+      {
+        text: "Funneling",
+        correct: false,
+      },
+      {
+        text: "Sowing and reaping",
+        correct: false,
+      },
+      { text: "Nose-dive", correct: false },
+      {
+        text: "Extending and lifting",
+        correct: true,
+      },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 251,
+    question: "Life is what you make it exemplifies best what ______:",
+    answers: [
+      { text: "Existentialism", correct: true },
+      { text: "Humanism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Essentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 252,
+    question:
+      "After listening to the homily of the Priest about fidelity, Catherine has a moment of reflection. Her understanding of the value of fidelity has become deeper as she related this to her past experience. This typifies what kind of philosophy?",
+    answers: [
+      { text: "Constructivism", correct: true },
+      { text: "Reconstructivism", correct: false },
+      { text: "Humanism", correct: false },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 253,
+    question:
+      "After studying the Principle of Identity, Teacher Beng asks her students to determine which among the given set of problems conforms to the said identity. This shows that Teacher Beng upholds this kind of philosophy?",
+    answers: [
+      { text: "Perennialism", correct: false },
+      { text: "Progressivism", correct: true },
+      { text: "Essentialism", correct: false },
+      { text: "Naturalism", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 254,
+    question:
+      "Joy listens to the advice given by her sister to end the relationship that she has with Min Hoo. However, her sister learned that the advice she has given was not followed and Joy decided to continue the relationship. This action of Joy is a manifestation of what kind of philosophy?",
+    answers: [
+      { text: "Essentialism", correct: false },
+      { text: "Existentialism", correct: true },
+      { text: "Perennialism", correct: false },
+      { text: "Humanism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 255,
+    question:
+      "After finishing the degree in Education, Teacher Mary realizes that learning never stops. In fact, she accumulates more knowledge after leaving the portal of her alma mater. This typifies what kind of philosophy?",
+    answers: [
+      { text: "Constructivism", correct: false },
+      { text: "Perennialism", correct: false },
+      { text: "Progressivism", correct: true },
+      { text: "Humanism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 256,
+    question:
+      "Mary Joy is an advocate of the principle 'making the most of your life'. Live life to the fullest. She is indeed an advocate of what kind of philosophy?",
+    answers: [
+      { text: "Humanism", correct: true },
+      { text: "Idealism", correct: false },
+      { text: "Realism", correct: false },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 257,
+    question:
+      "Teacher Mae Joy is a very dedicated teacher in the nursery. Her foremost concern is for the students to learn how to adapt themselves in the environment. This shows that Teacher Mae Joy upholds this kind of philosophy?",
+    answers: [
+      { text: "Naturalism", correct: true },
+      { text: "Pragmatism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Rationalism", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 258,
+    question:
+      "Teacher Sun Woo serves as an inspiration to his students because of his efficiency and effectiveness as a teacher. The mindset of his students towards him is an instance of what kind of philosophy?",
+    answers: [
+      { text: "Realism", correct: false },
+      { text: "Idealism", correct: true },
+      { text: "Realism", correct: false },
+      { text: "Empiricism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 259,
+    question:
+      "Lee Min Hoo learns well through active interplay with others. His learning increases when engaged in activities that have meaning for him. Which philosophy can describe this?",
+    answers: [
+      { text: "Progressivism", correct: true },
+      { text: "Idealism", correct: false },
+      { text: "Realism", correct: false },
+      { text: "Empiricism", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 260,
+    question:
+      "'Learning is the process of retrieving prior learning'. This is a statement from:",
+    answers: [
+      { text: "Constructivist", correct: true },
+      { text: "Reconstructivist", correct: false },
+      { text: "Progressivist", correct: false },
+      { text: "Idealist", correct: false },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 261,
+    question:
+      "'The curriculum is a total learning experience for an individual'. This point of view is considered to be of:",
+    answers: [
+      { text: "Traditionalist", correct: false },
+      { text: "Progressivist", correct: true },
+      { text: "Materialist", correct: false },
+      { text: "Cognitivist", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 262,
+    question:
+      "The principal shares the thought with his teachers that the subject matter should help students understand and appreciate themselves as unique individuals who accept complete responsibility of their thoughts, feelings, and actions. From which point of view is this thought based?",
+    answers: [
+      { text: "Essentialism", correct: false },
+      { text: "Rationalism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Existentialism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 263,
+    question:
+      "During the faculty recollection, Mr. Duterte asked his teachers to share their thoughts about their students as their primary customer. What followed were the gist of what were shared: Teacher Vhong: The learner is a product of his environment. Sometimes he has no choice. He is determined by his environment. Teacher Vice: The learner can choose what he becomes despite his environment. Teacher Anne: The learner is a social being who learns well through an active interplay with others. Teacher Karylle: The learner is a rational being. School should develop his rational and moral powers. Whose philosophical concept is that Teacher Vhong?",
+    answers: [
+      { text: "Existentialist", correct: false },
+      { text: "Progressivist", correct: false },
+      { text: "Behaviorist", correct: true },
+      { text: "Rationalist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 264,
+    question: "Teacher Vice's response comes from the mouth of?",
+    answers: [
+      { text: "Essentialist", correct: false },
+      { text: "Perennialist", correct: false },
+      { text: "Existentialist", correct: true },
+      { text: "Behaviorist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 265,
+    question: "If you agree with Teacher Anne, you are more of ______",
+    answers: [
+      { text: "Progressivist", correct: true },
+      { text: "Perennialist", correct: false },
+      { text: "Essentialist", correct: false },
+      { text: "Rationalist", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 266,
+    question:
+      "If you identify with Teacher Karylle, you adhere to this philosophy",
+    answers: [
+      { text: "Behaviorist", correct: false },
+      { text: "Perennialism", correct: true },
+      { text: "Existentialist", correct: false },
+      { text: "Progressivist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 267,
+    question:
+      "Student Park Shin Hye, after receiving the conceptual knowledge on multiplication of trinomials from his Algebra Teacher, immediately answers the exercises in the book. This demonstrates what kind of philosophy?",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Idealism", correct: false },
+      { text: "Constructivism", correct: false },
+      { text: "Progressivism", correct: true },
+    ],
+    category: "Assessment of Learning",
+  },
+  {
+    id: 268,
+    question:
+      "Teacher Lee Jung Suk views his students as unique, free choosing, and responsible individuals. He encourages them to develop their own individualities. What philosophy does Teacher Lee Jung Suk adhere to?",
+    answers: [
+      { text: "Naturalism", correct: false },
+      { text: "Humanism", correct: false },
+      { text: "Existentialism", correct: true },
+      { text: "Constructivism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 269,
+    question:
+      "In the Social Science class of Mr. Kim So Hyun, students identify the various social and economic problems that require urgent solutions. They not only discuss the ways to address them but also agreed to participate in solving them. What kind of philosophy does this class uphold?",
+    answers: [
+      { text: "Essentialism", correct: false },
+      { text: "Reconstructivism", correct: true },
+      { text: "Naturalism", correct: false },
+      { text: "Behaviorism", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 270,
+    question:
+      "Teacher Park Bo Gum, unlike other teachers in his school, practices the non-traditional method of discussing the lessons using not only the book prescribed by the school as the main source of information and knowledge. Instead, he went out of his way to devise other means that will help his students to understand their lessons. To what philosophy does Teacher Park Bo Gum submit to?",
+    answers: [
+      { text: "Behaviorism", correct: false },
+      { text: "Constructivism", correct: false },
+      { text: "Progressivism", correct: true },
+      { text: "Humanism", correct: false },
+    ],
+    category: "The Teacher and The Curriculum",
+  },
+  {
+    id: 271,
+    question:
+      "Teacher Soong Jong Ki's class is engaged in a problem-solving activity which, in a way, is a reflection of the personal and social experiences. The purpose of this activity is for the students to acquire the skills that can help them in solving their own real-life problems. What philosophy can best describe this?",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Progressivism", correct: true },
+      { text: "Idealism", correct: false },
+      { text: "Realism", correct: false },
+    ],
+    category: "Facilitating Student-Centered Learning",
+  },
+  {
+    id: 272,
+    question:
+      "In his class, Teacher Goong Yu always presents principles and values so as to encourage his students to examine them and decide for themselves whether to accept it or not. What kind of philosophy does Teacher Goong Yu practice?",
+    answers: [
+      { text: "Idealism", correct: false },
+      { text: "Existentialism", correct: true },
+      { text: "Humanism", correct: false },
+      { text: "Essentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 273,
+    question:
+      "Teacher Kim Woo Bin is an inspiration to almost all of his students. His efficiency and effectiveness in the profession is truly outstanding. Which of the following describes this attitude of the students toward him?",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Idealism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 274,
+    question:
+      "If a teacher states that 'specialization is knowing more and more about less and less, hence it is better to be a generalist'. What kind of philosophy do they uphold?",
+    answers: [
+      { text: "Progressivism", correct: false },
+      { text: "Essentialism", correct: true },
+      { text: "Naturalism", correct: false },
+      { text: "Perennialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 275,
+    question:
+      "In social trends, how do you call those who are for the revival of the classics?",
+    answers: [
+      { text: "Progressivist", correct: false },
+      { text: "Essentialist", correct: false },
+      { text: "Humanist", correct: true },
+      { text: "Behaviorist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 276,
+    question:
+      "A teacher puts emphasis on making her students master the rules of multiplying fractions, and not so much on the strategies and execution. This is an illustration of _______?",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Essentialism", correct: true },
+      { text: "Naturalism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 277,
+    question:
+      "Students are the product of their environment. To which philosophy does this statement belong?",
+    answers: [
+      { text: "Naturalism", correct: false },
+      { text: "Essentialism", correct: false },
+      { text: "Behaviorism", correct: true },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 278,
+    question:
+      "What philosophy posits that a social teacher is a revered person, central to the educative process and therefore must be excellent mentally and morally in personal conduct and conviction?",
+    answers: [
+      { text: "Idealism", correct: true },
+      { text: "Progressivism", correct: false },
+      { text: "Realism", correct: false },
+      { text: "Essentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 279,
+    question:
+      "This philosophy emphasizes the teaching of controversial issues to prepare students for a progressive structuring of the social order.",
+    answers: [
+      { text: "Progressivism", correct: false },
+      { text: "Social Experimentation", correct: false },
+      { text: "Behaviorism", correct: false },
+      { text: "Reconstructionism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 280,
+    question:
+      "The philosophy contends that truth is universal and unchanging and therefore a good education is also universal and constant.",
+    answers: [
+      { text: "Existentialism", correct: false },
+      { text: "Essentialism", correct: false },
+      { text: "Perennialism", correct: true },
+      { text: "Progressivism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 281,
+    question:
+      "Which philosophy of education has for its curriculum a body of intellectual subject matter that is conceptual on the subject, essential for the realization of mental and moral development?",
+    answers: [
+      { text: "Pragmatism", correct: false },
+      { text: "Realism", correct: true },
+      { text: "Existentialism", correct: false },
+      { text: "Idealism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 282,
+    question:
+      "The educational theory, in response to progressivism, which concerns with the revival of effort in the direction of teaching the fundamental tools of learning as the most indispensable type of education.",
+    answers: [
+      { text: "Perennialism", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Essentialism", correct: true },
+      { text: "Behaviorism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 283,
+    question:
+      "The philosophy believes that the schools should originate policies and progress which would bring about reform of the social orders.",
+    answers: [
+      { text: "Behaviorism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Reconstructionism", correct: true },
+      { text: "Perennialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 284,
+    question:
+      "This philosophy contends that the intellectual faculty of man is higher than the physical faculties.",
+    answers: [
+      { text: "Perennialism", correct: false },
+      { text: "Idealism", correct: true },
+      { text: "Realism", correct: false },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 285,
+    question:
+      "The philosophy proclaims the spiritual nature of the universe. It holds that the good, the true, and the beautiful are permanently part of the structure of an unchanging universe.",
+    answers: [
+      { text: "Realism", correct: false },
+      { text: "Existentialism", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Idealism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 286,
+    question:
+      "This philosophy posits the known ability of the world and everything in it as they are in themselves and their existence independent of the human mind.",
+    answers: [
+      { text: "Realism", correct: true },
+      { text: "Idealism", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 287,
+    question:
+      "'The central aim of education should be to develop the power of thought'; this would likely be the aim of what educational practitioner?",
+    answers: [
+      { text: "Reconstructivism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Perennialism", correct: true },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 288,
+    question:
+      "This educational theory is based on the philosophy grounded on experience and the interaction of the person with his environment. It posits that education must use past experiences to direct future experiences.",
+    answers: [
+      { text: "Progressivism", correct: true },
+      { text: "Idealism", correct: false },
+      { text: "Existentialism", correct: false },
+      { text: "Realism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 289,
+    question:
+      "This philosophy is a way of viewing and thinking about life and the world so that priority is given to individualism and subjectivity. It believes that human beings are the creators of their own experiences.",
+    answers: [
+      { text: "Idealism", correct: false },
+      { text: "Reconstructionism", correct: false },
+      { text: "Realism", correct: false },
+      { text: "Existentialism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 290,
+    question:
+      "It is the belief that when an idea agrees with its object, it is proof of its truth. However, it is a definition of truth, not criteria.",
+    answers: [
+      { text: "Idealist", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Naive Realism", correct: true },
+      { text: "Behaviorist", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 291,
+    question:
+      "This educational philosophy encourages the accumulation of knowledge and thinking and must apply criteria for moral evaluation. Suggested methods are questioning and discussion, lecture, and the project, whether methods are done singly or in a group.",
+    answers: [
+      { text: "Behaviorism", correct: false },
+      { text: "Essentialism", correct: false },
+      { text: "Idealism", correct: true },
+      { text: "Existentialism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 292,
+    question:
+      "This theory views education as a recurring process based on eternal truths; thus, the school's curriculum should emphasize the recurrent themes of human life.",
+    answers: [
+      { text: "Naturalism", correct: false },
+      { text: "Progressivism", correct: false },
+      { text: "Perennialism", correct: true },
+      { text: "Pragmatism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 293,
+    question: "Socrates : Idealism Dewey : ???????",
+    answers: [
+      { text: "Essentialism", correct: false },
+      { text: "Progressivism", correct: true },
+      { text: "Existentialism", correct: false },
+      { text: "Naturalism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 294,
+    question: "Hutchins : ????? Watson : Behaviorism",
+    answers: [
+      { text: "Progressivism", correct: false },
+      { text: "Perennialism", correct: true },
+      { text: "Behaviorism", correct: false },
+      { text: "Naturalism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 295,
+    question: "Essentialism : Bagley ????????? : Jean-Paul Sartre",
+    answers: [
+      { text: "Naturalism", correct: false },
+      { text: "Existentialism", correct: true },
+      { text: "Behaviorism", correct: false },
+      { text: "Progressivism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 296,
+    question:
+      "The establishment of the School of the Future (SOF) introduces improvement and reform in education to respond to both human and social needs. What philosophy is related to it?",
+    answers: [
+      { text: "Perennialism", correct: false },
+      { text: "Idealism", correct: false },
+      { text: "Existentialism", correct: false },
+      { text: "Reconstructivism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 297,
+    question:
+      "The Department of Education gives greater emphasis on the development of basic skills. What is the philosophical basis for this?",
+    answers: [
+      { text: "Pragmatism", correct: false },
+      { text: "Existentialism", correct: false },
+      { text: "Naturalism", correct: false },
+      { text: "Essentialism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 298,
+    question:
+      "Teacher Sandara views her students as unique, free-choosing, and responsible individuals. All classroom activities revolve around this premise. What theory underlines this?",
+    answers: [
+      { text: "Naturalism", correct: false },
+      { text: "Essentialism", correct: false },
+      { text: "Behaviorism", correct: false },
+      { text: "Existentialism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 299,
+    question:
+      "The most influential movement in the 18th century. Acts according to nature.",
+    answers: [
+      { text: "Idealism", correct: false },
+      { text: "Existentialism", correct: false },
+      { text: "Naturalism", correct: true },
+      { text: "Realism", correct: false },
+    ],
+    category: "Teaching Profession",
+  },
+  {
+    id: 300,
+    question: "Admits the existence of GOD.",
+    answers: [
+      { text: "Agnosticism", correct: false },
+      { text: "Atheism", correct: false },
+      { text: "Hedonism", correct: false },
+      { text: "Deism or Theism", correct: true },
+    ],
+    category: "Teaching Profession",
+  },
 ];
 
 export default profed;
